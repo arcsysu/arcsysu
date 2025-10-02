@@ -10,8 +10,8 @@ title: The arcSYSu Lab
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Website of the AllanLab.
-baseurl: "arcsysu"
-url: "https://arcsysu.github.io"
+baseurl: ""
+url: ""
 
 include:
   - .htaccess

@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Home"
+title: "arcsysu Lab - Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University &rarr; LMU."
+excerpt: "ArcSYSU Lab at Sun Yat-Sen University &rarr; LMU."
 sitemap: false
 permalink: /
 ---
