@@ -3,8 +3,8 @@ name: Build and Deploy Jekyll site
 on:
   push:
     branches:
-      - gh-pages   
-  workflow_dispatch: 
+      - main   
+  workflow_dispatch:
 
 jobs:
   build-deploy:
@@ -17,16 +17,14 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0.2'
+          ruby-version: '3.0.2' 
           bundler-cache: true
 
       - name: Install dependencies
-        run: |
-          bundle install
+        run: bundle install
 
       - name: Build site with Jekyll
-        run: |
-          bundle exec jekyll build
+        run: bundle exec jekyll build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
