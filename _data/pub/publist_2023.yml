@@ -28,7 +28,7 @@
 - authors: "<u>Lianghong Huang</u>, <u>Zejia Lin</u>, Wei Liu<sup>#</sup> and <i>Xianwei Zhang</i><sup>#</sup>"
   title:
     name: "Hay: Enhancing GPU Sharing Performance With Two-Level Scheduling for Ray"
-    url:
+    url: https://xianweiz.github.io/doc/papers/hay_icpads23.pdf
   conf: "The 29th IEEE International Conference on Parallel and Distributed Systems (ICPADS, short), Hainan, China, December 2023."
   label: W5
   desc:

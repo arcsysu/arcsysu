@@ -10,7 +10,7 @@
 - authors: "Yuanxin Wei, Jiangsu Du<sup>#</sup>, Jiazhi Jiang, Xiao Shi, <i>Xianwei Zhang</i>, Dan Huang<sup>#</sup>, Nong Xiao and Yutong Lu"
   title:
     name: "APTMoE: Affinity-aware Pipeline Tuning for MoE Models on Bandwidth-constrained GPU Nodes"
-    url:
+    url: https://xianweiz.github.io/doc/papers/aptmoe_sc24.pdf
   conf: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC), Atlanta, GA, United States, November 2024."
   label: C18
   desc: <font color="red">(CCF-A)</font>
@@ -37,7 +37,7 @@
 - authors: "<u>Zhongchun Zheng</u>, Yuan Wu and <i>Xianwei Zhang</i><sup>#</sup>"
   title:
     name: "mLOOP: Optimize Loop Unrolling in Compilation with a ML-based Approach"
-    url:
+    url: https://xianweiz.github.io/doc/papers/mloop_nas24.pdf
   conf: "The 17th International Conference on Networking, Architecture, and Storage (NAS), Guangzhou, China, November 2024."
   label: C15
   desc:

@@ -64,7 +64,7 @@
 - authors: "<u>Mengyue Xi</u>, <u>Jingyi He</u> and <i>Xianwei Zhang</i><sup>#</sup>"
   title:
     name: "CacheC: LLM-based GPU Cache Management to Enhance Kernel Concurrency"
-    url:
+    url: https://xianweiz.github.io/doc/papers/cachec_europar25.pdf
   conf: "The 31st International European Conference on Parallel and Distributed Computing (Euro-Par), Dresden, Germany, August 2025."
   label: C22
   desc: <font color="firebrick">(CCF-B)</font>
@@ -73,7 +73,7 @@
 - authors: "<u>Tianyu Guo</u>, Hande Dong<sup>#</sup>, Yichong Leng, Feng Liu, Cheater Lin, Nong Xiao and <i>Xianwei Zhang</i><sup>#</sup>"
   title:
     name: "EFIM: Efficient Serving of LLMs for Infilling Tasks with Improved KV Cache Reuse"
-    url:
+    url: https://xianweiz.github.io/doc/papers/efim_europar25.pdf
   conf: "The 31st International European Conference on Parallel and Distributed Computing (Euro-Par), Dresden, Germany, August 2025."
   label: C21
   desc: <font color="firebrick">(CCF-B)</font>

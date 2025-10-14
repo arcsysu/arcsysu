@@ -9,7 +9,7 @@ permalink: /
 **<u>Arc</u>hitecture and <u>Sys</u>tem <u>U</u>pscaling @ Sun Yat-sen University!**
 
 We are a research group led by Assoc. Prof. [Xianwei Zhang](https://xianweiz.github.io/) in the [School of Computer Science & Engineering](https://cse.sysu.edu.cn/) at [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/).
-At <i>arcSYSu</i>, our work focuses on cutting-edge research in computer systems and architecture, with a particular emphasis on advancing high-performance and intelligent computing technologies.
+At <i>arcSYSu</i>, we conduct cutting-edge research in computer systems and architecture, with a particular emphasis on advancing high-performance and intelligent computing technologies.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -42,10 +42,10 @@ At <i>arcSYSu</i>, our work focuses on cutting-edge research in computer systems
   </a>
 </div>
 
-<i>arcSYSu</i> is proudly affiliated with [National Supercomputer Center in Guangzhou](http://nscc-gz.cn/) (NSCC-GZ) and is integral part of the Interdisciplinary Research Center, directed by Prof. <a href="https://cse.sysu.edu.cn/teacher/LuYutong">Yutong Lu</a> and Prof. <a href="https://cse.sysu.edu.cn/teacher/XiaoNong">Nong Xiao</a>.
-We collaborate closely with other outstanding teams within the center, working across a broad range of areas in HPC+AI design and applications.
+<i>arcSYSu</i> is proudly affiliated with the [National Supercomputer Center in Guangzhou](http://nscc-gz.cn/) (NSCC-GZ) and is an integral part of the Interdisciplinary Research Center, directed by Prof. <a href="https://cse.sysu.edu.cn/teacher/LuYutong">Yutong Lu</a> and Prof. <a href="https://cse.sysu.edu.cn/teacher/XiaoNong">Nong Xiao</a>.
+We collaborate closely with other outstanding teams within the center, working across a broad spectrum of areas in HPC+AI design and applications.
 
-Our research is supported by prestigious programs, including the National Key R&D Program, NSFC, as well as leading companies such as Tencent®, Huawei®, and Phytium®.
+Our research is supported by prestigious programs, including the National Key R&D Program, NSFC, as well as leading companies like Tencent®, Huawei®, and Phytium®.
 
 **We are always looking for passionate new PhD/MS graduates, Postdocs, and Undergraduate RAs/Interns to join the team!** (For more details, please check our &#8599; [FAQs](https://xianweiz.github.io/notes/hire_QAs.txt)).
 
