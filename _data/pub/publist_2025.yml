@@ -1,0 +1,107 @@
+- authors: "<u>Hongxin Xu</u>, <u>Tianyu Guo</u> and <i>Xianwei Zhang</i><sup>#</sup>"
+  title:
+    name: "DynaPipe: Dynamic Layer Redistribution for Efficient Serving of LLMs with Pipeline Parallelism"
+    url:
+  conf: "The Thirty-Ninth Annual Conference on Neural Information Processing Systems (<b>NeurIPS</b>), San Diego, CA, United States, December 2025."
+  label: C29
+  desc: <font color="red">(CCF-A)</font>
+  highlight: 1
+
+- authors: "<u>Yuhao Gu</u>, <u>Haoquan Chen</u>, <u>Xianjie Chen</u>, Jiangsu Du, Zhiguang Chen, Nong Xiao<sup>#</sup>, <i>Xianwei Zhang</i><sup>#</sup> and Yutong Lu"
+  title:
+    name: "coMtainer: Compilation-assisted HPC Container labels with Enhanced Adaptability"
+    url:
+  conf: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (<b>SC</b>), St. louis, MO, United States, November 2025."
+  label: C28
+  desc: <font color="red">(CCF-A)</font>
+  highlight: 1
+
+- authors: "<u>Tianyu Guo</u>, <i>Xianwei Zhang</i><sup>#</sup>, Jiangsu Du, Zhiguang Chen<sup>#</sup>, Nong Xiao and Yutong Lu"
+  title:
+    name: "gLLM: Global Balanced Pipeline Parallelism Systems for Distributed LLMs Serving with Token Throttling"
+    url:
+  conf: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (<b>SC</b>), St. louis, MO, United States, November 2025."
+  label: C27
+  desc: <font color="red">(CCF-A)</font>
+  highlight: 1
+
+- authors: "<u>Han Huang</u>, Jiabin Xie, Guangnan Feng, <i>Xianwei Zhang</i>, Dan Huang, Zhiguang Chen and Yutong Lu<sup>#</sup>"
+  title:
+    name: "HStencil: Matrix-Vector Stencil Computation with Interleaved Outer Product and MLA"
+    url:
+  conf: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (<b>SC</b>), St. louis, MO, United States, November 2025."
+  label: C26
+  desc: <font color="red">(CCF-A)</font>
+  highlight: 1
+
+- authors: "<u>Xuanteng Huang</u>, Jiangsu Du, Nong Xiao and <i>Xianwei Zhang</i><sup>#</sup>"
+  title:
+    name: "PaSK: Cold Start Mitigation for Inference with Proactive and Selective Kernel Loading on GPUs"
+    url: https://xianweiz.github.io/doc/papers/pask_dac25.pdf
+  conf: "The 62nd ACM/IEEE Design Automation Conference (DAC), San Francisco, CA, United States, June 2025."
+  label: C25
+  desc: <font color="red">(CCF-A)</font>
+  highlight: 1
+
+- authors: "<u>Kan Wu</u>, <u>Zejia Lin</u>, <u>Mengyue Xi</u>, <u>Zhongchun Zheng</u>, <u>Wenxuan Pan</u>, <i>Xianwei Zhang</i><sup>#</sup> and Yutong Lu<sup>#</sup>"
+  title:
+    name: "GoPTX: Fine-grained GPU Kernel Fusion by PTX-level Instruction Flow Weaving"
+    url: https://xianweiz.github.io/doc/papers/goptx_dac25.pdf
+  conf: "The 62nd ACM/IEEE Design Automation Conference (DAC), San Francisco, CA, United States, June 2025."
+  label: C24
+  desc: <font color="red">(CCF-A)</font>
+  highlight: 1
+
+- authors: "<u>Yuhao Gu</u>, <u>Chunyu Chen</u>, Jiangsu Du, Xiaoxi Zhang and <i>Xianwei Zhang</i><sup>#</sup>"
+  title:
+    name: "ORFA: Exploring WebAssembly as a Turing Complete Query Language for Web APIs"
+    url: https://xianweiz.github.io/doc/papers/orfa_www25.pdf
+  conf: "The ACM Web Conference (WWW), Sydney, NSW, Australia, April 2025."
+  label: C23
+  desc: <font color="red">(CCF-A)</font>
+  highlight: 1
+
+- authors: "<u>Mengyue Xi</u>, <u>Jingyi He</u> and <i>Xianwei Zhang</i><sup>#</sup>"
+  title:
+    name: "CacheC: LLM-based GPU Cache Management to Enhance Kernel Concurrency"
+    url:
+  conf: "The 31st International European Conference on Parallel and Distributed Computing (Euro-Par), Dresden, Germany, August 2025."
+  label: C22
+  desc: <font color="firebrick">(CCF-B)</font>
+  highlight: 1
+
+- authors: "<u>Tianyu Guo</u>, Hande Dong<sup>#</sup>, Yichong Leng, Feng Liu, Cheater Lin, Nong Xiao and <i>Xianwei Zhang</i><sup>#</sup>"
+  title:
+    name: "EFIM: Efficient Serving of LLMs for Infilling Tasks with Improved KV Cache Reuse"
+    url:
+  conf: "The 31st International European Conference on Parallel and Distributed Computing (Euro-Par), Dresden, Germany, August 2025."
+  label: C21
+  desc: <font color="firebrick">(CCF-B)</font>
+  highlight: 1
+
+- authors: "<u>Mengyue Xi</u>, <u>Tianyu Guo</u>, <u>Xuanteng Huang</u>, <u>Zejia Lin</u> and <i>Xianwei Zhang</i><sup>#</sup>"
+  title:
+    name: "Mpache: Interaction Aware Multi-level Cache Bypassing on GPUs"
+    url: https://xianweiz.github.io/doc/papers/mpache_aspdac25.pdf
+  conf: "The 30th Asia and South Pacific Design Automation Conference (ASP-DAC), Tokyo Odaiba Miraikan, Japan, January 2025."
+  label: C20
+  desc:
+  highlight: 1
+
+- authors: "<u>Hengzhong Liang</u>, <u>Han Huang</u> and <i>Xianwei Zhang</i><sup>#</sup>"
+  title:
+    name: "SuCL: Supply Unified Communication Layer to Improve SYCL-based Heterogeneous Computing"
+    url: https://xianweiz.github.io/doc/papers/sucl_thpc25.pdf
+  conf: "CCF Transactions on High Performance Computing (THPC), 2025."
+  label: J6
+  desc:
+  highlight: 1
+
+- authors: "Pin Chen, Qing Mo, Zexin Xu, <i>Xianwei Zhang</i> and Yutong Lu<sup>#</sup>"
+  title:
+    name: "Star-gen: An HPC-AI Framework for Constructing Large-scale Computational Materials Database"
+    url: https://xianweiz.github.io/doc/papers/stargen_thpc25.pdf
+  conf: "CCF Transactions on High Performance Computing (THPC), 2025."
+  label: J5
+  desc:
+  highlight: 1

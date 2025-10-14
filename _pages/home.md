@@ -6,13 +6,10 @@ sitemap: false
 permalink: /
 ---
 
-**News: Our group moved to the University of Munich (LMU)!** Join us! 
+**<u>Arc</u>hitecture and <u>Sys</u>tem <u>U</u>pscaling @ Sun Yat-sen University!**
 
-We are a dynamic research group at [LMU physics](https://www.physik.lmu.de/en/index.html) and at the [Leiden Institute of Physics](http://www.physics.leidenuniv.nl/). 
-
-We have two overarching goals: first, 
-**to understand quantum materials**, including strange metals, high-temperature superconductors, and quantum critical electron matter. Second, **to make novel and useful materials** that never existed before, like possible room-temperature superconductors. 
-To achieve these goals, we develop new quantum sensing and quantum imaging instrumentation to obtain the key quantum mechanical degrees of freedom. We want to build the perfect instruments to answer the scientific questions we deem most important. 
+We are a research group led by Assoc. Prof. [Xianwei Zhang](https://xianweiz.github.io/) in the [School of Computer Science & Engineering](https://cse.sysu.edu.cn/) at [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/).
+At <i>arcSYSu</i>, our work focuses on cutting-edge research in computer systems and architecture, with a particular emphasis on advancing high-performance and intelligent computing technologies.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -21,30 +18,18 @@ To achieve these goals, we develop new quantum sensing and quantum imaging instr
         <li data-target="#carousel" data-slide-to="1"></li>
         <li data-target="#carousel" data-slide-to="2"></li>
         <li data-target="#carousel" data-slide-to="3"></li>
-        <li data-target="#carousel" data-slide-to="4"></li>
-        <li data-target="#carousel" data-slide-to="5"></li>
-        <li data-target="#carousel" data-slide-to="6"></li>
     </ol>
 
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/QPI_Rh.jpg" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/lab-logo2.jpg" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/SmartTipSide.jpg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/nscc-2022.jpg" alt="Slide 2" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/SaphireSTM2.jpg" alt="Slide 3" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/lab.jpg" alt="Slide 4" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Fig_Science_Web.jpg" alt="Slide 5" />
-        </div>       
-         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/BSCCO2gap2.jpg" alt="Slide 6" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/haci-2024.jpg" alt="Slide 3" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -57,19 +42,17 @@ To achieve these goals, we develop new quantum sensing and quantum imaging instr
   </a>
 </div>
 
+<i>arcSYSu</i> is proudly affiliated with [National Supercomputer Center in Guangzhou](http://nscc-gz.cn/) (NSCC-GZ) and is integral part of the Interdisciplinary Research Center, directed by Prof. <a href="https://cse.sysu.edu.cn/teacher/LuYutong">Yutong Lu</a> and Prof. <a href="https://cse.sysu.edu.cn/teacher/XiaoNong">Nong Xiao</a>.
+We collaborate closely with other outstanding teams within the center, working across a broad range of areas in HPC+AI design and applications.
 
-We are currently building up our instruments right in the center of Munich, in the *Sommerfeldkeller*, where Sommerfeld and Röntgen worked. We will exchange ideas with world class groups working in quantum physics, cold-atom many-body physics, and 2d quantum materials. We are also a proud member of the [SuperC consortium](https://superc2033.com/our-team/).
+Our research is supported by prestigious programs, including the National Key R&D Program, NSFC, as well as leading companies such as Tencent®, Huawei®, and Phytium®.
 
-**We are looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)](https://www.allanlab.org/vacancies) **!**
-
-
-
-
+**We are always looking for passionate new PhD/MS graduates, Postdocs, and Undergraduate RAs/Interns to join the team!** (For more details, please check our &#8599; [FAQs](https://xianweiz.github.io/notes/hire_QAs.txt)).
 
 <figure class="fifth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/LMU_logo.png" style="width: 130px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 140px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Tschira.png" style="width: 150px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="width: 100px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/SuperC_logo.png" style="width: 100px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_nRD.jpg" style="width: 130px; padding-right:30px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_nsfc.jpg" style="width: 100px; padding-right:40px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_tencent.jpg" style="width: 110px; padding-right:20px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_hw.jpg" style="width: 120px; padding-right:20px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_ft.jpg" style="width: 90px">
 </figure>

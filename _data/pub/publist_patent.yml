@@ -1,0 +1,35 @@
+- authors: "<i>Xianwei Zhang</i>, John Kalamatianos and Bradford Beckmann"
+  title:
+    name: "GPU Cache Management based on Lightweight Locality Type Detection"
+    url: https://patents.google.com/patent/US11487671B2/en
+  conf: "US11487671B2, 2022."
+  label: P4
+  desc:
+  highlight: 1
+
+- authors: "Sooraj Puthoor, Kishore PUNNIYAMURTHY, Onur Kayiran, <i>Xianwei Zhang</i>, Yasuko ECKERT, Johnathan Alsop and Bradford Michael Beckmann"
+  title:
+    name: "Memory Request Priority Assignment Techniques for Parallel Processors"
+    url: https://patents.google.com/patent/US11507522B2/en
+  conf: "US11507522B2, 2022."
+  label: P3
+  desc:
+  highlight: 1
+
+- authors: "Seyed Mohammad Seyedzadehdelcheh, <i>Xianwei Zhang</i>, Bradford Beckmann, and Shomit N. Das"
+  title:
+    name: "Data Compression System Using Base Values and Methods Thereof"
+    url: https://patents.google.com/patent/US11740791B2/en
+  conf: "US11740791B2, 2023."
+  label: P2
+  desc:
+  highlight: 1
+
+- authors: "Anthony T. Gutierrez, Sergey Blagodurov, Scott A. Moe, <i>Xianwei Zhang</i>, Jieming Yin and Matthew D. Sinclair"
+  title:
+    name: "Selecting a Precision Level for Executing a Workload in an Electronic Device"
+    url: https://patents.google.com/patent/US20190310864A1/en
+  conf: "US11150899B2, 2021."
+  label: P1
+  desc:
+  highlight: 1
