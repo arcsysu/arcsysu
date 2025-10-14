@@ -1,0 +1,26 @@
+- authors: "<u>Tianao Ge</u>, <u>Zewei Mo</u>, <u>Kan Wu</u>, <i>Xianwei Zhang</i><sup>#</sup> and Yutong Lu"
+  title:
+    name: "RollBin: Reducing Code-size via Loop Rerolling at Binary Level"
+    url: https://xianweiz.github.io/doc/papers/rollbin_lctes22.pdf
+  conf: "The 23rd ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES), San Diego, California, United States, June 2022."
+  label: C13
+  desc: <font color="firebrick">(CCF-B)</font>
+  highlight: 1
+
+- authors: "<u>Zewei Mo</u>, <u>Zejia Lin</u>, <i>Xianwei Zhang</i><sup>#</sup> and Yutong Lu"
+  title:
+    name: "moTuner: A Compiler-based Auto-tuning Approach for Mixed-precision Operators"
+    url: https://xianweiz.github.io/doc/papers/motuner_cf22.pdf
+  conf: "The 19th ACM International Conference on Computing Frontiers (CF), Turin, Piedmont, Italy, May 2022."
+  label: C12
+  desc:
+  highlight: 1
+
+- authors: "<u>Yue Weng</u>, <u>Tianao Ge</u>, <i>Xianwei Zhang</i><sup>#</sup> and Yutong Lu"
+  title:
+    name: "RAISE: Efficient GPU Resource Management via Hybrid Scheduling"
+    url: https://xianweiz.github.io/doc/papers/raise_ccgrid22.pdf
+  conf: "The 22nd IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid), Taormina (Messina), Italy, May 2022."
+  label: C11
+  desc:
+  highlight: 1

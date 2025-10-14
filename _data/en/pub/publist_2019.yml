@@ -1,0 +1,26 @@
+- authors: "Tuan Ta, <i>Xianwei Zhang</i>, Anthony Gutierrez and Brad Beckmann"
+  title:
+    name: "Autonomous Data-Race-Free GPU Testing"
+    url: https://xianweiz.github.io/doc/papers/tester_iiswc19.pdf
+  conf: "IEEE International Symposium on Workload Characterization (IISWC), Orlando, Florida, USA, November 2019."
+  label: C10
+  desc:
+  highlight: 1
+
+- authors: "<i>Xianwei Zhang</i>, Rujia Wang, Youtao Zhang and Jun Yang"
+  title:
+    name: "Boosting Chipkill Capability under Retention-error Induced Reliability Emergency"
+    url: https://xianweiz.github.io/doc/papers/chipkill_aspdac19.pdf
+  conf: "The 24th Asia and South Pacific Design Automation Conference (ASPDAC), Tokyo, Japan, Janurary 2019."
+  label: C9
+  desc:
+  highlight: 1
+
+- authors: "John Alsop, Matt Sinclair, Srikant Bharadwaj, Anthony Gutierrez, <i>Xianwei Zhang</i>, Brad Beckmann, Alex Dutu, Onur Kayiran, Michael LeBeane, Brandon Potter, Sooraj Puthoor and Tsung Tai Yeh"
+  title:
+    name: "Optimizing GPU Cache Policies for MI Workloads"
+    url: https://xianweiz.github.io/doc/papers/mi_iiswc19.pdf
+  conf: "IEEE International Symposium on Workload Characterization (IISWC, short), Orlando, Florida, USA, November 2019."
+  label: W3
+  desc:
+  highlight: 1

@@ -1,13 +1,15 @@
 ---
 title: "News"
+lang: en
 layout: textlay
 excerpt: "Allan Lab at Leiden University."
 sitemap: false
-permalink: /allnews.html
+zh_url: /allnews
+permalink: /en/allnews
 ---
 
 # News
 
-{% for article in site.data.news %}
+{% for article in site.data.en.news %}
 <p>{{ article.date }}: [<i><font color="darkred">{{ article.kind }}</font></i>] {{ article.desc }}</p>
 {% endfor %}

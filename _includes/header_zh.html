@@ -18,12 +18,21 @@
       lab @ SYSU</a>
 	</div>
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+			{% if page.en_url %}
+				<li class="lang-switch">
+					<a href="{{ site.url }}{{ site.baseurl }}{{ page.en_url }}" title="Switch to English">
+						<img src="{{ '/images/i18n.svg' | relative_url }}" alt="EN" />
+					</a>
+				</li>
+            {% endif %}
+	  </ul>
 	  <ul class="nav navbar-nav navbar-right">
-		<li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/people">People</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a></li>
+		<li><a href="{{ site.url }}{{ site.baseurl }}/">主页</a></li>
+		<li><a href="{{ site.url }}{{ site.baseurl }}/people">成员</a></li>
+		<li><a href="{{ site.url }}{{ site.baseurl }}/publications">学术成果</a></li>
     <!--<li><a href="{{ site.url }}{{ site.baseurl }}/projects">Projects</a></li>-->
-		<li><a href="{{ site.url }}{{ site.baseurl }}/misc">Miscellaneous</a></li>
+		<li><a href="{{ site.url }}{{ site.baseurl }}/misc">其他</a></li>
 	<!-- li><a href="{{ site.url }}{{ site.baseurl }}/pictures">(Pics)</a></li> -->
 	  </ul>
 	</div>

@@ -1,9 +1,11 @@
 ---
 title: "arcSYSu Lab - Projects"
+lang: en
 layout: textlay
 excerpt: "arcSYSu Lab -- Projects"
 sitemap: false
-permalink: /projects/
+zh_url: /projects
+permalink: /en/projects
 ---
 
 # Research Projects

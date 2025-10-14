@@ -1,9 +1,11 @@
 ---
 title: "arcSYSu Lab - Misc"
+lang: en
 layout: textlay
 excerpt: "arcSYSu Lab -- Misc"
 sitemap: false
-permalink: /misc/
+zh_url: /misc
+permalink: /en/misc
 ---
 
 # Miscellaneous

@@ -1,0 +1,71 @@
+- date: "09/2025"
+  kind: Paper
+  desc: One paper accepted to NeurIPS'2025! Congrats to <a href="https://xhx1022.github.io/">Hongxin</a> and <a href="https://gty111.github.io/">Tianyu</a>!
+
+- date: "09/2025"
+  kind: People
+  desc: Five new ARCSYSUers joined. Welcome on board!
+
+- date: "08/2025"
+  kind: Talk
+  desc: Two invited talks delivered at HPC China'2025!
+
+- date: "07/2025"
+  kind: Teach
+  desc: <a href="https://yatcc-ai.com/">YatCC-AI</a> won the Grand Prize of CCEC. Kudos!
+
+- date: "06/2025"
+  kind: Paper
+  desc: Three papers accepted to SC'2025. Congrats to <a href="https://yhgu2000.github.io/">Yuhao</a>, <a href="https://gty111.github.io/">Tianyu</a> and <a href="https://hhthebest.github.io/">Han</a>!
+
+- date: "06/2025"
+  kind: People
+  desc: Nine ARCSYSUers graduated! Cheers and all the best!
+
+- date: "04/2025"
+  kind: Paper
+  desc: Two papers accepted to Euro-Par'2025. Congrats to <a href="https://xi-meng.github.io/">Mengyue</a> and <a href="https://gty111.github.io/">Tianyu</a>!
+
+- date: "04/2025"
+  kind: Paper
+  desc: Three LLM papers were made public on arXiv. See <a href="https://arxiv.org/abs/2504.19516">Bullet</a>, <a href="https://arxiv.org/abstract/2504.14775">gLLM</a> and <a href="https://arxiv.org/abs/2503.19449">vecTrans</a>!
+
+- date: "03/2025"
+  kind: Move
+  desc: Xianwei will be on sabbatical-like leave in Beijing throughout 2025.
+
+- date: "03/2025"
+  kind: Talk
+  desc: One invited talk delivered at <a href="https://apan59.sched.com/event/1tG7z/asia-pacific-research-platform-aprp-wg-session-2">APAN'59</a>!
+
+- date: "02/2025"
+  kind: Teach
+  desc: YatCC-AI with Web and DeepSeek released. <a href="https://yatcc-ai.com/">Try it now</a>!
+
+- date: "02/2025"
+  kind: Paper
+  desc: Two papers accepted to DAC'2025. Congrats to <a href="https://huangxt.com/">Xuanteng</a> and <a href="https://github.com/wu-kan">Kan</a>!
+
+- date: "01/2025"
+  kind: Paper
+  desc: One paper accepted to WWW'2025. Congrats to <a href="https://yhgu2000.github.io/">Yuhao</a>!
+
+- date: "09/2024"
+  kind: Talk
+  desc: One invited talk delivered at Huawei Connect 2024!
+
+- date: "09/2024"
+  kind: People
+  desc: Six new ARCSYSUers joined. Welcome on board!
+
+- date: "08/2024"
+  kind: Fund
+  desc: One NSFC research grant was awarded!
+
+- date: "07/2024"
+  kind: Fund
+  desc: Two CCF research funds were awarded!
+
+- date: "07/2024"
+  kind: Teach
+  desc: One CCEC teaching prize was received. Check out <a href="https://yatcc-ai.com/">Yat Compiler</a>!

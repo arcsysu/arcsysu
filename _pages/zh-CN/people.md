@@ -1,9 +1,11 @@
 ---
-title: "arcSYSu Lab - People"
+title: "arcSYSu Lab - 成员"
+lang: zh-CN
 layout: gridlay
 excerpt: "arcSYSu Lab: Team members"
 sitemap: false
-permalink: /people/
+en_url: /en/people
+permalink: /people
 ---
 
 # Team Members
@@ -15,7 +17,7 @@ Join us! (详见 [FAQs](https://xianweiz.github.io/notes/hire_QAs.txt)).
 
 ## Faculty
 {% assign number_printed = 0 %}
-{% for member in site.data.people.people_faculty %}
+{% for member in site.data.zh.people.people_faculty %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -82,21 +84,21 @@ Join us! (详见 [FAQs](https://xianweiz.github.io/notes/hire_QAs.txt)).
 
 <div class="col-sm-4 clearfix">
 <h4>PhD Student</h4>
-{% for member in site.data.people.current_phd %}
+{% for member in site.data.zh.people.current_phd %}
 {{ member.name }}
 {% endfor %}
 </div>
 
 <div class="col-sm-4 clearfix">
 <h4>Master Student</h4>
-{% for member in site.data.people.current_ms %}
+{% for member in site.data.zh.people.current_ms %}
 {{ member.name }}
 {% endfor %}
 </div>
 
 <div class="col-sm-4 clearfix">
 <h4>Undergraduate RA/Intern</h4>
-{% for member in site.data.people.current_ugra %}
+{% for member in site.data.zh.people.current_ugra %}
 {{ member.name }}
 {% endfor %}
 </div>
@@ -110,21 +112,21 @@ Join us! (详见 [FAQs](https://xianweiz.github.io/notes/hire_QAs.txt)).
 
 <div class="col-sm-6 clearfix">
 <h4>PhD/Master</h4>
-{% for member in site.data.people.alumni_grad %}
+{% for member in site.data.zh.people.alumni_grad %}
 {{ member.name }}
 {% endfor %}
 </div>
 
 <!--<div class="col-sm-4 clearfix">
 <h4>Master students</h4>
-{% for member in site.data.people.alumni_ms %}
+{% for member in site.data.zh.people.alumni_ms %}
 {{ member.name }}
 {% endfor %}
 </div>-->
 
 <div class="col-sm-6 clearfix">
 <h4>Ug RA/Intern</h4>
-{% for member in site.data.people.alumni_ugra %}
+{% for member in site.data.zh.people.alumni_ugra %}
 {{ member.name }}
 {% endfor %}
 </div>

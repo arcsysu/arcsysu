@@ -4,16 +4,23 @@
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
-
+    {% if page.lang == 'en' %}
+      {% include header_en.html %}
+    {% elsif page.lang == 'zh-CN' %}
+      {% include header_zh.html %}
+    {% endif %}
+    
     <div class="container-fluid">
       <div class="row">
         {{ content }}
       </div>
     </div>
 
-    {% include footer.html %}
+    {% if page.lang == 'en' %}
+      {% include footer_en.html %}
+    {% elsif page.lang == 'zh-CN' %}
+      {% include footer_zh.html %}
+    {% endif %}
 
   </body>
 

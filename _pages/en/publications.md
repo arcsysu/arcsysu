@@ -1,9 +1,11 @@
 ---
 title: "arcSYSu Lab - Publications"
+lang: en
 layout: gridlay
 excerpt: "arcsysu Lab -- Publications."
 sitemap: false
-permalink: /publications/
+zh_url: /publications
+permalink: /en/publications
 ---
 
 # Publications
@@ -20,7 +22,7 @@ Also available at
 **At the end of this page, you can find the [full list of publications and patents](#full-list-of-publications). All papers are also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Allan%2C+M+P).** -->
 
 {% assign number_printed = 0 %}
-{% for publi in site.data.pub.publist_2025 %}
+{% for publi in site.data.en.pub.publist_2025 %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if publi.highlight == 1 %}
@@ -59,7 +61,7 @@ Also available at
 
 
 ## Patents
-{% for patent in site.data.pub.publist_patent %}
+{% for patent in site.data.en.pub.publist_patent %}
   [{{ patent.label }}] {{ patent.authors }} <br />
   <a href="{{ patent.title.url }}">{{ patent.title.name }}</a> {{ patent.desc }}
   <br /><em>{{ patent.conf }} </em>
@@ -71,7 +73,7 @@ Note: <u>Supervised Student</u>, Corresponding<sup>#</sup>
 
 <a id="2025"></a>
 <b>2025</b>
-{% for publi in site.data.pub.publist_2025 %}
+{% for publi in site.data.en.pub.publist_2025 %}
   [{{ publi.label }}] {{ publi.authors }} <br />
   <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
   <br /><em>{{ publi.conf }} </em>
@@ -79,7 +81,7 @@ Note: <u>Supervised Student</u>, Corresponding<sup>#</sup>
 
 <a id="2024"></a>
 <b>2024</b>
-{% for publi in site.data.pub.publist_2024 %}
+{% for publi in site.data.en.pub.publist_2024 %}
   [{{ publi.label }}] {{ publi.authors }} <br />
   <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
   <br /><em>{{ publi.conf }} </em>
@@ -87,7 +89,7 @@ Note: <u>Supervised Student</u>, Corresponding<sup>#</sup>
 
 <a id="2023"></a>
 <b>2023</b>
-{% for publi in site.data.pub.publist_2023 %}
+{% for publi in site.data.en.pub.publist_2023 %}
   [{{ publi.label }}] {{ publi.authors }} <br />
   <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
   <br /><em>{{ publi.conf }} </em>
@@ -95,7 +97,7 @@ Note: <u>Supervised Student</u>, Corresponding<sup>#</sup>
 
 <a id="2022"></a>
 <b>2022</b>
-{% for publi in site.data.pub.publist_2022 %}
+{% for publi in site.data.en.pub.publist_2022 %}
   [{{ publi.label }}] {{ publi.authors }} <br />
   <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
   <br /><em>{{ publi.conf }} </em>
@@ -103,7 +105,7 @@ Note: <u>Supervised Student</u>, Corresponding<sup>#</sup>
 
 <a id="2021"></a>
 <b>2021</b>
-{% for publi in site.data.pub.publist_2021 %}
+{% for publi in site.data.en.pub.publist_2021 %}
   [{{ publi.label }}] {{ publi.authors }} <br />
   <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
   <br /><em>{{ publi.conf }} </em>
@@ -111,7 +113,7 @@ Note: <u>Supervised Student</u>, Corresponding<sup>#</sup>
 
 <a id="2020"></a>
 <b>2020</b>
-{% for publi in site.data.pub.publist_2020 %}
+{% for publi in site.data.en.pub.publist_2020 %}
   [{{ publi.label }}] {{ publi.authors }} <br />
   <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
   <br /><em>{{ publi.conf }} </em>
@@ -119,7 +121,7 @@ Note: <u>Supervised Student</u>, Corresponding<sup>#</sup>
 
 <a id="2019"></a>
 <b>2019</b>
-{% for publi in site.data.pub.publist_2019 %}
+{% for publi in site.data.en.pub.publist_2019 %}
   [{{ publi.label }}] {{ publi.authors }} <br />
   <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
   <br /><em>{{ publi.conf }} </em>
@@ -127,7 +129,7 @@ Note: <u>Supervised Student</u>, Corresponding<sup>#</sup>
 
 <a id="2018"></a>
 <b>2018</b>
-{% for publi in site.data.pub.publist_2018 %}
+{% for publi in site.data.en.pub.publist_2018 %}
   [{{ publi.label }}] {{ publi.authors }} <br />
   <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
   <br /><em>{{ publi.conf }} </em>
@@ -135,7 +137,7 @@ Note: <u>Supervised Student</u>, Corresponding<sup>#</sup>
 
 <a id="2017"></a>
 <b>2017</b>
-{% for publi in site.data.pub.publist_2017 %}
+{% for publi in site.data.en.pub.publist_2017 %}
   [{{ publi.label }}] {{ publi.authors }} <br />
   <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
   <br /><em>{{ publi.conf }} </em>
@@ -143,7 +145,7 @@ Note: <u>Supervised Student</u>, Corresponding<sup>#</sup>
 
 <a id="2016"></a>
 <b>2016</b>
-{% for publi in site.data.pub.publist_2016 %}
+{% for publi in site.data.en.pub.publist_2016 %}
   [{{ publi.label }}] {{ publi.authors }} <br />
   <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
   <br /><em>{{ publi.conf }} </em>
@@ -151,7 +153,7 @@ Note: <u>Supervised Student</u>, Corresponding<sup>#</sup>
 
 <a id="2015"></a>
 <b>2015</b>
-{% for publi in site.data.pub.publist_2015 %}
+{% for publi in site.data.en.pub.publist_2015 %}
   [{{ publi.label }}] {{ publi.authors }} <br />
   <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
   <br /><em>{{ publi.conf }} </em>
@@ -159,7 +161,7 @@ Note: <u>Supervised Student</u>, Corresponding<sup>#</sup>
 
 <a id="2013"></a>
 <b>2013</b>
-{% for publi in site.data.pub.publist_2013 %}
+{% for publi in site.data.en.pub.publist_2013 %}
   [{{ publi.label }}] {{ publi.authors }} <br />
   <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
   <br /><em>{{ publi.conf }} </em>
