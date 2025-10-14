@@ -4,8 +4,8 @@ lang: zh-CN
 layout: textlay
 excerpt: "arcSYSu Lab -- Misc"
 sitemap: false
-en_url: /en/misc
-permalink: /misc
+en_url: /misc
+permalink: /zh/misc
 ---
 
 # Miscellaneous

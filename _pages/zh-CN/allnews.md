@@ -4,8 +4,8 @@ lang: zh-CN
 layout: textlay
 excerpt: "Allan Lab at Leiden University."
 sitemap: false
-en_url: /en/allnews
-permalink: /allnews
+en_url: /allnews
+permalink: /zh/allnews
 ---
 
 # News

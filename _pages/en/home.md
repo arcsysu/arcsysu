@@ -4,8 +4,8 @@ lang: en
 layout: homelay
 excerpt: "ArcSYSU Lab at Sun Yat-Sen University &rarr; LMU."
 sitemap: false
-zh_url: /
-permalink: /en/home
+zh_url: /zh/home
+permalink: /
 ---
 
 **<u>Arc</u>hitecture and <u>Sys</u>tem <u>U</u>pscaling @ Sun Yat-sen University!**

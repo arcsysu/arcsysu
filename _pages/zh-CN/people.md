@@ -4,8 +4,8 @@ lang: zh-CN
 layout: gridlay
 excerpt: "arcSYSu Lab: Team members"
 sitemap: false
-en_url: /en/people
-permalink: /people
+en_url: /people
+permalink: /zh/people
 ---
 
 # Team Members

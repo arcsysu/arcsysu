@@ -3,14 +3,14 @@ title: "arcsysu Lab - 主页"
 layout: homelay
 excerpt: "中山大学 ArcSYSU 实验室  &rarr; SYSU."
 sitemap: false
-en_url: /en/home
+en_url: /
 lang: zh-CN
-permalink: /
+permalink: /zh/home
 ---
 
 **<u>Arc</u>hitecture and <u>Sys</u>tem <u>U</u>pscaling @ 中山大学 !**
 
-<p class="homeid"><i>arcsysu</i> 是由<a herf="https://xianweiz.github.io/">张献伟</a>副教授领导的研究小组，隶属于<a href="https://cse.sysu.edu.cn/">中山大学计算机学院</a>。在 <i>arcsysu</i>，我们聚焦于计算机系统与体系结构领域的前沿研究，重点致力于推动高性能与智能计算技术的发展。</p>
+<p class="homeid"><i>arcsysu</i> 是由<a href="https://xianweiz.github.io/">张献伟</a>副教授领导的研究小组，隶属于<a href="https://cse.sysu.edu.cn/">中山大学计算机学院</a>。在 <i>arcsysu</i>，我们聚焦于计算机系统与体系结构领域的前沿研究，重点致力于推动高性能与智能计算技术的发展。</p>
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -24,7 +24,7 @@ permalink: /
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/lab-logo2.jpg" palt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/lab-logo2.jpg" alt="Slide 1" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/nscc-2022.jpg" alt="Slide 2" />

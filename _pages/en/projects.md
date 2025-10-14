@@ -4,8 +4,8 @@ lang: en
 layout: textlay
 excerpt: "arcSYSu Lab -- Projects"
 sitemap: false
-zh_url: /projects
-permalink: /en/projects
+zh_url: /zh/projects
+permalink: /projects
 ---
 
 # Research Projects

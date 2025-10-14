@@ -4,8 +4,8 @@ lang: zh-CN
 layout: gridlay
 excerpt: "arcsysu Lab -- Publications."
 sitemap: false
-en_url: /en/publications
-permalink: /publications
+en_url: /publications
+permalink: /zh/publications
 ---
 
 # Publications
