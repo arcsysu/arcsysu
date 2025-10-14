@@ -49,7 +49,7 @@ We collaborate closely with other outstanding teams within the center, working a
 
 <p class="homeid">Our research is supported by prestigious programs, including the National Key R&D Program, NSFC, as well as leading companies like Tencent®, Huawei®, and Phytium®.</p>
 
-<p class="homeid">**We are always looking for passionate new PhD/MS graduates, Postdocs, and Undergraduate RAs/Interns to join the team!** (For more details, please check our &#8599; [FAQs](https://xianweiz.github.io/notes/hire_QAs.txt)).</p>
+<p class="homeid"><b>We are always looking for passionate new PhD/MS graduates, Postdocs, and Undergraduate RAs/Interns to join the team!</b> (For more details, please check our &#8599; [FAQs](https://xianweiz.github.io/notes/hire_QAs.txt)).</p>
 
 <figure class="fifth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_nRD.jpg" style="width: 130px; padding-right:30px">

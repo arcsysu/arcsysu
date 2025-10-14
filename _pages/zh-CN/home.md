@@ -10,7 +10,7 @@ permalink: /
 
 **<u>Arc</u>hitecture and <u>Sys</u>tem <u>U</u>pscaling @ 中山大学 !**
 
-<p class="homeid"><i>arcsysu</i> 是由<a herf="https://xianweiz.github.io/">张献伟</a>副教授领导的研究小组，隶属于<a href="https://cse.sysu.edu.cn/">中山大学计算机学院</a>。在 <i>arcsysu</i>，我们开展计算机系统与体系结构领域的前沿研究，重点致力于推动高性能与智能计算技术的发展。</p>
+<p class="homeid"><i>arcsysu</i> 是由<a herf="https://xianweiz.github.io/">张献伟</a>副教授领导的研究小组，隶属于<a href="https://cse.sysu.edu.cn/">中山大学计算机学院</a>。在 <i>arcsysu</i>，我们聚焦于计算机系统与体系结构领域的前沿研究，重点致力于推动高性能与智能计算技术的发展。</p>
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -43,7 +43,7 @@ permalink: /
   </a>
 </div>
 
-<p class="homeid">*arcsysu* 隶属于<a href="http://nscc-gz.cn/">国家超级计算广州中心</a> (NSCC-GZ)，并是由<a href="https://cse.sysu.edu.cn/teacher/LuYutong">卢宇桐</a>教授和<a href="https://cse.sysu.edu.cn/teacher/XiaoNong">肖侬</a>教授领导的计算科学交叉研究中心的重要组成部分。我们正与中心内的其他优秀团队紧密合作，开展涵盖 HPC+AI 设计与应用等广泛领域的研究。</p>
+<p class="homeid">*arcsysu* 隶属于<a href="http://nscc-gz.cn/">国家超级计算广州中心</a> (NSCC-GZ)，也是由<a href="https://cse.sysu.edu.cn/teacher/LuYutong">卢宇桐</a>教授和<a href="https://cse.sysu.edu.cn/teacher/XiaoNong">肖侬</a>教授领导的计算科学交叉研究中心的重要组成部分。我们正与中心内的其他优秀团队紧密合作，开展涵盖 HPC+AI 设计与应用等广泛领域的研究。</p>
 
 <p class="homeid">我们的研究得到了多个国家重点项目的资助，包括国家重点研发计划、国家自然科学基金（NSFC），以及腾讯®、华为®、飞腾®等知名企业的支持。</p>
 
@@ -57,5 +57,5 @@ permalink: /
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_nsfc.jpg" style="width: 100px; padding-right:40px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_tencent.jpg" style="width: 110px; padding-right:20px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_hw.jpg" style="width: 120px; padding-right:20px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_ft.jpg" style="width: 90px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_ft.jpg" style="width: 80px">
 </figure>

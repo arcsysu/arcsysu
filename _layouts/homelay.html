@@ -3,7 +3,11 @@ layout: default
 ---
 
   <div id="homeid" class="col-sm-8">
+      {{% if page.lang == 'en' %}}
         <h1>Welcome to the <i>arcSYSu</i> lab</h1>
+      {{% elsif page.lang == 'zh-CN' %}}
+        <h1>欢迎来到 arcSYSu 实验室</h1>
+      {{% endif %}}
 
 	{{ content }}
   </div>

@@ -2,7 +2,7 @@
   title:
     name: "DELTA: Validate GPU Memory Profiling with Microbenchmarks"
     url: https://xianweiz.github.io/doc/papers/delta_memsys20.pdf
-  conf: "The International Symposium on Memory Systems (MemSys, short), Washington D.C., USA, October 2020."
+  conf: "The International Symposium on Memory Systems (<b>MemSys</b>, short), Washington D.C., USA, October 2020."
   label: W4
   desc:
   highlight: 1
