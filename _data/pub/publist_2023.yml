@@ -2,7 +2,7 @@
   title:
     name: "KeSCo: Compiler-based Kernel Scheduling for Multi-task GPU Applications"
     url: https://xianweiz.github.io/doc/papers/kesco_iccd23.pdf
-  conf: "The IEEE 41st International Conference on Computer Design (ICCD), Washington DC, United States, November 2023."
+  conf: "The IEEE 41st International Conference on Computer Design (<b>ICCD</b>), Washington DC, United States, November 2023."
   label: C14
   desc: <font color="firebrick">(CCF-B)</font>
   highlight: 1
@@ -20,16 +20,16 @@
   title:
     name: "Hybrid MPI and CUDA Paralleled Finite Volume Unstructured CFD Simulations on a Multi-GPU System"
     url: https://xianweiz.github.io/doc/papers/cfd_fgcs23.pdf
-  conf: "Future Generation Computer Systems 139 (2023), February 2023."
+  conf: "Future Generation Computer Systems (<b>FGCS</b>), 139 (2023), February 2023."
   label: J3
-  desc:
+  desc: <font color="#ff9933">(CCF-C)</font>
   highlight: 1
 
 - authors: "<u>Lianghong Huang</u>, <u>Zejia Lin</u>, Wei Liu<sup>#</sup> and <i>Xianwei Zhang</i><sup>#</sup>"
   title:
     name: "Hay: Enhancing GPU Sharing Performance With Two-Level Scheduling for Ray"
     url: https://xianweiz.github.io/doc/papers/hay_icpads23.pdf
-  conf: "The 29th IEEE International Conference on Parallel and Distributed Systems (ICPADS, short), Hainan, China, December 2023."
+  conf: "The 29th IEEE International Conference on Parallel and Distributed Systems (<b>ICPADS</b>, short), Hainan, China, December 2023."
   label: W5
   desc:
   highlight: 1

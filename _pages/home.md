@@ -54,5 +54,5 @@ Our research is supported by prestigious programs, including the National Key R&
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_nsfc.jpg" style="width: 100px; padding-right:40px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_tencent.jpg" style="width: 110px; padding-right:20px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_hw.jpg" style="width: 120px; padding-right:20px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_ft.jpg" style="width: 90px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_ft.jpg" style="width: 80px">
 </figure>
