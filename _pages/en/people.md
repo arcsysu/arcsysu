@@ -126,7 +126,7 @@ Join us! (详见 [FAQs](https://xianweiz.github.io/notes/hire_QAs.txt)).
 
 <div class="col-sm-6 clearfix">
 <h4>Ug RA/Intern</h4>
-{% for member in site.data.people.alumni_ugra %}
+{% for member in site.data.en.people.alumni_ugra %}
 {{ member.name }}
 {% endfor %}
 </div>
