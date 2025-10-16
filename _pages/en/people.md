@@ -89,14 +89,14 @@ Join us! (详见 [FAQs](https://xianweiz.github.io/notes/hire_QAs.txt)).
 {% endfor %}
 </div>
 
-<div class="col-sm-5 clearfix">
+<div class="col-sm-4 clearfix">
 <h4>Master Student</h4>
 {% for member in site.data.en.people.current_ms %}
 {{ member.name }}
 {% endfor %}
 </div>
 
-<div class="col-sm-3 clearfix">
+<div class="col-sm-4 clearfix">
 <h4>Undergraduate</h4>
 {% for member in site.data.en.people.current_ugra %}
 {{ member.name }}
