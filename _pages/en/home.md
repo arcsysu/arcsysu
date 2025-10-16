@@ -44,7 +44,7 @@ At <i>arcSYSu</i>, we conduct cutting-edge research in computer systems and arch
   </a>
 </div>
 
-<i>arcSYSu</i> is proudly affiliated with the [National Supercomputer Center in Guangzhou](http://nscc-gz.cn/) (NSCC-GZ) and is an integral part of the Interdisciplinary Research Center, directed by Prof. <a href="https://cse.sysu.edu.cn/teacher/LuYutong">Yutong Lu</a> and Prof. <a href="https://cse.sysu.edu.cn/teacher/XiaoNong">Nong Xiao</a>.
+<i>arcSYSu</i> is proudly part of the Interdisciplinary Research Center (xRC), directed by Prof. <a href="https://cse.sysu.edu.cn/teacher/LuYutong">Yutong Lu</a> and Prof. <a href="https://cse.sysu.edu.cn/teacher/XiaoNong">Nong Xiao</a>.
 We collaborate closely with other outstanding teams within the center, working across a broad spectrum of areas in HPC+AI design and applications.
 
 Our research is supported by prestigious programs, including the National Key R&D Program, NSFC, as well as leading companies like Tencent®, Huawei®, and Phytium®.
