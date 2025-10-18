@@ -1,3 +1,12 @@
+- authors: "<u>Wenxuan Pan</u>, <u>Zejia Lin</u>, Jiangsu Du and <i>Xianwei Zhang</i>"
+  title:
+    name: "HuntKTm: Hybrid Scheduling and Automatic Management for Efficient Kernel Execution on Modern GPUs"
+    url:
+  conf: "ACM Transactions on Architecture and Code Optimization (<b>TACO</b>)."
+  label: J7
+  desc: <font color="red">(CCF-A)</font>
+  highlight: 1
+
 - authors: "<u>Hongxin Xu</u>, <u>Tianyu Guo</u> and <i>Xianwei Zhang</i><sup>#</sup>"
   title:
     name: "DynaPipe: Dynamic Layer Redistribution for Efficient Serving of LLMs with Pipeline Parallelism"
@@ -9,7 +18,7 @@
 
 - authors: "<u>Yuhao Gu</u>, <u>Haoquan Chen</u>, <u>Xianjie Chen</u>, Jiangsu Du, Zhiguang Chen, Nong Xiao<sup>#</sup>, <i>Xianwei Zhang</i><sup>#</sup> and Yutong Lu"
   title:
-    name: "coMtainer: Compilation-assisted HPC Container labels with Enhanced Adaptability"
+    name: "coMtainer: Compilation-assisted HPC Container Images with Enhanced Adaptability"
     url:
   conf: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (<b>SC</b>), St. louis, MO, United States, November 2025."
   label: C28

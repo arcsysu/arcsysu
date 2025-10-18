@@ -11,7 +11,7 @@ permalink: /
 **<u>Arc</u>hitecture and <u>Sys</u>tem <u>U</u>pscaling @ Sun Yat-sen University!**
 
 <p class="homeid">We are a research group led by Assoc. Prof. [Xianwei Zhang](https://xianweiz.github.io/) in the [School of Computer Science & Engineering](https://cse.sysu.edu.cn/) at [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/).
-At <i>arcSYSu</i>, we’re at the forefront of advancing computer systems and architecture, with the goal of improving high-performance and intelligent computing technologies.</p>
+At <i>arcSYSu</i>, we explore cutting-edge topics in computer systems and architecture, with a focus on advancing high-performance and intelligent computing technologies.</p>
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -45,9 +45,9 @@ At <i>arcSYSu</i>, we’re at the forefront of advancing computer systems and ar
 </div>
 
 <i>arcSYSu</i> is proudly part of the Interdisciplinary Research Center (<i>xRC</i>), directed by Prof. <a href="https://cse.sysu.edu.cn/teacher/LuYutong">Yutong Lu</a> and Prof. <a href="https://cse.sysu.edu.cn/teacher/XiaoNong">Nong Xiao</a>.
-We collaborate closely with other exceptional teams within the center, working across a broad spectrum of areas in HPC+AI design and applications.
+We work closely with other exceptional teams within the center on a broad spectrum of areas in HPC+AI design and applications.
 
-Our work is supported by prestigious programs, including the National Key R&D Program, the National Science Foundation of China, as well as collaborative partnerships with industry leaders like Tencent®, Huawei®, and Phytium®.
+Our research is supported by prestigious programs, including the National Key R&D Program, the National Science Foundation of China, as well as collaborative partnerships with industry leaders like Tencent®, Huawei® and Phytium®.
 
 <b>We are always looking for passionate new PhD/MS graduates, Postdocs, Undergraduate RAs and Interns to join the team!</b> (For more details, please check our &#8599; [FAQs](https://xianweiz.github.io/notes/hire_QAs.txt)).
 

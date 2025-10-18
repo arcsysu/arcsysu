@@ -2,7 +2,7 @@
   title:
     name: "Effects of Mesh Loop Modes on Performance of Unstructured Finite Volume GPU Simulations"
     url: https://aia.springeropen.com/articles/10.1186/s42774-021-00073-y
-  conf: "Advances in Aerodynamics, 3(21), 2021."
+  conf: "Advances in Aerodynamics (<b>AIA</b>), 3(21), 2021."
   label: J2
   desc:
   highlight: 1
