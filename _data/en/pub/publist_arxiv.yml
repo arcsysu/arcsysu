@@ -1,0 +1,35 @@
+- authors: "<u>Tianyu Guo</u>, Tianming Xu, <u>Xianjie Chen</u>, <u>Junru Chen</u>, Nong Xiao and <i>Xianwei Zhang</i>"
+  title:
+    name: "RServe: Overlapping Encoding and Prefill for Efficient LMM Inference"
+    url: https://arxiv.org/abs/2509.24381
+  conf:
+  label: A4
+  desc:
+  highlight: 1
+
+- authors: "<u>Zejia Lin</u>, <u>Hongxin Xu</u>, <u>Guanyi Chen</u>, Zhiguang Chen, Yutong Lu and <i>Xianwei Zhang</i>"
+  title:
+    name: "Boosting LLM Serving through Spatial-Temporal GPU Resource Sharing"
+    url: https://arxiv.org/abs/2504.19516
+  conf:
+  label: A3
+  desc:
+  highlight: 1
+
+- authors: "<u>Zhongchun Zheng</u>, <u>Kan Wu</u>, Long Cheng, Lu Li, Rodrigo C. O. Rocha, Tianyi Liu, Wei Wei, Jianjiang Zeng, <i>Xianwei Zhang</i> and Yaoqing Gao"
+  title:
+    name: "VecTrans: LLM Transformation Framework for Better Auto-vectorization on High-performance CPU"
+    url: https://arxiv.org/abs/2503.19449
+  conf:
+  label: A2
+  desc:
+  highlight: 1
+
+- authors: "Tian Wu, Liming Wang, Zijian Wen, Xiaoxi Zhang, Jingpu Duan, <i>Xianwei Zhang</i> and Jinhang Zuo"
+  title:
+    name: "Accelerating Edge Inference for Distributed MoE Models with Latency-Optimized Expert Placement"
+    url: https://arxiv.org/abs/2508.12851
+  conf:
+  label: A1
+  desc:
+  highlight: 1

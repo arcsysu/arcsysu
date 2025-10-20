@@ -3,7 +3,7 @@
     name: "GPU Cache Management based on Lightweight Locality Type Detection"
     url: https://patents.google.com/patent/US11487671B2/en
   conf: "US11487671B2, 2022."
-  label: P4
+  label: P8
   desc:
   highlight: 1
 
@@ -12,7 +12,7 @@
     name: "Memory Request Priority Assignment Techniques for Parallel Processors"
     url: https://patents.google.com/patent/US11507522B2/en
   conf: "US11507522B2, 2022."
-  label: P3
+  label: P7
   desc:
   highlight: 1
 
@@ -21,7 +21,7 @@
     name: "Data Compression System Using Base Values and Methods Thereof"
     url: https://patents.google.com/patent/US11740791B2/en
   conf: "US11740791B2, 2023."
-  label: P2
+  label: P6
   desc:
   highlight: 1
 
@@ -30,6 +30,42 @@
     name: "Selecting a Precision Level for Executing a Workload in an Electronic Device"
     url: https://patents.google.com/patent/US20190310864A1/en
   conf: "US11150899B2, 2021."
+  label: P5
+  desc:
+  highlight: 1
+
+- authors: "<i>Xianwei Zhang</i>, <u>Yuhao Gu</u>, Zhiguang Chen and Yutong Lu"
+  title:
+    name: "A Programmable Data Exchange System"
+    url: https://www.xjishu.com/zhuanli/62/202510077351.html
+  conf: "ZL 2025 1 0077351.0"
+  label: P4
+  desc:
+  highlight: 1
+
+- authors: "<u>Zewei Mo</u>, <i>Xianwei Zhang</i>, <u>Tianao Ge</u> and Yutong Lu"
+  title:
+    name: "A Compiler-Based Automatic Multi-Stream Scheduling Method for Kernel Functions"
+    url: https://www.xjishu.com/zhuanli/55/202210172808.html
+  conf: "ZL 2022 1 0172808.2"
+  label: P3
+  desc:
+  highlight: 1
+
+- authors: "<u>Zewei Mo</u>, <i>Xianwei Zhang</i> and <u>Tianao Ge</u>"
+  title:
+    name: "An Error-Controllable Automated Optimization Method for Mixed-Precision Operators"
+    url: https://www.xjishu.com/zhuanli/55/202111551663.html
+  conf: "ZL 2021 1 1551663.9"
+  label: P2
+  desc:
+  highlight: 1
+
+- authors: "<u>Tianao Ge</u>, <i>Xianwei Zhang</i>, <u>Zewei Mo</u> and <u>Yutong Lu</u>"
+  title:
+    name: "A Loop-Folding-Based Binary Code Size Optimizer"
+    url: https://www.xjishu.com/zhuanli/55/202210154571.html
+  conf: "ZL 2022 1 0154571.5"
   label: P1
   desc:
   highlight: 1

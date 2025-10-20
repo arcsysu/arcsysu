@@ -63,13 +63,21 @@ Also available at
 ## Patents
 {% for patent in site.data.zh.pub.publist_patent %}
   [{{ patent.label }}] {{ patent.authors }} <br />
-  <a href="{{ patent.title.url }}">{{ patent.title.name }}</a> {{ patent.desc }}
-  <br /><em>{{ patent.conf }} </em>
+  <a href="{{ patent.title.url }}">{{ patent.title.name }}</a> {{ patent.desc}}
+  , <em>{{ patent.conf }} </em>
 {% endfor %}
 
 ## Conference/Journal
 Note: <u>Supervised Student</u>, Corresponding<sup>#</sup>
-<br>[2025](#2025), [2024](#2024), [2023](#2023), [2022](#2022), [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2013](#2013)
+<br>[arXiv](#arxiv), [2025](#2025), [2024](#2024), [2023](#2023), [2022](#2022), [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2013](#2013)
+
+<a id="arxiv"></a>
+<b>arXiv</b>
+{% for publi in site.data.zh.pub.publist_arxiv %}
+  [{{ publi.label }}] {{ publi.authors }} <br />
+  <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
+  <br /><em>{{ publi.conf }} </em>
+{% endfor %}
 
 <a id="2025"></a>
 <b>2025</b>
