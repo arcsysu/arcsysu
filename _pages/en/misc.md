@@ -11,19 +11,22 @@ permalink: /misc
 # Miscellaneous
 
 ## Artifacts
-Yat Compiler Construction with AI ([YatCC-AI](https://yatcc-ai.com/))
+Yat Compiler Construction with AI ([YatCC-AI](https://yatcc-ai.com/))<br>
 
-<a href="https://yatcc-ai.com/"> ![]({{ site.url }}{{ site.baseurl }}/images/misc/yatcc.webp){: style="width: 50%; float: center; margin: 0px"} </a>
+<a href="https://yatcc-ai.com/"> ![]({{ site.url }}{{ site.baseurl }}/images/misc/yatcc.webp){: style="width: 50%; margin: 30px"} </a>
 
 ## Follow Us
 Learn more about our research and teaching activities.
 <br><br>
-<a href="https://github.com/arcsysu"> ![]({{ site.url }}{{ site.baseurl }}/images/misc/GitHub.svg){: style="height: 30px; float: center; margin: 0px; padding-right:20px"} </a>
-<a href="https://yatcc-ai.com/"> ![]({{ site.url }}{{ site.baseurl }}/images/misc/Bilibili.svg){: style="height: 30px; float: center; margin: 0px; padding-right:20px"} </a>
-<a href="https://www.xiaohongshu.com/user/profile/68b412c2000000001900f4fe"> ![]({{ site.url }}{{ site.baseurl }}/images/misc/RedNote.webp){: style="height: 20px; float: center; margin: 0px"} </a>
-<p><br></p>
+
+<a href="https://github.com/arcsysu"> ![]({{ site.url }}{{ site.baseurl }}/images/misc/GitHub.svg){: style="height: 40px; float: center; margin: 15px; padding-right:20px"} </a>
+<a href="https://yatcc-ai.com/"> ![]({{ site.url }}{{ site.baseurl }}/images/misc/Bilibili.svg){: style="height: 40px; float: center; margin: 15px; padding-right:20px"} </a>
+<a href="https://www.xiaohongshu.com/user/profile/68b412c2000000001900f4fe"> ![]({{ site.url }}{{ site.baseurl }}/images/misc/RedNote.webp){: style="height: 30px; float: center; margin: 15px"} </a>
+<br>    
+<p class="misc"></p>
+
 
 ## Join Us
 Shape the future of computing with us. See [FAQs](https://xianweiz.github.io/notes/hire_QAs.txt).
 <br>
-<a href="https://xianweiz.github.io/notes/hire_QAs.txt"> ![]({{ site.url }}{{ site.baseurl }}/images/misc/join.webp){: style="height: 50px; float: center; margin: 0px"} </a>
+<a href="https://xianweiz.github.io/notes/hire_QAs.txt"> ![]({{ site.url }}{{ site.baseurl }}/images/misc/join.webp){: style="height: 70px; float: center; margin: 15px"} </a>
