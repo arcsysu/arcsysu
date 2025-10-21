@@ -2,7 +2,7 @@
 title: "News"
 lang: en
 layout: textlay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "News at arcSYSu lab at Sun Yat-Sen University"
 sitemap: false
 zh_url: /zh/allnews
 permalink: /allnews

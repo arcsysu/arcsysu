@@ -2,7 +2,7 @@
 title: "arcsysu Lab - Home"
 lang: en
 layout: homelay
-excerpt: "ArcSYSU Lab at Sun Yat-Sen University &rarr; LMU."
+excerpt: "arcSYSu Lab at Sun Yat-Sen University &rarr; SYSU."
 sitemap: false
 zh_url: /zh/home
 permalink: /

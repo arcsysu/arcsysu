@@ -2,7 +2,7 @@
 title: "arcSYSu Lab - Publications"
 lang: en
 layout: gridlay
-excerpt: "arcsysu Lab -- Publications."
+excerpt: "arcSYSu Lab -- Publications."
 sitemap: false
 zh_url: /zh/publications
 permalink: /publications

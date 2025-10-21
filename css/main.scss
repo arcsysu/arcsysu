@@ -51,29 +51,58 @@ figcaption {
 		display: block;              
 	}
 
-  .navbar-header { float: none; }
-  .navbar-toggle { display: block; }
-  .navbar-collapse{ border-top: none !important; box-shadow: none !important;}   // 去除导航栏与下拉菜单分割线
-  .navbar-collapse.collapse { display: none !important; }
-  .navbar-collapse.in { display: block !important; }
-  .navbar-nav { float: none !important; margin: 7.5px -15px; }					// 下拉菜单未展开时隐藏
-  .navbar-nav > li { float: none; }       										// 下拉菜单竖排显示
-  .navbar-nav > li > a { padding-top: 10px; padding-bottom: 10px; }
+	.navbar-header { 
+		float: none; 
+	}
+	.navbar-toggle { 
+		display: block; 
+	}
+	.navbar-collapse{ 
+		border-top: none !important; box-shadow: none !important;
+	}   // 去除导航栏与下拉菜单分割线
+	.navbar-collapse.collapse { 
+		display: none !important; 
+	}
+	.navbar-collapse.in { 
+		display: block !important; 
+	}
+	.navbar-nav { 
+		float: none !important; margin: 7.5px -15px; 
+	}					// 下拉菜单未展开时隐藏
+	.navbar-nav > li {
+		float: none; 
+	}       										// 下拉菜单竖排显示
+	.navbar-nav > li > a {
+		padding-top: 10px; padding-bottom: 10px; 
+	}
 }
 
 @media (max-width: 596px){
 	.navbar{
 		min-height: 70px;	
 	}
-	// .navbar-header {
-    // 	display: flex;
-	//     align-items: center;
-	//     justify-content: space-between; // 或 center，如果你想让按钮居中整个导航栏
-	//     height: 70px; 
-	// 	padding: 0 10px;
-  	// }
 	.navbar-toggle{
 		top: 10px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container-fluid {
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 1200px; /* or 950px */
+	}
+
+	/* Grid overrides */
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-5, .col-sm-6,
+	.col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.col-sm-4 {
+		padding-left: 26px;
+		padding-right: 26px;
 	}
 }
 

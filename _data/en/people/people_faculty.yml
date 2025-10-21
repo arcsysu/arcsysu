@@ -2,9 +2,11 @@
   photo: xianweiz.webp
   info: Associate Professor (2020-), SYSU
   email: zhangxw79 AT mail.sysu.edu,cn
-  number_educ: 2
-  education1: R&D at AMD Inc. (2017-2020)
-  education2: PhD at University of Pittsburgh (2011-2017)
-  education3:
-  education4:
-  education5:
+  education:
+    - R&D at AMD Inc. (2017-2020)
+    - PhD at University of Pittsburgh (2011-2017)
+
+
+
+
+
