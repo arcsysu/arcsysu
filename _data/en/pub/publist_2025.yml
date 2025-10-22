@@ -7,7 +7,7 @@
   desc: <font color="red">(CCF-A)</font>
   highlight: 1
 
-- authors: "<u>Hongxin Xu</u>, <u>Tianyu Guo</u> and <i>Xianwei Zhang</i><sup>#</sup>"
+- authors: "<u>Hongxin Xu</u><sup>*</sup>, <u>Tianyu Guo</u><sup>*</sup> and <i>Xianwei Zhang</i><sup>#</sup> (<sup>*</sup>Equal Contribution)"
   title:
     name: "DynaPipe: Dynamic Layer Redistribution for Efficient Serving of LLMs with Pipeline Parallelism"
     url:

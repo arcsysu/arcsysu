@@ -61,7 +61,7 @@
   desc:
   highlight: 1
 
-- authors: "<u>Tianao Ge</u>, <i>Xianwei Zhang</i>, <u>Zewei Mo</u> and <u>Yutong Lu</u>"
+- authors: "<u>Tianao Ge</u>, <i>Xianwei Zhang</i>, <u>Zewei Mo</u> and Yutong Lu"
   title:
     name: "A Loop-Folding-Based Binary Code Size Optimizer"
     url: https://www.xjishu.com/zhuanli/55/202210154571.html

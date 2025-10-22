@@ -10,8 +10,10 @@ permalink: /
 
 **<u>Arc</u>hitecture and <u>Sys</u>tem <u>U</u>pscaling @ Sun Yat-sen University!**
 
-<p class="homeid">We are a research group led by Assoc. Prof. [Xianwei Zhang](https://xianweiz.github.io/) in the [School of Computer Science & Engineering](https://cse.sysu.edu.cn/) at [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/).
-At <i>arcSYSu</i>, we explore cutting-edge topics in computer systems and architecture, with a focus on advancing high-performance and intelligent computing technologies.</p>
+<p class="homeid">We are the <i>arcSYSu</i> research group led by Assoc. Prof. [Xianwei Zhang](https://xianweiz.github.io/) in the [School of Computer Science & Engineering](https://cse.sysu.edu.cn/) at [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/).
+Our team explores the frontiers of computer systems and architecture, with a particular focus on high-performance, intelligent, and scalable computing.
+At <i>arcSYSu</i>, we strive to design efficient systems and push the limits of computational performance to power the next-generation computing paradigms.
+</p>
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -45,7 +47,7 @@ At <i>arcSYSu</i>, we explore cutting-edge topics in computer systems and archit
 </div>
 
 <i>arcSYSu</i> is proudly part of the Interdisciplinary Research Center (<i>xRC</i>), directed by Prof. <a href="https://cse.sysu.edu.cn/teacher/LuYutong">Yutong Lu</a> and Prof. <a href="https://cse.sysu.edu.cn/teacher/XiaoNong">Nong Xiao</a>.
-We work closely with other exceptional teams within the center on a broad spectrum of areas in HPC+AI design and applications.
+We work closely with other exceptional teams across the center on a broad spectrum of areas in HPC+AI design and applications.
 
 Our research is supported by prestigious programs, including the National Key R&D Program, the National Science Foundation of China, as well as collaborative partnerships with industry leaders like Tencent®, Huawei® and Phytium®.
 
