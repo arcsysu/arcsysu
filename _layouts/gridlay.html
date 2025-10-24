@@ -2,5 +2,16 @@
 layout: default
 ---
 <div id="gridid" class="col-sm-12">
+  {% if page.permalink == '/publications' or page.url == '/publications' %}
+    <nav class="side">
+      <ul>
+        <li><a href="#" title="jump to top"><img alt="top" src="https://dblp.org/img/top.dark.16x16.png" class="icon"></a></li>
+        <li class="underline" title="jump to the 2020s"><a href="#the2020s"><span class="generic-icon"><small>'20</small></span></a></li>
+        <li class="underline" title="jump to the 2010s"><a href="#the2010s"><span class="generic-icon"><small>'10</small></span></a></li>
+        <li><a title="jump to Coauthor Index" href="#coauthors"><img alt="coauthors" class="icon" src="https://dblp.org/img/coauthor.dark.16x16.png"></a></li>
+        <li><a href="#conf" title="jump to bottom"><img alt="bottom" src="https://dblp.org/img/bottom.dark.16x16.png" class="icon"></a></li>
+      </ul>
+    </nav>
+  {% endif %}
   {{ content }}
 </div>

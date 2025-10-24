@@ -26,6 +26,20 @@ img {
 	margin: 0;
 }
 
+.navbar{
+	background-image: linear-gradient(#057234, #005826);
+	color: #ffffff;
+}
+
+// .panel-footer{
+// 	background-image: linear-gradient(#057234, #005826);
+// 	color: #ffffff;
+// }
+
+li.active{
+	background-color: #023f1c;
+}
+
 body {
 	padding-top: 70px;
 }
@@ -145,6 +159,14 @@ pubtit {
 #picid img { margin: 6px 3px 60px 6px; border-radius:1%; box-shadow: 2px 2px 5px #888888 }
 #gridid .row { margin-bottom: 24px; }
 
+// 右侧导航栏
+nav.side {
+  position: absolute;
+  right: 30px;
+  margin: 0px;
+  padding: 0px;
+  z-index: 10;
+}
 
 /* Carusel */
 

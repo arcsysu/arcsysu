@@ -2,11 +2,11 @@
   <div class="container-fluid">
 	<div class="navbar-header">
 		<a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">
-		  <u>Arc</u>hitecture and
+		  <font color=#ffffff><u>Arc</u>hitecture and
 		  <u>Sys</u>tem
-		  <u>U</u>pscaling
+		  <u>U</u>pscaling</font>
 		  (<b><font color="#009999">ARC</font><font color="#0000C6">SYS</font><font color="#339900">U</font></b>)
-		  lab @ SYSU</a>
+		  <font color=#ffffff>lab @ SYSU</a></font>
 
 		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
 			<span class="sr-only">Toggle navigation</span>
@@ -27,11 +27,30 @@
             {% endif %}
 	  </ul> -->
 	  <ul class="nav navbar-nav navbar-right">
-		<li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/people">People</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a></li>
-    <!--<li><a href="{{ site.url }}{{ site.baseurl }}/projects">Projects</a></li>-->
-		<li><a href="{{ site.url }}{{ site.baseurl }}/misc">Miscellaneous</a></li>
+		{% if page.permalink == '/' %}
+			<li class="active"><a href="{{ site.url }}{{ site.baseurl }}/"><font color=#ffffff>Home</font></a></li>
+		{% else %}
+			<li><a href="{{ site.url }}{{ site.baseurl }}/"><font color=#ffffff>Home</font></a></li>
+		{% endif %}
+		{% if page.permalink == '/people' or page.url == '/people' %}
+			<li class="active"><a href="{{ site.url }}{{ site.baseurl }}/people"><font color=#ffffff>People</font></a></li>
+		{% else %}
+			<li><a href="{{ site.url }}{{ site.baseurl }}/people"><font color=#ffffff>People</font></a></li>
+		{% endif %}
+
+		{% if page.permalink == '/publications' or page.url == '/publications' %}
+			<li class="active"><a href="{{ site.url }}{{ site.baseurl }}/publications"><font color=#ffffff>Publications</font></a></li>
+		{% else %}
+			<li><a href="{{ site.url }}{{ site.baseurl }}/publications"><font color=#ffffff>Publications</font></a></li>
+		{% endif %}
+
+	    <!--<li><a href="{{ site.url }}{{ site.baseurl }}/projects">Projects</a></li>-->
+
+		{% if page.permalink == '/misc' or page.url == '/misc' %}
+			<li class="active"><a href="{{ site.url }}{{ site.baseurl }}/misc"><font color=#ffffff>Miscellaneous</font></a></li>
+		{% else %}
+			<li><a href="{{ site.url }}{{ site.baseurl }}/misc"><font color=#ffffff>Miscellaneous</font></a></li>
+		{% endif %}
 	<!-- li><a href="{{ site.url }}{{ site.baseurl }}/pictures">(Pics)</a></li> -->
 	  </ul>
 	</div>

@@ -8,7 +8,9 @@ zh_url: /zh/publications
 permalink: /publications
 ---
 
-# Publications
+
+
+# Publications <a name=""></a>
 Also available at
 <!--<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/pub-scholar.webp" style="width:25px">-->
 <a href="https://scholar.google.com/citations?user=k9_kXbQAAAAJ&hl=en">Google Scholar</a>,
@@ -67,7 +69,9 @@ Also available at
   , <em>{{ patent.conf }} </em>
 {% endfor %}
 
-## Conference/Journal
+
+
+## Conference/Journal <a name="conf"></a> 
 Note: <u>Supervised Student</u>, Corresponding<sup>#</sup>
 <br>[arXiv](#arxiv), [2025](#2025), [2024](#2024), [2023](#2023), [2022](#2022), [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2013](#2013)
 
