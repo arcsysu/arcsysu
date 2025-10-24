@@ -9,8 +9,8 @@ permalink: /people
 ---
 
 # Team Members
-**<u>A</u>RCSYSUers <u>R</u>efine <u>C</u>omputing <u>Sys</u>tem <u>U</u>ses!**
-Join us! (详见 [FAQs](https://xianweiz.github.io/notes/hire_QAs.txt)).
+  **<u>A</u>RCSYSUers <u>R</u>efine <u>C</u>omputing <u>Sys</u>tem <u>U</u>ses!**
+  Join us! (详见 [FAQs](https://xianweiz.github.io/notes/hire_QAs.txt)).
 
 
 <!-- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->

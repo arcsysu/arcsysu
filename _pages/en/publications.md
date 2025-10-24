@@ -10,7 +10,7 @@ permalink: /publications
 
 
 
-# Publications <a name=""></a>
+# Publications
 Also available at
 <!--<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/pub-scholar.webp" style="width:25px">-->
 <a href="https://scholar.google.com/citations?user=k9_kXbQAAAAJ&hl=en">Google Scholar</a>,
