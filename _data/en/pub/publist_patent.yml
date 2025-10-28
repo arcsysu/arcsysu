@@ -34,7 +34,7 @@
   desc:
   highlight: 1
 
-- authors: "<i>Xianwei Zhang</i>, <u>Yuhao Gu</u>, Zhiguang Chen and Yutong Lu"
+- authors: "<i>Xianwei Zhang</i>, Yuhao Gu, Zhiguang Chen and Yutong Lu"
   title:
     name: "A Programmable Data Exchange System"
     url: https://www.xjishu.com/zhuanli/62/202510077351.html
@@ -43,7 +43,7 @@
   desc:
   highlight: 1
 
-- authors: "<u>Zewei Mo</u>, <i>Xianwei Zhang</i>, <u>Tianao Ge</u> and Yutong Lu"
+- authors: "Zewei Mo, <i>Xianwei Zhang</i>, Tianao Ge and Yutong Lu"
   title:
     name: "A Compiler-Based Automatic Multi-Stream Scheduling Method for Kernel Functions"
     url: https://www.xjishu.com/zhuanli/55/202210172808.html
@@ -52,7 +52,7 @@
   desc:
   highlight: 1
 
-- authors: "<u>Zewei Mo</u>, <i>Xianwei Zhang</i> and <u>Tianao Ge</u>"
+- authors: "Zewei Mo, <i>Xianwei Zhang</i> and Tianao Ge"
   title:
     name: "An Error-Controllable Automated Optimization Method for Mixed-Precision Operators"
     url: https://www.xjishu.com/zhuanli/55/202111551663.html
@@ -61,7 +61,7 @@
   desc:
   highlight: 1
 
-- authors: "<u>Tianao Ge</u>, <i>Xianwei Zhang</i>, <u>Zewei Mo</u> and Yutong Lu"
+- authors: "Tianao Ge, <i>Xianwei Zhang</i>, Zewei Mo and Yutong Lu"
   title:
     name: "A Loop-Folding-Based Binary Code Size Optimizer"
     url: https://www.xjishu.com/zhuanli/55/202210154571.html

@@ -71,8 +71,8 @@ Also available at
 
 
 
-## Conference/Journal <a name="conf"></a> 
-Note: <u>Supervised Student</u>, Corresponding<sup>#</sup>
+## Conference/Journal <a name="conf"></a>
+Note: <u>(Co-)Supervised Student</u>, Corresponding<sup>#</sup>
 <br>[arXiv](#arxiv), [2025](#2025), [2024](#2024), [2023](#2023), [2022](#2022), [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2013](#2013)
 
 <a id="arxiv"></a>

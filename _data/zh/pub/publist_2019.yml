@@ -11,7 +11,7 @@
   title:
     name: "Boosting Chipkill Capability under Retention-error Induced Reliability Emergency"
     url: https://xianweiz.github.io/doc/papers/chipkill_aspdac19.pdf
-  conf: "The 24th Asia and South Pacific Design Automation Conference (<b>ASPDAC</b>), Tokyo, Japan, Janurary 2019."
+  conf: "The 24th Asia and South Pacific Design Automation Conference (<b>ASP-DAC</b>), Tokyo, Japan, Janurary 2019."
   label: C9
   desc: <font color="#ff9933">(CCF-C)</font>
   highlight: 1

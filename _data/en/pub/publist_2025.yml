@@ -1,4 +1,4 @@
-- authors: "<u>Wenxuan Pan</u>, <u>Zejia Lin</u>, Jiangsu Du and <i>Xianwei Zhang</i>"
+- authors: "<u>Wenxuan Pan</u>, <u>Zejia Lin</u>, Jiangsu Du<sup>#</sup> and <i>Xianwei Zhang</i><sup>#</sup>"
   title:
     name: "HuntKTm: Hybrid Scheduling and Automatic Management for Efficient Kernel Execution on Modern GPUs"
     url:
@@ -7,7 +7,7 @@
   desc: <font color="red">(CCF-A)</font>
   highlight: 1
 
-- authors: "<u>Hongxin Xu</u><sup>*</sup>, <u>Tianyu Guo</u><sup>*</sup> and <i>Xianwei Zhang</i><sup>#</sup> (<sup>*</sup>Equal Contribution)"
+- authors: "<u>Hongxin Xu</u><sup>=</sup>, <u>Tianyu Guo</u><sup>=</sup> and <i>Xianwei Zhang</i><sup>#</sup> (<sup>=</sup>Equal Contribution)"
   title:
     name: "DynaPipe: Dynamic Layer Redistribution for Efficient Serving of LLMs with Pipeline Parallelism"
     url:
@@ -20,7 +20,7 @@
   title:
     name: "coMtainer: Compilation-assisted HPC Container Images with Enhanced Adaptability"
     url:
-  conf: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (<b>SC</b>), St. louis, MO, United States, November 2025."
+  conf: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (<b>SC</b>), St. Louis, MO, United States, November 2025."
   label: C28
   desc: <font color="red">(CCF-A)</font>
   highlight: 1
@@ -29,7 +29,7 @@
   title:
     name: "gLLM: Global Balanced Pipeline Parallelism Systems for Distributed LLMs Serving with Token Throttling"
     url:
-  conf: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (<b>SC</b>), St. louis, MO, United States, November 2025."
+  conf: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (<b>SC</b>), St. Louis, MO, United States, November 2025."
   label: C27
   desc: <font color="red">(CCF-A)</font>
   highlight: 1
@@ -38,7 +38,7 @@
   title:
     name: "HStencil: Matrix-Vector Stencil Computation with Interleaved Outer Product and MLA"
     url:
-  conf: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (<b>SC</b>), St. louis, MO, United States, November 2025."
+  conf: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (<b>SC</b>), St. Louis, MO, United States, November 2025."
   label: C26
   desc: <font color="red">(CCF-A)</font>
   highlight: 1
