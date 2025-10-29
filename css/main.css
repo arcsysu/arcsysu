@@ -7640,6 +7640,8 @@ figcaption {
   }
   .navbar-toggle {
     display: block;
+    z-index: 1040;
+    position: relative;
   }
   .navbar-collapse {
     border-top: none !important;
@@ -7648,7 +7650,7 @@ figcaption {
   .navbar-collapse.collapse {
     display: none !important;
   }
-  .navbar-collapse.in {
+  .navbar-collapse.collapse.in {
     display: block !important;
   }
   .navbar-nav {
