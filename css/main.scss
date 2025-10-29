@@ -69,6 +69,15 @@ body {
 	padding-top: 70px;
 }
 
+// 确保 navbar 不受 flex 影响
+.navbar-fixed-top {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1030;
+}
+
 body > .container-fluid { 
 	flex: 1 0 auto;
 	width: 100%;
@@ -76,7 +85,6 @@ body > .container-fluid {
 
 .panel-footer{
 	flex-shrink: 0;       
-	max-height: 80px;
 	align-items: center;   
 }
 
@@ -109,23 +117,30 @@ figcaption {
 	}
 
 	.navbar-header { 
-		float: none; 
+		float: none;
+		position: relative;
+		z-index: 1050;  // 确保 header 在最上层
 	}
 	.navbar-toggle { 
 		display: block;
-		z-index: 1040;
 		position: relative;
+		z-index: 1051;  
+		cursor: pointer;  
 	}
 	.navbar-collapse{ 
 		border-top: none !important; box-shadow: none !important;
+		position: relative;
+		z-index: 1040;
 	}   // 去除导航栏与下拉菜单分割线
 	.navbar-collapse.collapse { 
 		display: none !important; 
 	}
 	.navbar-collapse.collapse.in { 
 		display: block !important; 
+		overflow-y: auto !important;
+		max-height: calc(100vh - 50px);  // 防止菜单过长
 	}
-	.navbar-nav { 
+	.navbar-nav { 	
 		float: none !important; margin: 7.5px -15px; 
 	}					// 下拉菜单未展开时隐藏
 	.navbar-nav > li {
@@ -204,14 +219,6 @@ pubtit {
 #picid img { margin: 6px 3px 60px 6px; border-radius:1%; box-shadow: 2px 2px 5px #888888 }
 #gridid .row { margin-bottom: 24px; }
 
-// 右侧导航栏
-nav.side {
-  position: absolute;
-  right: 30px;
-  margin: 0px;
-  padding: 0px;
-  z-index: 10;
-}
 
 /* Carusel */
 
