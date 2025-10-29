@@ -7646,12 +7646,15 @@ figcaption {
     float: none;
     position: relative;
     z-index: 1050;
+    align-items: center !important;
   }
   .navbar-toggle {
     display: block;
     position: relative;
     z-index: 1051;
     cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.2);
+    touch-action: manipulation;
   }
   .navbar-collapse {
     border-top: none !important;
@@ -7663,6 +7666,7 @@ figcaption {
     display: none !important;
   }
   .navbar-collapse.collapse.in {
+    top: 10px;
     display: block !important;
     overflow-y: auto !important;
     max-height: calc(100vh - 50px);
@@ -7682,9 +7686,6 @@ figcaption {
 @media (max-width: 596px) {
   .navbar {
     min-height: 70px !important;
-  }
-  .navbar-toggle {
-    top: 10px;
   }
 }
 @media (min-width: 768px) {
