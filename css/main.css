@@ -7687,6 +7687,9 @@ figcaption {
   .navbar {
     min-height: 70px !important;
   }
+  .navbar-toggle {
+    top: 10px;
+  }
 }
 @media (min-width: 768px) {
   .container-fluid {
