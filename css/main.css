@@ -7600,6 +7600,14 @@ body {
   padding-top: 70px;
 }
 
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+}
+
 body > .container-fluid {
   flex: 1 0 auto;
   width: 100%;
@@ -7607,7 +7615,6 @@ body > .container-fluid {
 
 .panel-footer {
   flex-shrink: 0;
-  max-height: 80px;
   align-items: center;
 }
 
@@ -7637,21 +7644,28 @@ figcaption {
   }
   .navbar-header {
     float: none;
+    position: relative;
+    z-index: 1050;
   }
   .navbar-toggle {
     display: block;
-    z-index: 1040;
     position: relative;
+    z-index: 1051;
+    cursor: pointer;
   }
   .navbar-collapse {
     border-top: none !important;
     box-shadow: none !important;
+    position: relative;
+    z-index: 1040;
   }
   .navbar-collapse.collapse {
     display: none !important;
   }
   .navbar-collapse.collapse.in {
     display: block !important;
+    overflow-y: auto !important;
+    max-height: calc(100vh - 50px);
   }
   .navbar-nav {
     float: none !important;
@@ -7741,14 +7755,6 @@ pubtit {
 
 #gridid .row {
   margin-bottom: 24px;
-}
-
-nav.side {
-  position: absolute;
-  right: 30px;
-  margin: 0px;
-  padding: 0px;
-  z-index: 10;
 }
 
 /* Carusel */
