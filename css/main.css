@@ -7631,7 +7631,7 @@ figcaption {
 
 @media (max-width: 900px) {
   .navbar {
-    min-height: 50px !important;
+    min-height: 62px !important;
   }
   .navbar-brand {
     max-width: calc(100% - 80px);
@@ -7649,6 +7649,7 @@ figcaption {
     align-items: center !important;
   }
   .navbar-toggle {
+    top: 3px;
     display: block;
     position: relative;
     z-index: 1051;
@@ -7666,7 +7667,6 @@ figcaption {
     display: none !important;
   }
   .navbar-collapse.collapse.in {
-    top: 10px;
     display: block !important;
     overflow-y: auto !important;
     max-height: calc(100vh - 50px);
@@ -7686,9 +7686,19 @@ figcaption {
 @media (max-width: 596px) {
   .navbar {
     min-height: 70px !important;
+    align-items: center;
+  }
+  .navbar-brand {
+    padding-top: 10px !important;
   }
   .navbar-toggle {
     top: 10px;
+  }
+  .navbar > .container-fluid {
+    min-height: 70px;
+  }
+  .navbar > .container-fluid > .navbar-header {
+    min-height: 70px;
   }
 }
 @media (min-width: 768px) {
