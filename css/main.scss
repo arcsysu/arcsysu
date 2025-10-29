@@ -120,12 +120,15 @@ figcaption {
 		float: none;
 		position: relative;
 		z-index: 1050;  // 确保 header 在最上层
+		align-items: center !important	;
 	}
 	.navbar-toggle { 
 		display: block;
 		position: relative;
 		z-index: 1051;  
-		cursor: pointer;  
+		cursor: pointer;
+		-webkit-tap-highlight-color: rgba(0,0,0,0.2);  // 添加触摸反馈
+		touch-action: manipulation;  // 优化触摸响应
 	}
 	.navbar-collapse{ 
 		border-top: none !important; box-shadow: none !important;
@@ -136,6 +139,7 @@ figcaption {
 		display: none !important; 
 	}
 	.navbar-collapse.collapse.in { 
+		top: 10px;
 		display: block !important; 
 		overflow-y: auto !important;
 		max-height: calc(100vh - 50px);  // 防止菜单过长
@@ -155,10 +159,22 @@ figcaption {
 	.navbar{
 		min-height: 70px !important;	
 	}
-	.navbar-toggle{
-		top: 10px;
-	}
+	// .navbar-toggle{
+	// 	top: 10px;
+	// }
 }
+
+// @media (max-width: 356px){
+// 	.navbar-brand{
+// 		max-width: calc(100% - 80px);   	// 防止与汉堡菜单挤在一起
+// 		white-space: normal;          		
+// 		overflow: hidden;
+// 		word-break: break-all;      
+// 		overflow-wrap: anywhere;     
+// 		line-height: 1.2;            
+// 		display: block; 
+// 	}
+// }
 
 @media (min-width: 768px) {
 	.container-fluid {
