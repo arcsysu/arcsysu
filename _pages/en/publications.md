@@ -8,59 +8,11 @@ zh_url: /zh/publications
 permalink: /publications
 ---
 
-
-
 # Publications
 Also available at
-<!--<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/pub-scholar.webp" style="width:25px">-->
 <a href="https://scholar.google.com/citations?user=k9_kXbQAAAAJ&hl=en">Google Scholar</a>,
-<!-- <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/pub-dblp.webp" style="width:25px">-->
 <a href="https://dblp.org/pid/135/8227-1.html">DBLP</a> and
-<!-- <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/pub-orcid.webp" style="width:25px">-->
 <a href="https://orcid.org/0000-0003-3507-4299">ORCID</a>.
-
-<!-- ## Group highlights
-
-**At the end of this page, you can find the [full list of publications and patents](#full-list-of-publications). All papers are also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Allan%2C+M+P).** -->
-
-{% assign number_printed = 0 %}
-{% for publi in site.data.en.pub.publist_2025 %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if publi.highlight == 1 %}
-
-<!--{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
- <div class="col-sm-6 clearfix">
- <div class="well">
-  <pubtit>{{ publi.title }}</pubtit>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
-  <p>{{ publi.description }}</p>
-  <p><em>{{ publi.authors }}</em></p>
-  <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
-  <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
-  <p> {{ publi.news2 }}</p>
- </div>
-</div> -->
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-<!--{% if even_odd == 1 %}
-</div>
-{% endif %}-->
-
-{% endif %}
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-<!--{% if even_odd == 1 %}
-</div>
-{% endif %}-->
-
-<!--<p> &nbsp; </p>-->
-
 
 ## Patents
 {% for patent in site.data.en.pub.publist_patent %}
@@ -69,112 +21,268 @@ Also available at
   , <em>{{ patent.conf }} </em>
 {% endfor %}
 
-
-
-## Conference/Journal <a name="conf"></a>
+## Conference/Journal Publications
 Note: <u>(Co-)Supervised Student</u>, Corresponding<sup>#</sup>
-<br>[arXiv](#arxiv), [2025](#2025), [2024](#2024), [2023](#2023), [2022](#2022), [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2013](#2013)
 
-<a id="arxiv"></a>
-<b>arXiv</b>
-{% for publi in site.data.zh.pub.publist_arxiv %}
-  [{{ publi.label }}] {{ publi.authors }} <br />
-  <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
-  <br /><em>{{ publi.conf }} </em>
-{% endfor %}
+<!-- 搜索框 -->
+<div class="pub-search-container" markdown="0">
+<div class="pub-search-wrapper">
+<input type="text" id="pub-search" placeholder="Search publications by keyword (title, author, conference...)">
+<button id="clear-search" title="Clear search">×</button>
+</div>
+<div id="search-results-count"></div>
+</div>
 
-<a id="2025"></a>
-<b>2025</b>
+<!-- Tab 导航栏 -->
+<ul class="tab-nav">
+  <li><div class="button active" data-ref="#tab-selected">Selected</div></li>
+  <li><div class="button" data-ref="#tab-2025">2025</div></li>
+  <li><div class="button" data-ref="#tab-2024">2024</div></li>
+  <li><div class="button" data-ref="#tab-2023">2023</div></li>
+  <li><div class="button" data-ref="#tab-2022">2022</div></li>
+  <li><div class="button" data-ref="#tab-2021">2021</div></li>
+  <li><div class="button" data-ref="#tab-2020">2020</div></li>
+  <li><div class="button" data-ref="#tab-2019">2019</div></li>
+  <li><div class="button" data-ref="#tab-2018">2018</div></li>
+  <li><div class="button" data-ref="#tab-2017">2017</div></li>
+  <li><div class="button" data-ref="#tab-2016">2016</div></li>
+  <li><div class="button" data-ref="#tab-2015">2015</div></li>
+  <li><div class="button" data-ref="#tab-2013">2013</div></li>
+</ul>
+
+<!-- Tab 内容区域 -->
+<div class="tab-content">
+  
+  <!-- Selected  -->
+  <div id="tab-selected" class="tab-pane active" markdown="1">
+
+### Selected Publications
+
+{% assign selected_papers = "" | split: "" %}
+
 {% for publi in site.data.en.pub.publist_2025 %}
-  [{{ publi.label }}] {{ publi.authors }} <br />
-  <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
-  <br /><em>{{ publi.conf }} </em>
+  {% if publi.highlight == 1 %}
+    {% assign selected_papers = selected_papers | push: publi %}
+  {% endif %}
 {% endfor %}
 
-<a id="2024"></a>
-<b>2024</b>
 {% for publi in site.data.en.pub.publist_2024 %}
-  [{{ publi.label }}] {{ publi.authors }} <br />
-  <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
-  <br /><em>{{ publi.conf }} </em>
+  {% if publi.highlight == 1 %}
+    {% assign selected_papers = selected_papers | push: publi %}
+  {% endif %}
 {% endfor %}
 
-<a id="2023"></a>
-<b>2023</b>
 {% for publi in site.data.en.pub.publist_2023 %}
-  [{{ publi.label }}] {{ publi.authors }} <br />
-  <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
-  <br /><em>{{ publi.conf }} </em>
+  {% if publi.highlight == 1 %}
+    {% assign selected_papers = selected_papers | push: publi %}
+  {% endif %}
 {% endfor %}
 
-<a id="2022"></a>
-<b>2022</b>
+{% if selected_papers.size > 0 %}
+  {% for publi in selected_papers %}
+<div class="pub-item" markdown="1">
+[{{ publi.label }}] {{ publi.authors }}  
+<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+*{{ publi.conf }}*
+</div>
+
+  {% endfor %}
+{% else %}
+*No selected publications yet.*
+{% endif %}
+
+  </div>
+
+  <!-- 2025 -->
+  <div id="tab-2025" class="tab-pane" markdown="1">
+
+### 2025
+
+{% for publi in site.data.en.pub.publist_2025 %}
+<div class="pub-item" markdown="1">
+[{{ publi.label }}] {{ publi.authors }}  
+<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+*{{ publi.conf }}*
+</div>
+
+{% endfor %}
+
+  </div>
+
+  <!-- 2024 -->
+  <div id="tab-2024" class="tab-pane" markdown="1">
+
+### 2024
+
+{% for publi in site.data.en.pub.publist_2024 %}
+<div class="pub-item" markdown="1">
+[{{ publi.label }}] {{ publi.authors }}  
+<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+*{{ publi.conf }}*
+</div>
+
+{% endfor %}
+
+  </div>
+
+  <!-- 2023 -->
+  <div id="tab-2023" class="tab-pane" markdown="1">
+
+### 2023
+
+{% for publi in site.data.en.pub.publist_2023 %}
+<div class="pub-item" markdown="1">
+[{{ publi.label }}] {{ publi.authors }}  
+<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+*{{ publi.conf }}*
+</div>
+
+{% endfor %}
+
+  </div>
+
+  <!-- 2022 -->
+  <div id="tab-2022" class="tab-pane" markdown="1">
+
+### 2022
+
 {% for publi in site.data.en.pub.publist_2022 %}
-  [{{ publi.label }}] {{ publi.authors }} <br />
-  <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
-  <br /><em>{{ publi.conf }} </em>
+<div class="pub-item" markdown="1">
+[{{ publi.label }}] {{ publi.authors }}  
+<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+*{{ publi.conf }}*
+</div>
+
 {% endfor %}
 
-<a id="2021"></a>
-<b>2021</b>
+  </div>
+
+  <!-- 2021 -->
+  <div id="tab-2021" class="tab-pane" markdown="1">
+
+### 2021
+
 {% for publi in site.data.en.pub.publist_2021 %}
-  [{{ publi.label }}] {{ publi.authors }} <br />
-  <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
-  <br /><em>{{ publi.conf }} </em>
+<div class="pub-item" markdown="1">
+[{{ publi.label }}] {{ publi.authors }}  
+<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+*{{ publi.conf }}*
+</div>
+
 {% endfor %}
 
-<a id="2020"></a>
-<b>2020</b>
+  </div>
+
+  <!-- 2020 -->
+  <div id="tab-2020" class="tab-pane" markdown="1">
+
+### 2020
+
 {% for publi in site.data.en.pub.publist_2020 %}
-  [{{ publi.label }}] {{ publi.authors }} <br />
-  <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
-  <br /><em>{{ publi.conf }} </em>
+<div class="pub-item" markdown="1">
+[{{ publi.label }}] {{ publi.authors }}  
+<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+*{{ publi.conf }}*
+</div>
+
 {% endfor %}
 
-<a id="2019"></a>
-<b>2019</b>
+  </div>
+
+  <!-- 2019 -->
+  <div id="tab-2019" class="tab-pane" markdown="1">
+
+### 2019
+
 {% for publi in site.data.en.pub.publist_2019 %}
-  [{{ publi.label }}] {{ publi.authors }} <br />
-  <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
-  <br /><em>{{ publi.conf }} </em>
+<div class="pub-item" markdown="1">
+[{{ publi.label }}] {{ publi.authors }}  
+<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+*{{ publi.conf }}*
+</div>
+
 {% endfor %}
 
-<a id="2018"></a>
-<b>2018</b>
+  </div>
+
+  <!-- 2018 -->
+  <div id="tab-2018" class="tab-pane" markdown="1">
+
+### 2018
+
 {% for publi in site.data.en.pub.publist_2018 %}
-  [{{ publi.label }}] {{ publi.authors }} <br />
-  <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
-  <br /><em>{{ publi.conf }} </em>
+<div class="pub-item" markdown="1">
+[{{ publi.label }}] {{ publi.authors }}  
+<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+*{{ publi.conf }}*
+</div>
+
 {% endfor %}
 
-<a id="2017"></a>
-<b>2017</b>
+  </div>
+
+  <!-- 2017 -->
+  <div id="tab-2017" class="tab-pane" markdown="1">
+
+### 2017
+
 {% for publi in site.data.en.pub.publist_2017 %}
-  [{{ publi.label }}] {{ publi.authors }} <br />
-  <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
-  <br /><em>{{ publi.conf }} </em>
+<div class="pub-item" markdown="1">
+[{{ publi.label }}] {{ publi.authors }}  
+<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+*{{ publi.conf }}*
+</div>
+
 {% endfor %}
 
-<a id="2016"></a>
-<b>2016</b>
+  </div>
+
+  <!-- 2016 -->
+  <div id="tab-2016" class="tab-pane" markdown="1">
+
+### 2016
+
 {% for publi in site.data.en.pub.publist_2016 %}
-  [{{ publi.label }}] {{ publi.authors }} <br />
-  <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
-  <br /><em>{{ publi.conf }} </em>
+<div class="pub-item" markdown="1">
+[{{ publi.label }}] {{ publi.authors }}  
+<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+*{{ publi.conf }}*
+</div>
+
 {% endfor %}
 
-<a id="2015"></a>
-<b>2015</b>
+  </div>
+
+  <!-- 2015 -->
+  <div id="tab-2015" class="tab-pane" markdown="1">
+
+### 2015
+
 {% for publi in site.data.en.pub.publist_2015 %}
-  [{{ publi.label }}] {{ publi.authors }} <br />
-  <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
-  <br /><em>{{ publi.conf }} </em>
+<div class="pub-item" markdown="1">
+[{{ publi.label }}] {{ publi.authors }}  
+<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+*{{ publi.conf }}*
+</div>
+
 {% endfor %}
 
-<a id="2013"></a>
-<b>2013</b>
+  </div>
+
+  <!-- 2013 -->
+  <div id="tab-2013" class="tab-pane" markdown="1">
+
+### 2013
+
 {% for publi in site.data.en.pub.publist_2013 %}
-  [{{ publi.label }}] {{ publi.authors }} <br />
-  <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
-  <br /><em>{{ publi.conf }} </em>
+<div class="pub-item" markdown="1">
+[{{ publi.label }}] {{ publi.authors }}  
+<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+*{{ publi.conf }}*
+</div>
+
 {% endfor %}
+
+  </div>
+
+</div>

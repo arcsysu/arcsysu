@@ -8,9 +8,11 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="icon" href="{{ '/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
   
-  <!-- jQuery 和 Bootstrap JS - 在 head 中加载确保导航功能正常 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
+  
+  <!-- Publications selector and search box -->
+  <script src="{{ site.url }}{{ site.baseurl }}/js/custom.js"></script>
   
 {% if jekyll.environment == 'production' %}
 {% include analytics.html %}
