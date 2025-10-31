@@ -24,6 +24,8 @@ Also available at
 ## Conference/Journal Publications
 Note: <u>(Co-)Supervised Student</u>, Corresponding<sup>#</sup>
 
+{% include pub_sidebar.html %}
+
 <!-- 搜索框 -->
 <div class="pub-search-container" markdown="0">
 <div class="pub-search-wrapper">
