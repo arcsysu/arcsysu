@@ -565,7 +565,7 @@
   conf: "US11487671B2, 2022."
   label: P8
   desc:
-  year:
+  year: Patent
   theme:
     - Patent
   highlight: 0
@@ -577,7 +577,7 @@
   conf: "US11507522B2, 2022."
   label: P7
   desc:
-  year:
+  year: Patent
   theme:
     - Patent
   highlight: 0
@@ -589,7 +589,7 @@
   conf: "US11740791B2, 2023."
   label: P6
   desc:
-  year:
+  year: Patent
   theme:
     - Patent
   highlight: 0
@@ -601,7 +601,7 @@
   conf: "US11150899B2, 2021."
   label: P5
   desc:
-  year:
+  year: Patent
   theme:
     - Patent
   highlight: 0
@@ -613,7 +613,7 @@
   conf: "ZL 2025 1 0077351.0"
   label: P4
   desc:
-  year:
+  year: Patent
   theme:
     - Patent
   highlight: 0
@@ -625,7 +625,7 @@
   conf: "ZL 2022 1 0172808.2"
   label: P3
   desc:
-  year:
+  year: Patent
   theme:
     - Patent
   highlight: 0
@@ -637,7 +637,7 @@
   conf: "ZL 2021 1 1551663.9"
   label: P2
   desc:
-  year:
+  year: Patent
   theme:
     - Patent
   highlight: 0
@@ -649,7 +649,7 @@
   conf: "ZL 2022 1 0154571.5"
   label: P1
   desc:
-  year:
+  year: Patent
   theme:
     - Patent
   highlight: 0
