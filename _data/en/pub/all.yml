@@ -10,7 +10,9 @@
   desc: <font color="red">(CCF-A)</font>
   year: 2025
   theme:
+    - GPU
     - Arch
+    - Compile
   highlight: 1
 
 - authors: "<u>Hongxin Xu</u><sup>=</sup>, <u>Tianyu Guo</u><sup>=</sup> and <i>Xianwei Zhang</i><sup>#</sup> (<sup>=</sup>Equal Contribution)"
@@ -35,6 +37,7 @@
   year: 2025
   theme:
     - HPC
+    - Compile
   highlight: 1
 
 - authors: "<u>Tianyu Guo</u>, <i>Xianwei Zhang</i><sup>#</sup>, Jiangsu Du, Zhiguang Chen<sup>#</sup>, Nong Xiao and Yutong Lu"
@@ -46,6 +49,7 @@
   desc: <font color="red">(CCF-A)</font>
   year: 2025
   theme:
+    - ML
     - HPC
   highlight: 1
 
@@ -59,6 +63,7 @@
   year: 2025
   theme:
     - HPC
+    - Arch
   highlight: 1
 
 - authors: "<u>Xuanteng Huang</u>, Jiangsu Du, Nong Xiao and <i>Xianwei Zhang</i><sup>#</sup>"
@@ -83,6 +88,7 @@
   year: 2025
   theme:
     - GPU
+    - Compile
   highlight: 1
 
 - authors: "<u>Yuhao Gu</u>, <u>Chunyu Chen</u>, Jiangsu Du, Xiaoxi Zhang and <i>Xianwei Zhang</i><sup>#</sup>"
@@ -93,7 +99,8 @@
   label: C23
   desc: <font color="red">(CCF-A)</font>
   year: 2025
-  theme: 
+  theme:
+    - Compile
   highlight: 1
 
 - authors: "<u>Mengyue Xi</u>, <u>Jingyi He</u> and <i>Xianwei Zhang</i><sup>#</sup>"
@@ -106,7 +113,8 @@
   year: 2025
   theme:
     - GPU
-  highlight: 1
+    - Arch
+  highlight: 0
 
 - authors: "<u>Tianyu Guo</u>, Hande Dong<sup>#</sup>, Yichong Leng, Feng Liu, Cheater Lin, Nong Xiao and <i>Xianwei Zhang</i><sup>#</sup>"
   title:
@@ -117,8 +125,8 @@
   desc: <font color="firebrick">(CCF-B)</font>
   year: 2025
   theme:
-    - HPC
-  highlight: 1
+    - ML
+  highlight: 0
 
 - authors: "<u>Mengyue Xi</u>, <u>Tianyu Guo</u>, <u>Xuanteng Huang</u>, <u>Zejia Lin</u> and <i>Xianwei Zhang</i><sup>#</sup>"
   title:
@@ -130,7 +138,8 @@
   year: 2025
   theme:
     - GPU
-  highlight: 1
+    - Arch
+  highlight: 0
 
 - authors: "<u>Hengzhong Liang</u>, <u>Han Huang</u> and <i>Xianwei Zhang</i><sup>#</sup>"
   title:
@@ -142,7 +151,7 @@
   year: 2025
   theme:
     - HPC
-  highlight: 1
+  highlight: 0
 
 - authors: "Pin Chen, Qing Mo, Zexin Xu, <i>Xianwei Zhang</i> and Yutong Lu<sup>#</sup>"
   title:
@@ -154,7 +163,7 @@
   year: 2025
   theme:
     - HPC
-  highlight: 1
+  highlight: 0
 
 
 # ============================================
@@ -170,6 +179,7 @@
   year: 2024
   theme:
     - GPU
+    - Arch
   highlight: 1
 
 - authors: "Yuanxin Wei, Jiangsu Du<sup>#</sup>, Jiazhi Jiang, Xiao Shi, <i>Xianwei Zhang</i>, Dan Huang<sup>#</sup>, Nong Xiao and Yutong Lu"
@@ -181,6 +191,7 @@
   desc: <font color="red">(CCF-A)</font>
   year: 2024
   theme:
+    - ML
     - HPC
   highlight: 1
 
@@ -194,7 +205,8 @@
   year: 2024
   theme:
     - GPU
-  highlight: 1
+    - Arch
+  highlight: 0
 
 - authors: "<u>Zhaowen Shan</u>, <u>Xuanteng Huang</u>, <u>Zheng Zhou</u> and <i>Xianwei Zhang</i><sup>#</sup>"
   title:
@@ -204,9 +216,9 @@
   label: C16
   desc: <font color="#ff9933">(CCF-C)</font>
   year: 2024
-  theme: 
+  theme:
     - ML
-  highlight: 1
+  highlight: 0
 
 - authors: "<u>Zhongchun Zheng</u>, Yuan Wu and <i>Xianwei Zhang</i><sup>#</sup>"
   title:
@@ -214,11 +226,12 @@
     url: https://xianweiz.github.io/doc/papers/mloop_nas24.pdf
   conf: "The 17th International Conference on Networking, Architecture, and Storage (<b>NAS</b>), Guangzhou, China, November 2024."
   label: C15
-  desc: 
+  desc:
   year: 2024
   theme:
+    - Compile
     - ML
-  highlight: 1
+  highlight: 0
 
 
 # ============================================
@@ -234,6 +247,8 @@
   year: 2023
   theme:
     - GPU
+    - Compile
+    - Arch
   highlight: 1
 
 - authors: "<u>Xuanteng Huang</u>, <i>Xianwei Zhang</i><sup>#</sup>, Panfei Yang<sup>#</sup> and Nong Xiao"
@@ -246,7 +261,7 @@
   year: 2023
   theme:
     - GPU
-  highlight: 1
+  highlight: 0
 
 - authors: "Xi Zhang<sup>#</sup>, Xiaohu Gu, <u>Yue Weng</u>, <i>Xianwei Zhang</i>, Yutong Lu and Zhong Zhao"
   title:
@@ -257,8 +272,9 @@
   desc: <font color="#ff9933">(CCF-C)</font>
   year: 2023
   theme:
+    - HPC
     - GPU
-  highlight: 1
+  highlight: 0
 
 - authors: "<u>Lianghong Huang</u>, <u>Zejia Lin</u>, Wei Liu<sup>#</sup> and <i>Xianwei Zhang</i><sup>#</sup>"
   title:
@@ -270,7 +286,7 @@
   year: 2023
   theme:
     - GPU
-  highlight: 1
+  highlight: 0
 
 
 # ============================================
@@ -285,7 +301,8 @@
   desc: <font color="firebrick">(CCF-B)</font>
   year: 2022
   theme:
-    - HPC
+    - Compile
+    - Arch
   highlight: 1
 
 - authors: "<u>Zewei Mo</u>, <u>Zejia Lin</u>, <i>Xianwei Zhang</i><sup>#</sup> and Yutong Lu"
@@ -298,7 +315,10 @@
   year: 2022
   theme:
     - GPU
-  highlight: 1
+    - Compile
+    - Arch
+    - HPC
+  highlight: 0
 
 - authors: "<u>Yue Weng</u>, <u>Tianao Ge</u>, <i>Xianwei Zhang</i><sup>#</sup> and Yutong Lu"
   title:
@@ -308,9 +328,10 @@
   label: C11
   desc: <font color="#ff9933">(CCF-C)</font>
   year: 2022
-  theme: 
+  theme:
     - GPU
-  highlight: 1
+    - Arch
+  highlight: 0
 
 
 # ============================================
@@ -325,8 +346,9 @@
   desc:
   year: 2021
   theme:
+    - HPC
     - GPU
-  highlight: 1
+  highlight: 0
 
 # ============================================
 # 2020
@@ -341,7 +363,8 @@
   year: 2020
   theme:
     - GPU
-  highlight: 1
+    - Arch
+  highlight: 0
 
 # ============================================
 # 2019
@@ -356,7 +379,8 @@
   year: 2019
   theme:
     - GPU
-  highlight: 1
+    - Arch
+  highlight: 0
 
 - authors: "<i>Xianwei Zhang</i>, Rujia Wang, Youtao Zhang and Jun Yang"
   title:
@@ -368,7 +392,7 @@
   year: 2019
   theme:
     - Arch
-  highlight: 1
+  highlight: 0
 
 - authors: "John Alsop, Matt Sinclair, Srikant Bharadwaj, Anthony Gutierrez, <i>Xianwei Zhang</i>, Brad Beckmann, Alex Dutu, Onur Kayiran, Michael LeBeane, Brandon Potter, Sooraj Puthoor and Tsung Tai Yeh"
   title:
@@ -380,7 +404,8 @@
   year: 2019
   theme:
     - GPU
-  highlight: 1
+    - Arch
+  highlight: 0
 
 # ============================================
 # 2018
@@ -395,6 +420,7 @@
   year: 2018
   theme:
     - GPU
+    - Arch
   highlight: 1
 
 # ============================================
@@ -422,7 +448,7 @@
   year: 2017
   theme:
     - Arch
-  highlight: 1
+  highlight: 0
 
 # ============================================
 # 2016
@@ -437,7 +463,7 @@
   year: 2016
   theme:
     - Arch
-  highlight: 1
+  highlight: 0
 
 - authors: "<i>Xianwei Zhang</i>, Youtao Zhang, Bruce R. Childers and Jun Yang"
   title:
@@ -464,7 +490,7 @@
   year: 2015
   theme:
     - Arch
-  highlight: 1
+  highlight: 0
 
 - authors: "<i>Xianwei Zhang</i>, Youtao Zhang and Jun Yang"
   title:
@@ -476,7 +502,7 @@
   year: 2015
   theme:
     - Arch
-  highlight: 1
+  highlight: 0
 
 - authors: "<i>Xianwei Zhang</i>, Youtao Zhang and Jun Yang"
   title:
@@ -488,7 +514,7 @@
   year: 2015
   theme:
     - Arch
-  highlight: 1
+  highlight: 0
 
 - authors: "<i>Xianwei Zhang</i>, Lei Zhao, Youtao Zhang and Jun Yang"
   title:
@@ -500,7 +526,7 @@
   year: 2015
   theme:
     - Arch
-  highlight: 1
+  highlight: 0
 
 - authors: "<i>Xianwei Zhang</i>, Youtao Zhang and Jun Yang"
   title:
@@ -512,7 +538,7 @@
   year: 2015
   theme:
     - Arch
-  highlight: 1
+  highlight: 0
 
 # ============================================
 # 2013
@@ -528,3 +554,102 @@
   theme:
     - Arch
   highlight: 1
+
+# ============================================
+# Patents
+# ============================================
+- authors: "<i>Xianwei Zhang</i>, John Kalamatianos and Bradford Beckmann"
+  title:
+    name: "GPU Cache Management based on Lightweight Locality Type Detection"
+    url: https://patents.google.com/patent/US11487671B2/en
+  conf: "US11487671B2, 2022."
+  label: P8
+  desc:
+  year:
+  theme:
+    - Patent
+  highlight: 0
+
+- authors: "Sooraj Puthoor, Kishore PUNNIYAMURTHY, Onur Kayiran, <i>Xianwei Zhang</i>, Yasuko ECKERT, Johnathan Alsop and Bradford Michael Beckmann"
+  title:
+    name: "Memory Request Priority Assignment Techniques for Parallel Processors"
+    url: https://patents.google.com/patent/US11507522B2/en
+  conf: "US11507522B2, 2022."
+  label: P7
+  desc:
+  year:
+  theme:
+    - Patent
+  highlight: 0
+
+- authors: "Seyed Mohammad Seyedzadehdelcheh, <i>Xianwei Zhang</i>, Bradford Beckmann, and Shomit N. Das"
+  title:
+    name: "Data Compression System Using Base Values and Methods Thereof"
+    url: https://patents.google.com/patent/US11740791B2/en
+  conf: "US11740791B2, 2023."
+  label: P6
+  desc:
+  year:
+  theme:
+    - Patent
+  highlight: 0
+
+- authors: "Anthony T. Gutierrez, Sergey Blagodurov, Scott A. Moe, <i>Xianwei Zhang</i>, Jieming Yin and Matthew D. Sinclair"
+  title:
+    name: "Selecting a Precision Level for Executing a Workload in an Electronic Device"
+    url: https://patents.google.com/patent/US20190310864A1/en
+  conf: "US11150899B2, 2021."
+  label: P5
+  desc:
+  year:
+  theme:
+    - Patent
+  highlight: 0
+
+- authors: "<i>Xianwei Zhang</i>, Yuhao Gu, Zhiguang Chen and Yutong Lu"
+  title:
+    name: "A Programmable Data Exchange System"
+    url: https://www.xjishu.com/zhuanli/62/202510077351.html
+  conf: "ZL 2025 1 0077351.0"
+  label: P4
+  desc:
+  year:
+  theme:
+    - Patent
+  highlight: 0
+
+- authors: "Zewei Mo, <i>Xianwei Zhang</i>, Tianao Ge and Yutong Lu"
+  title:
+    name: "A Compiler-Based Automatic Multi-Stream Scheduling Method for Kernel Functions"
+    url: https://www.xjishu.com/zhuanli/55/202210172808.html
+  conf: "ZL 2022 1 0172808.2"
+  label: P3
+  desc:
+  year:
+  theme:
+    - Patent
+  highlight: 0
+
+- authors: "Zewei Mo, <i>Xianwei Zhang</i> and Tianao Ge"
+  title:
+    name: "An Error-Controllable Automated Optimization Method for Mixed-Precision Operators"
+    url: https://www.xjishu.com/zhuanli/55/202111551663.html
+  conf: "ZL 2021 1 1551663.9"
+  label: P2
+  desc:
+  year:
+  theme:
+    - Patent
+  highlight: 0
+
+- authors: "Tianao Ge, <i>Xianwei Zhang</i>, Zewei Mo and Yutong Lu"
+  title:
+    name: "A Loop-Folding-Based Binary Code Size Optimizer"
+    url: https://www.xjishu.com/zhuanli/55/202210154571.html
+  conf: "ZL 2022 1 0154571.5"
+  label: P1
+  desc:
+  year:
+  theme:
+    - Patent
+  highlight: 0

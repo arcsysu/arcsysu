@@ -8,21 +8,21 @@ zh_url: /zh/publications
 permalink: /publications
 ---
 
-# Publications
+# Publications (Conf/Journal/Patent)
 Also available at
 <a href="https://scholar.google.com/citations?user=k9_kXbQAAAAJ&hl=en">Google Scholar</a>,
 <a href="https://dblp.org/pid/135/8227-1.html">DBLP</a> and
 <a href="https://orcid.org/0000-0003-3507-4299">ORCID</a>.
 
-## Patents
+<!--## Patents
 {% for patent in site.data.en.pub.publist_patent %}
   [{{ patent.label }}] {{ patent.authors }} <br />
   <a href="{{ patent.title.url }}">{{ patent.title.name }}</a> {{ patent.desc}}
   , <em>{{ patent.conf }} </em>
-{% endfor %}
+{% endfor %}-->
 
-## Conference/Journal Publications
-Note: <u>(Co-)Supervised Student</u>, Corresponding<sup>#</sup>
+<!-- ## Conference/Journal/Patent -->
+<b>Note</b>: <u>(Co-)Supervised Student</u>, Corresponding<sup>#</sup>
 
 {% include pub_sidebar.html %}
 
@@ -38,16 +38,18 @@ Note: <u>(Co-)Supervised Student</u>, Corresponding<sup>#</sup>
 <!-- Tab 导航栏 -->
 <ul class="tab-nav">
   <li><div class="button active" data-ref="#tab-selected">Selected</div></li>
-  <li><div class="button" data-ref="#tab-all">All</div></li>
-  <li><div class="button" data-ref="#tab-gpu">GPU</div></li>
-  <li><div class="button" data-ref="#tab-arch">Arch</div></li>
-  <li><div class="button" data-ref="#tab-hpc">HPC</div></li>
-  <li><div class="button" data-ref="#tab-ml">ML</div></li>
+  <li><div class="button" data-ref="#tab-all">Full List</div></li>
+  <li><div class="button" data-ref="#tab-gpu">#GPU</div></li>
+  <li><div class="button" data-ref="#tab-hpc">#HPC</div></li>
+  <li><div class="button" data-ref="#tab-ml">#ML</div></li>
+  <li><div class="button" data-ref="#tab-cc">#CC</div></li>
+  <li><div class="button" data-ref="#tab-arch">#ARCH</div></li>
+  <li><div class="button" data-ref="#tab-patent">[Patents]</div></li>
 </ul>
 
 <!-- Tab 内容区域 -->
 <div class="tab-content">
-  
+
   <!-- Selected -->
   <div id="tab-selected" class="tab-pane active" markdown="1">
 
@@ -121,31 +123,6 @@ Note: <u>(Co-)Supervised Student</u>, Corresponding<sup>#</sup>
 
   </div>
 
-  <!-- Arch -->
-  <div id="tab-arch" class="tab-pane" markdown="1">
-
-### Architecture
-
-{% assign current_year = "" %}
-{% for publi in site.data.en.pub.all %}
-  {% if publi.theme contains "Arch" %}
-    {% if publi.year != current_year %}
-      {% assign current_year = publi.year %}
-
-#### {{ current_year }}
-
-    {% endif %}
-<div class="pub-item" markdown="1">
-[{{ publi.label }}] {{ publi.authors }}  
-<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
-*{{ publi.conf }}*
-</div>
-
-  {% endif %}
-{% endfor %}
-
-  </div>
-
   <!-- HPC -->
   <div id="tab-hpc" class="tab-pane" markdown="1">
 
@@ -183,6 +160,81 @@ Note: <u>(Co-)Supervised Student</u>, Corresponding<sup>#</sup>
       {% assign current_year = publi.year %}
 
 #### {{ current_year }}
+
+    {% endif %}
+<div class="pub-item" markdown="1">
+[{{ publi.label }}] {{ publi.authors }}  
+<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+*{{ publi.conf }}*
+</div>
+
+  {% endif %}
+{% endfor %}
+
+  </div>
+
+  <!-- Arch -->
+  <div id="tab-arch" class="tab-pane" markdown="1">
+
+### Architecture
+
+{% assign current_year = "" %}
+{% for publi in site.data.en.pub.all %}
+  {% if publi.theme contains "Arch" %}
+    {% if publi.year != current_year %}
+      {% assign current_year = publi.year %}
+
+#### {{ current_year }}
+
+    {% endif %}
+<div class="pub-item" markdown="1">
+[{{ publi.label }}] {{ publi.authors }}  
+<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+*{{ publi.conf }}*
+</div>
+
+  {% endif %}
+{% endfor %}
+
+  </div>
+
+  <!-- Compile -->
+  <div id="tab-cc" class="tab-pane" markdown="1">
+
+### Compilation
+
+{% assign current_year = "" %}
+{% for publi in site.data.en.pub.all %}
+  {% if publi.theme contains "Compile" %}
+    {% if publi.year != current_year %}
+      {% assign current_year = publi.year %}
+
+#### {{ current_year }}
+
+    {% endif %}
+<div class="pub-item" markdown="1">
+[{{ publi.label }}] {{ publi.authors }}  
+<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+*{{ publi.conf }}*
+</div>
+
+  {% endif %}
+{% endfor %}
+
+  </div>
+
+  <!-- Patent -->
+  <div id="tab-patent" class="tab-pane" markdown="1">
+
+### Issued Patents
+
+{% assign current_year = "" %}
+{% for publi in site.data.en.pub.all %}
+  {% if publi.theme contains "Patent" %}
+    {% if publi.year != current_year %}
+      {% assign current_year = publi.year %}
+
+<!-- #### {{ current_year }} -->
 
     {% endif %}
 <div class="pub-item" markdown="1">
