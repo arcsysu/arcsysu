@@ -1,7 +1,7 @@
 # ============================================
 # 2025
 # ============================================
-- authors: "<u>Wenxuan Pan</u>, <u>Zejia Lin</u>, Jiangsu Du<sup>#</sup> and <i>Xianwei Zhang</i><sup>#</sup>"
+- authors: "<u>Wenxuan Pan</u>, <u>Zejia Lin</u>, Jiangsu Du<sup>&#9993;</sup> and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
   title:
     name: "HuntKTm: Hybrid Scheduling and Automatic Management for Efficient Kernel Execution on Modern GPUs"
     url:
@@ -15,7 +15,7 @@
     - Compile
   highlight: 1
 
-- authors: "<u>Hongxin Xu</u><sup>=</sup>, <u>Tianyu Guo</u><sup>=</sup> and <i>Xianwei Zhang</i><sup>#</sup> (<sup>=</sup>Equal Contribution)"
+- authors: "<u>Hongxin Xu</u><sup>=</sup>, <u>Tianyu Guo</u><sup>=</sup> and <i>Xianwei Zhang</i><sup>&#9993;</sup> (<sup>=</sup>Equal Contribution)"
   title:
     name: "DynaPipe: Dynamic Layer Redistribution for Efficient Serving of LLMs with Pipeline Parallelism"
     url:
@@ -27,7 +27,7 @@
     - ML
   highlight: 1
 
-- authors: "<u>Yuhao Gu</u>, <u>Haoquan Chen</u>, <u>Xianjie Chen</u>, Jiangsu Du, Zhiguang Chen, Nong Xiao<sup>#</sup>, <i>Xianwei Zhang</i><sup>#</sup> and Yutong Lu"
+- authors: "<u>Yuhao Gu</u>, <u>Haoquan Chen</u>, <u>Xianjie Chen</u>, Jiangsu Du, Zhiguang Chen, Nong Xiao<sup>&#9993;</sup>, <i>Xianwei Zhang</i><sup>&#9993;</sup> and Yutong Lu"
   title:
     name: "coMtainer: Compilation-assisted HPC Container Images with Enhanced Adaptability"
     url:
@@ -40,7 +40,7 @@
     - Compile
   highlight: 1
 
-- authors: "<u>Tianyu Guo</u>, <i>Xianwei Zhang</i><sup>#</sup>, Jiangsu Du, Zhiguang Chen<sup>#</sup>, Nong Xiao and Yutong Lu"
+- authors: "<u>Tianyu Guo</u>, <i>Xianwei Zhang</i><sup>&#9993;</sup>, Jiangsu Du, Zhiguang Chen<sup>&#9993;</sup>, Nong Xiao and Yutong Lu"
   title:
     name: "gLLM: Global Balanced Pipeline Parallelism Systems for Distributed LLMs Serving with Token Throttling"
     url:
@@ -53,7 +53,7 @@
     - HPC
   highlight: 1
 
-- authors: "<u>Han Huang</u>, Jiabin Xie, Guangnan Feng, <i>Xianwei Zhang</i>, Dan Huang, Zhiguang Chen and Yutong Lu<sup>#</sup>"
+- authors: "<u>Han Huang</u>, Jiabin Xie, Guangnan Feng, <i>Xianwei Zhang</i>, Dan Huang, Zhiguang Chen and Yutong Lu<sup>&#9993;</sup>"
   title:
     name: "HStencil: Matrix-Vector Stencil Computation with Interleaved Outer Product and MLA"
     url:
@@ -66,7 +66,7 @@
     - Arch
   highlight: 1
 
-- authors: "<u>Xuanteng Huang</u>, Jiangsu Du, Nong Xiao and <i>Xianwei Zhang</i><sup>#</sup>"
+- authors: "<u>Xuanteng Huang</u>, Jiangsu Du, Nong Xiao and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
   title:
     name: "PaSK: Cold Start Mitigation for Inference with Proactive and Selective Kernel Loading on GPUs"
     url: https://xianweiz.github.io/doc/papers/pask_dac25.pdf
@@ -78,7 +78,7 @@
     - GPU
   highlight: 1
 
-- authors: "<u>Kan Wu</u>, <u>Zejia Lin</u>, <u>Mengyue Xi</u>, <u>Zhongchun Zheng</u>, <u>Wenxuan Pan</u>, <i>Xianwei Zhang</i><sup>#</sup> and Yutong Lu<sup>#</sup>"
+- authors: "<u>Kan Wu</u>, <u>Zejia Lin</u>, <u>Mengyue Xi</u>, <u>Zhongchun Zheng</u>, <u>Wenxuan Pan</u>, <i>Xianwei Zhang</i><sup>&#9993;</sup> and Yutong Lu<sup>&#9993;</sup>"
   title:
     name: "GoPTX: Fine-grained GPU Kernel Fusion by PTX-level Instruction Flow Weaving"
     url: https://xianweiz.github.io/doc/papers/goptx_dac25.pdf
@@ -91,7 +91,7 @@
     - Compile
   highlight: 1
 
-- authors: "<u>Yuhao Gu</u>, <u>Chunyu Chen</u>, Jiangsu Du, Xiaoxi Zhang and <i>Xianwei Zhang</i><sup>#</sup>"
+- authors: "<u>Yuhao Gu</u>, <u>Chunyu Chen</u>, Jiangsu Du, Xiaoxi Zhang and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
   title:
     name: "ORFA: Exploring WebAssembly as a Turing Complete Query Language for Web APIs"
     url: https://xianweiz.github.io/doc/papers/orfa_www25.pdf
@@ -103,7 +103,7 @@
     - Compile
   highlight: 1
 
-- authors: "<u>Mengyue Xi</u>, <u>Jingyi He</u> and <i>Xianwei Zhang</i><sup>#</sup>"
+- authors: "<u>Mengyue Xi</u>, <u>Jingyi He</u> and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
   title:
     name: "CacheC: LLM-based GPU Cache Management to Enhance Kernel Concurrency"
     url: https://xianweiz.github.io/doc/papers/cachec_europar25.pdf
@@ -116,7 +116,7 @@
     - Arch
   highlight: 0
 
-- authors: "<u>Tianyu Guo</u>, Hande Dong<sup>#</sup>, Yichong Leng, Feng Liu, Cheater Lin, Nong Xiao and <i>Xianwei Zhang</i><sup>#</sup>"
+- authors: "<u>Tianyu Guo</u>, Hande Dong<sup>&#9993;</sup>, Yichong Leng, Feng Liu, Cheater Lin, Nong Xiao and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
   title:
     name: "EFIM: Efficient Serving of LLMs for Infilling Tasks with Improved KV Cache Reuse"
     url: https://xianweiz.github.io/doc/papers/efim_europar25.pdf
@@ -128,7 +128,7 @@
     - ML
   highlight: 0
 
-- authors: "<u>Mengyue Xi</u>, <u>Tianyu Guo</u>, <u>Xuanteng Huang</u>, <u>Zejia Lin</u> and <i>Xianwei Zhang</i><sup>#</sup>"
+- authors: "<u>Mengyue Xi</u>, <u>Tianyu Guo</u>, <u>Xuanteng Huang</u>, <u>Zejia Lin</u> and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
   title:
     name: "Mpache: Interaction Aware Multi-level Cache Bypassing on GPUs"
     url: https://xianweiz.github.io/doc/papers/mpache_aspdac25.pdf
@@ -141,7 +141,7 @@
     - Arch
   highlight: 0
 
-- authors: "<u>Hengzhong Liang</u>, <u>Han Huang</u> and <i>Xianwei Zhang</i><sup>#</sup>"
+- authors: "<u>Hengzhong Liang</u>, <u>Han Huang</u> and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
   title:
     name: "SuCL: Supply Unified Communication Layer to Improve SYCL-based Heterogeneous Computing"
     url: https://xianweiz.github.io/doc/papers/sucl_thpc25.pdf
@@ -153,7 +153,7 @@
     - HPC
   highlight: 0
 
-- authors: "Pin Chen, Qing Mo, Zexin Xu, <i>Xianwei Zhang</i> and Yutong Lu<sup>#</sup>"
+- authors: "Pin Chen, Qing Mo, Zexin Xu, <i>Xianwei Zhang</i> and Yutong Lu<sup>&#9993;</sup>"
   title:
     name: "Star-gen: An HPC-AI Framework for Constructing Large-scale Computational Materials Database"
     url: https://xianweiz.github.io/doc/papers/stargen_thpc25.pdf
@@ -169,7 +169,7 @@
 # ============================================
 # 2024
 # ============================================
-- authors: "<u>Tianyu Guo</u>, <u>Xuanteng Huang</u>, <u>Kan Wu</u>, <i>Xianwei Zhang</i><sup>#</sup> and Nong Xiao"
+- authors: "<u>Tianyu Guo</u>, <u>Xuanteng Huang</u>, <u>Kan Wu</u>, <i>Xianwei Zhang</i><sup>&#9993;</sup> and Nong Xiao"
   title:
     name: "SMILE: LLC-based Shared Memory Expansion to Improve GPU Thread Level Parallelism"
     url: https://xianweiz.github.io/doc/papers/smile_dac24.pdf
@@ -182,7 +182,7 @@
     - Arch
   highlight: 1
 
-- authors: "Yuanxin Wei, Jiangsu Du<sup>#</sup>, Jiazhi Jiang, Xiao Shi, <i>Xianwei Zhang</i>, Dan Huang<sup>#</sup>, Nong Xiao and Yutong Lu"
+- authors: "Yuanxin Wei, Jiangsu Du<sup>&#9993;</sup>, Jiazhi Jiang, Xiao Shi, <i>Xianwei Zhang</i>, Dan Huang<sup>&#9993;</sup>, Nong Xiao and Yutong Lu"
   title:
     name: "APTMoE: Affinity-aware Pipeline Tuning for MoE Models on Bandwidth-constrained GPU Nodes"
     url: https://xianweiz.github.io/doc/papers/aptmoe_sc24.pdf
@@ -195,7 +195,7 @@
     - HPC
   highlight: 1
 
-- authors: "<u>Zejia Lin</u>, <u>Aoyuan Sun</u>, <i>Xianwei Zhang</i><sup>#</sup> and Yutong Lu"
+- authors: "<u>Zejia Lin</u>, <u>Aoyuan Sun</u>, <i>Xianwei Zhang</i><sup>&#9993;</sup> and Yutong Lu"
   title:
     name: "MixPert: Optimizing Mixed-precision Floating-point Emulation on GPU Integer Tensor Cores"
     url: https://xianweiz.github.io/doc/papers/mixpert_lctes24.pdf
@@ -208,7 +208,7 @@
     - Arch
   highlight: 0
 
-- authors: "<u>Zhaowen Shan</u>, <u>Xuanteng Huang</u>, <u>Zheng Zhou</u> and <i>Xianwei Zhang</i><sup>#</sup>"
+- authors: "<u>Zhaowen Shan</u>, <u>Xuanteng Huang</u>, <u>Zheng Zhou</u> and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
   title:
     name: "openLG: A Tunable and Efficient Open-source LSTM on GPUs"
     url: https://xianweiz.github.io/doc/papers/openlg_ijcnn24.pdf
@@ -220,7 +220,7 @@
     - ML
   highlight: 0
 
-- authors: "<u>Zhongchun Zheng</u>, Yuan Wu and <i>Xianwei Zhang</i><sup>#</sup>"
+- authors: "<u>Zhongchun Zheng</u>, Yuan Wu and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
   title:
     name: "mLOOP: Optimize Loop Unrolling in Compilation with a ML-based Approach"
     url: https://xianweiz.github.io/doc/papers/mloop_nas24.pdf
@@ -237,7 +237,7 @@
 # ============================================
 # 2023
 # ============================================
-- authors: "<u>Zejia Lin</u>, <u>Zewei Mo</u>, <u>Xuanteng Huang</u>, <i>Xianwei Zhang</i><sup>#</sup> and Yutong Lu"
+- authors: "<u>Zejia Lin</u>, <u>Zewei Mo</u>, <u>Xuanteng Huang</u>, <i>Xianwei Zhang</i><sup>&#9993;</sup> and Yutong Lu"
   title:
     name: "KeSCo: Compiler-based Kernel Scheduling for Multi-task GPU Applications"
     url: https://xianweiz.github.io/doc/papers/kesco_iccd23.pdf
@@ -251,7 +251,7 @@
     - Arch
   highlight: 1
 
-- authors: "<u>Xuanteng Huang</u>, <i>Xianwei Zhang</i><sup>#</sup>, Panfei Yang<sup>#</sup> and Nong Xiao"
+- authors: "<u>Xuanteng Huang</u>, <i>Xianwei Zhang</i><sup>&#9993;</sup>, Panfei Yang<sup>&#9993;</sup> and Nong Xiao"
   title:
     name: "Benchmarking GPU Tensor Cores on General Matrix Multiplication Kernels through CUTLASS"
     url: https://xianweiz.github.io/doc/papers/cutlass_applsci23.pdf
@@ -263,7 +263,7 @@
     - GPU
   highlight: 0
 
-- authors: "Xi Zhang<sup>#</sup>, Xiaohu Gu, <u>Yue Weng</u>, <i>Xianwei Zhang</i>, Yutong Lu and Zhong Zhao"
+- authors: "Xi Zhang<sup>&#9993;</sup>, Xiaohu Gu, <u>Yue Weng</u>, <i>Xianwei Zhang</i>, Yutong Lu and Zhong Zhao"
   title:
     name: "Hybrid MPI and CUDA Paralleled Finite Volume Unstructured CFD Simulations on a Multi-GPU System"
     url: https://xianweiz.github.io/doc/papers/cfd_fgcs23.pdf
@@ -276,7 +276,7 @@
     - GPU
   highlight: 0
 
-- authors: "<u>Lianghong Huang</u>, <u>Zejia Lin</u>, Wei Liu<sup>#</sup> and <i>Xianwei Zhang</i><sup>#</sup>"
+- authors: "<u>Lianghong Huang</u>, <u>Zejia Lin</u>, Wei Liu<sup>&#9993;</sup> and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
   title:
     name: "Hay: Enhancing GPU Sharing Performance With Two-Level Scheduling for Ray"
     url: https://xianweiz.github.io/doc/papers/hay_icpads23.pdf
@@ -292,7 +292,7 @@
 # ============================================
 # 2022
 # ============================================
-- authors: "<u>Tianao Ge</u>, <u>Zewei Mo</u>, <u>Kan Wu</u>, <i>Xianwei Zhang</i><sup>#</sup> and Yutong Lu"
+- authors: "<u>Tianao Ge</u>, <u>Zewei Mo</u>, <u>Kan Wu</u>, <i>Xianwei Zhang</i><sup>&#9993;</sup> and Yutong Lu"
   title:
     name: "RollBin: Reducing Code-size via Loop Rerolling at Binary Level"
     url: https://xianweiz.github.io/doc/papers/rollbin_lctes22.pdf
@@ -305,7 +305,7 @@
     - Arch
   highlight: 1
 
-- authors: "<u>Zewei Mo</u>, <u>Zejia Lin</u>, <i>Xianwei Zhang</i><sup>#</sup> and Yutong Lu"
+- authors: "<u>Zewei Mo</u>, <u>Zejia Lin</u>, <i>Xianwei Zhang</i><sup>&#9993;</sup> and Yutong Lu"
   title:
     name: "moTuner: A Compiler-based Auto-tuning Approach for Mixed-precision Operators"
     url: https://xianweiz.github.io/doc/papers/motuner_cf22.pdf
@@ -320,7 +320,7 @@
     - HPC
   highlight: 0
 
-- authors: "<u>Yue Weng</u>, <u>Tianao Ge</u>, <i>Xianwei Zhang</i><sup>#</sup> and Yutong Lu"
+- authors: "<u>Yue Weng</u>, <u>Tianao Ge</u>, <i>Xianwei Zhang</i><sup>&#9993;</sup> and Yutong Lu"
   title:
     name: "RAISE: Efficient GPU Resource Management via Hybrid Scheduling"
     url: https://xianweiz.github.io/doc/papers/raise_ccgrid22.pdf
@@ -337,7 +337,7 @@
 # ============================================
 # 2021
 # ============================================
-- authors: "<u>Yue Weng</u>, Xi Zhang, Xiaohu Guo, <i>Xianwei Zhang</i><sup>#</sup>, Yutong Lu and Yang Liu"
+- authors: "<u>Yue Weng</u>, Xi Zhang, Xiaohu Guo, <i>Xianwei Zhang</i><sup>&#9993;</sup>, Yutong Lu and Yang Liu"
   title:
     name: "Effects of Mesh Loop Modes on Performance of Unstructured Finite Volume GPU Simulations"
     url: https://aia.springeropen.com/articles/10.1186/s42774-021-00073-y
@@ -555,6 +555,57 @@
     - Arch
   highlight: 1
 
+  # ============================================
+  # arXiv
+  # ============================================
+- authors: "<u>Tianyu Guo</u>, Tianming Xu, <u>Xianjie Chen</u>, <u>Junru Chen</u>, Nong Xiao and <i>Xianwei Zhang</i>"
+  title:
+    name: "RServe: Overlapping Encoding and Prefill for Efficient LMM Inference"
+    url: https://arxiv.org/abs/2509.24381
+  conf:
+  label: A4
+  desc:
+  year: "[arXiv]"
+  theme:
+    - arXiv
+  highlight: 0
+
+- authors: "<u>Zejia Lin</u>, <u>Hongxin Xu</u>, <u>Guanyi Chen</u>, Zhiguang Chen, Yutong Lu and <i>Xianwei Zhang</i>"
+  title:
+    name: "Boosting LLM Serving through Spatial-Temporal GPU Resource Sharing"
+    url: https://arxiv.org/abs/2504.19516
+  conf:
+  label: A3
+  desc:
+  year: "[arXiv]"
+  theme:
+    - arXiv
+  highlight: 0
+
+- authors: "<u>Zhongchun Zheng</u>, <u>Kan Wu</u>, Long Cheng, Lu Li, Rodrigo C. O. Rocha, Tianyi Liu, Wei Wei, Jianjiang Zeng, <i>Xianwei Zhang</i> and Yaoqing Gao"
+  title:
+    name: "VecTrans: LLM Transformation Framework for Better Auto-vectorization on High-performance CPU"
+    url: https://arxiv.org/abs/2503.19449
+  conf:
+  label: A2
+  desc:
+  year: "[arXiv]"
+  theme:
+    - arXiv
+  highlight: 0
+
+- authors: "Tian Wu, Liming Wang, Zijian Wen, Xiaoxi Zhang, Jingpu Duan, <i>Xianwei Zhang</i> and Jinhang Zuo"
+  title:
+    name: "Accelerating Edge Inference for Distributed MoE Models with Latency-Optimized Expert Placement"
+    url: https://arxiv.org/abs/2508.12851
+  conf:
+  label: A1
+  desc:
+  year: "[arXiv]"
+  theme:
+    - arXiv
+  highlight: 0
+
 # ============================================
 # Patents
 # ============================================
@@ -565,7 +616,7 @@
   conf: "US11487671B2, 2022."
   label: P8
   desc:
-  year: Patent
+  year: "[Patent]"
   theme:
     - Patent
   highlight: 0
@@ -577,7 +628,7 @@
   conf: "US11507522B2, 2022."
   label: P7
   desc:
-  year: Patent
+  year: "[Patent]"
   theme:
     - Patent
   highlight: 0
@@ -589,7 +640,7 @@
   conf: "US11740791B2, 2023."
   label: P6
   desc:
-  year: Patent
+  year: "[Patent]"
   theme:
     - Patent
   highlight: 0
@@ -601,7 +652,7 @@
   conf: "US11150899B2, 2021."
   label: P5
   desc:
-  year: Patent
+  year: "[Patent]"
   theme:
     - Patent
   highlight: 0
@@ -613,7 +664,7 @@
   conf: "ZL 2025 1 0077351.0"
   label: P4
   desc:
-  year: Patent
+  year: "[Patent]"
   theme:
     - Patent
   highlight: 0
@@ -625,7 +676,7 @@
   conf: "ZL 2022 1 0172808.2"
   label: P3
   desc:
-  year: Patent
+  year: "[Patent]"
   theme:
     - Patent
   highlight: 0
@@ -637,7 +688,7 @@
   conf: "ZL 2021 1 1551663.9"
   label: P2
   desc:
-  year: Patent
+  year: "[Patent]"
   theme:
     - Patent
   highlight: 0
@@ -649,7 +700,7 @@
   conf: "ZL 2022 1 0154571.5"
   label: P1
   desc:
-  year: Patent
+  year: "[Patent]"
   theme:
     - Patent
   highlight: 0

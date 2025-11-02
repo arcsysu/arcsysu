@@ -22,7 +22,7 @@ Also available at
 {% endfor %}-->
 
 <!-- ## Conference/Journal/Patent -->
-<b>Note</b>: <u>(Co-)Supervised Student</u>, Corresponding<sup>#</sup>
+<b>Note</b>: <u>(Co-)Supervised Student</u>, Corresponding<sup>&#9993;</sup>
 
 {% include pub_sidebar.html %}
 
@@ -41,10 +41,11 @@ Also available at
   <li><div class="button" data-ref="#tab-all">Full List</div></li>
   <li><div class="button" data-ref="#tab-gpu">#GPU</div></li>
   <li><div class="button" data-ref="#tab-hpc">#HPC</div></li>
-  <li><div class="button" data-ref="#tab-ml">#ML</div></li>
+  <li><div class="button" data-ref="#tab-ai">#AI</div></li>
   <li><div class="button" data-ref="#tab-cc">#CC</div></li>
   <li><div class="button" data-ref="#tab-arch">#ARCH</div></li>
-  <li><div class="button" data-ref="#tab-patent">[Patents]</div></li>
+  <li><div class="button" data-ref="#tab-arxiv">[arXiv]</div></li>
+  <li><div class="button" data-ref="#tab-patent">[Patent]</div></li>
 </ul>
 
 <!-- Tab 内容区域 -->
@@ -90,8 +91,8 @@ Also available at
   {% endif %}
 <div class="pub-item" markdown="1">
 [{{ publi.label }}] {{ publi.authors }}  
-<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
-*{{ publi.conf }}*
+<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
+{% unless publi.theme contains "arXiv" %} <br>*{{ publi.conf }}* {% endunless %}
 </div>
 
 {% endfor %}
@@ -149,9 +150,9 @@ Also available at
   </div>
 
   <!-- ML -->
-  <div id="tab-ml" class="tab-pane" markdown="1">
+  <div id="tab-ai" class="tab-pane" markdown="1">
 
-### Machine Learning
+### Machine Learning and System
 
 {% assign current_year = "" %}
 {% for publi in site.data.en.pub.all %}
@@ -223,6 +224,31 @@ Also available at
 
   </div>
 
+  <!-- arXiv -->
+  <div id="tab-arxiv" class="tab-pane" markdown="1">
+
+### arXiv
+
+{% assign current_year = "" %}
+{% for publi in site.data.en.pub.all %}
+  {% if publi.theme contains "arXiv" %}
+    {% if publi.year != current_year %}
+      {% assign current_year = publi.year %}
+
+<!-- #### {{ current_year }} -->
+
+    {% endif %}
+<div class="pub-item" markdown="1">
+[{{ publi.label }}] {{ publi.authors }}  
+<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> <!--{{ publi.desc }}-->  
+<!--*{{ publi.conf }}*-->
+</div>
+
+  {% endif %}
+{% endfor %}
+
+  </div>
+
   <!-- Patent -->
   <div id="tab-patent" class="tab-pane" markdown="1">
 
@@ -242,7 +268,6 @@ Also available at
 <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
 *{{ publi.conf }}*
 </div>
-
   {% endif %}
 {% endfor %}
 
