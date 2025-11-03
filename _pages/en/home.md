@@ -27,13 +27,13 @@ At <i>arcSYSu</i>, we strive to design efficient systems and push the limits of 
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/lab-logo.jpg" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/homeslider/lab-logo.jpg" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/nscc-2022.webp" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/homeslider/nscc-2022.webp" alt="Slide 2" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/haci-2024.webp" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/homeslider/haci-2024.webp" alt="Slide 3" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
