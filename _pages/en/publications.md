@@ -10,9 +10,9 @@ permalink: /publications
 
 # Publications (Conf/Journal/Patent)
 Also available at
-<a href="https://scholar.google.com/citations?user=k9_kXbQAAAAJ&hl=en">Google Scholar</a>,
-<a href="https://dblp.org/pid/135/8227-1.html">DBLP</a> and
-<a href="https://orcid.org/0000-0003-3507-4299">ORCID</a>.
+<a href="https://scholar.google.com/citations?user=k9_kXbQAAAAJ&hl=en" target="_blank">Google Scholar</a>,
+<a href="https://dblp.org/pid/135/8227-1.html" target="_blank">DBLP</a> and
+<a href="https://orcid.org/0000-0003-3507-4299" target="_blank">ORCID</a>.
 
 <!--## Patents
 {% for patent in site.data.en.pub.publist_patent %}
