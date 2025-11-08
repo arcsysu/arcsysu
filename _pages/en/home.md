@@ -8,11 +8,11 @@ zh_url: /zh/home
 permalink: /
 ---
 
-**<u>Arc</u>hitecture and <u>Sys</u>tem <u>U</u>pscaling @ Sun Yat-sen University!**
+**<u>Arc</u>hitecture and <u>Sys</u>tem <u>U</u>pscaling @ Sun Yat-sen University!**<br>
+**<u>A</u>rchitecture <u>R</u>esearch led by <u>X</u>ianwei (ARX)!**
 
-<p class="homeid">We are the <i>arcSYSu</i> research group led by Assoc. Prof. <a href="https://xianweiz.github.io" target="_blank">Xianwei Zhang</a> in the <a href="https://cse.sysu.edu.cn/" target="_blank">School of Computer Science & Engineering</a> at <a href="https://www.sysu.edu.cn/sysuen/" target="_blank">Sun Yat-sen University</a>.
-Our team explores the frontiers of high-performance and intelligent computer systems and architectures, with particular emphasis on GPU computing, compiler optimization, and runtime systems.
-At <i>arcSYSu</i>, we strive to design efficient, scalable systems and push the limits of computational performance to power the next-generation computing paradigms.
+<p>
+<i>arcSYSu</i>, abbreviated as ARX (Architecture and Runtime eXploration, or Architecture Research led by Xianwei), is a research group led by Associate Professor <a href="https://xianweiz.github.io" target="_blank">Xianwei Zhang</a>, dedicated to advancing architecture, compilation, and runtime systems for high-performance and intelligent computing. Affiliated with the <a href="https://cse.sysu.edu.cn/" target="_blank">School of Computer Science & Engineering</a> at <a href="https://www.sysu.edu.cn/sysuen/" target="_blank">Sun Yat-sen University</a>, <i>arcSYSu</i> strives to design efficient and scalable computing systems, pushing the boundaries of performance and intelligence to empower the next-generation computational paradigms.
 </p>
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
@@ -51,7 +51,7 @@ We work closely with other exceptional teams across the center on a broad spectr
 
 Our research is supported by prestigious programs, including the National Key R&D Program, the National Science Foundation of China, as well as collaborative partnerships with industry leaders like Tencent®, Huawei® and Phytium®.
 
-<b>We are always looking for passionate new PhD/MS graduates, Postdocs, Undergraduate RAs and Interns to join the team!</b> (For more details, please check our &#8599; <a href="https://xianweiz.github.io/notes/hire_QAs.txt" target="_blank">FAQs</a>.
+<b>We are always looking for passionate new PhD/MS graduates, Postdocs, Undergraduate RAs and Interns to join the team!</b> (For more details, please check our &#8599; <a href="https://xianweiz.github.io/notes/hire_QAs.txt" target="_blank">FAQs</a>).
 
 <figure class="fifth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_nRD.webp" style="height: 25px; padding-right:30px">
