@@ -13,7 +13,7 @@ permalink: /
 
 <p>
 <i>arcSYSu</i>, abbreviated as ARX (pronounced /ɑːrks/, Architecture and Runtime eXploration, or Architecture Research led by Xianwei), is a research group led by Associate Professor <a href="https://xianweiz.github.io" target="_blank">Xianwei Zhang</a> in the <a href="https://cse.sysu.edu.cn/" target="_blank">School of Computer Science & Engineering</a> at <a href="https://www.sysu.edu.cn/sysuen/" target="_blank">Sun Yat-sen University</a>. Our research focuses on advancing computer architecture, compilation, and runtime systems for high-performance and intelligent computing.
-At <i>arcSYSu</i>, we strive to design efficient, scalable, and smart systems that push performance boundaries and drive the next-generation computational paradigms.
+At <i>arcSYSu</i>, we are committed to design speedy, scalable, and smart (<i>S</i><sup>3</sup>) systems that push performance boundaries and drive the next-generation computational paradigms.
 </p>
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >

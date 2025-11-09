@@ -1,7 +1,7 @@
 # ============================================
 # 2026
 # ============================================
-- authors: "<u>Xuanteng Huang</u>, Fan Li, Riyang Hu, Jianchang Zhang, Yuan Peng, Yang Zhou, Fancying Chen and <i>Xianwei Zhang</i>"
+- authors: "<u>Xuanteng Huang</u>, Fan Li, Riyang Hu, Jianchang Zhang, Yuan Peng, Yang Zhou, Fangying Chen and <i>Xianwei Zhang</i>"
   title:
     name: "FusedRec: Fused Embedding Communication for Distributed Recommendation Training on GPUs"
     url:
