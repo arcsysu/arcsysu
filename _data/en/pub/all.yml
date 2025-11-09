@@ -1,4 +1,34 @@
 # ============================================
+# 2026
+# ============================================
+- authors: "<u>Xuanteng Huang</u>, Fan Li, Riyang Hu, Jianchang Zhang, Yuan Peng, Yang Zhou, Fancying Chen and <i>Xianwei Zhang</i>"
+  title:
+    name: "FusedRec: Fused Embedding Communication for Distributed Recommendation Training on GPUs"
+    url:
+  conf: "The 40th Annual AAAI Conference on Artificial Intelligence (<b>AAAI</b>), Singapore, January 2026."
+  label: C31
+  desc: <font color="red">(CCF-A)</font>
+  year: 2026
+  theme:
+    - GPU
+    - ML
+  highlight: 1
+
+- authors: "<i>Xianwei Zhang</i><sup>=</sup>, <u>Xuanteng Huang</u><sup>=</sup> and Nong Xiao (<sup>=</sup>Equal Contribution)"
+  title:
+    name: "FEDCM: Fine-grained Kernel Scheduling and Management to Improve GPU Sharing"
+    url:
+  conf: "Design, Automation and Test in Europe Conference (<b>DATE</b>), Verona, Italy, April 2026."
+  label: C30
+  desc: <font color="firebrick">(CCF-B)</font>
+  year: 2026
+  theme:
+    - GPU
+    - Compile
+    - Arch
+  highlight: 0
+
+# ============================================
 # 2025
 # ============================================
 - authors: "<u>Wenxuan Pan</u>, <u>Zejia Lin</u>, Jiangsu Du<sup>&#9993;</sup> and <i>Xianwei Zhang</i><sup>&#9993;</sup>"

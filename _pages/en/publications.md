@@ -177,7 +177,7 @@ Also available at
   <!-- Arch -->
   <div id="tab-arch" class="tab-pane" markdown="1">
 
-### Architecture
+### Architecture and Hw/Sw Co-design
 
 {% assign current_year = "" %}
 {% for publi in site.data.en.pub.all %}
@@ -202,7 +202,7 @@ Also available at
   <!-- Compile -->
   <div id="tab-cc" class="tab-pane" markdown="1">
 
-### Compilation
+### Compilation and CodeOpt
 
 {% assign current_year = "" %}
 {% for publi in site.data.en.pub.all %}
