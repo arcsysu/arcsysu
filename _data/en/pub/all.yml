@@ -106,6 +106,7 @@
   year: 2025
   theme:
     - GPU
+    - ML
   highlight: 1
 
 - authors: "<u>Kan Wu</u>, <u>Zejia Lin</u>, <u>Mengyue Xi</u>, <u>Zhongchun Zheng</u>, <u>Wenxuan Pan</u>, <i>Xianwei Zhang</i><sup>&#9993;</sup> and Yutong Lu<sup>&#9993;</sup>"
