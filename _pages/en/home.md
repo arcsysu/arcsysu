@@ -10,10 +10,9 @@ permalink: /
 
 **<u>Arc</u>hitecture and <u>Sys</u>tem <u>U</u>pscaling @ Sun Yat-sen University!**<br>
 **<u>A</u>rchitecture <u>R</u>esearch led by <u>X</u>ianwei (ARX)!**
-
 <p>
-<i>arcSYSu</i>, abbreviated as ARX (pronounced /ɑːrks/, Architecture and Runtime eXploration, or Architecture Research led by Xianwei), is a research group working under the guidance of Associate Professor <a href="https://xianweiz.github.io" target="_blank">Xianwei Zhang</a> in the <a href="https://cse.sysu.edu.cn/" target="_blank">School of Computer Science & Engineering</a> at <a href="https://www.sysu.edu.cn/sysuen/" target="_blank">Sun Yat-sen University</a>. Our research focuses on advancing computer architecture, compilation, and runtime systems for high-performance and intelligent computing.
-At <i>arcSYSu</i>, we are committed to design speedy, scalable, and smart (<b><i>S</i><sup>3</sup></b>) systems that push performance boundaries and drive the next-generation computational paradigms.
+<i>arcSYSu</i>, abbreviated as ARX (pronounced /ɑːrks/, <u>AR</u>chitecture and system e<u>X</u>ploration, or <u>A</u>rchitecture <u>R</u>esearch led by <u>X</u>ianwei), is a research group working under the guidance of Associate Professor <a href="https://xianweiz.github.io" target="_blank">Xianwei Zhang</a> in the <a href="https://cse.sysu.edu.cn/" target="_blank">School of Computer Science & Engineering</a> at <a href="https://www.sysu.edu.cn/sysuen/" target="_blank">Sun Yat-sen University</a>. Our research focuses on advancing computer architecture, compilation, and runtime systems for high-performance and intelligent computing.
+At <i>arcSYSu</i>, we are committed to design speedy, scalable and smart (<b>S<sup>3</sup></b>) systems that push performance boundaries and drive the next-generation computational paradigms.
 </p>
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
@@ -48,7 +47,7 @@ At <i>arcSYSu</i>, we are committed to design speedy, scalable, and smart (<b><i
 </div>
 
 <i>arcSYSu</i> is proudly part of the Interdisciplinary Research Center (<i>xRC</i>), directed by Prof. <a href="https://cse.sysu.edu.cn/teacher/LuYutong" target="_blank">Yutong Lu</a> and Prof. <a href="https://cse.sysu.edu.cn/teacher/XiaoNong" target="_blank">Nong Xiao</a>.
-We work closely with other exceptional teams across the center on a broad spectrum of areas in HPC+AI design and applications.
+We work closely with other exceptional teams across the center on a broad spectrum of HPC+AI design and application areas.
 
 Our research is supported by prestigious programs, including the National Key R&D Program, the National Science Foundation of China, as well as collaborative partnerships with industry leaders like Tencent®, Huawei® and Phytium®.
 
