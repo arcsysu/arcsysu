@@ -1,6 +1,6 @@
 <div align="center">
 <a href="https://arcsysu.github.io/arcsysu/">
-<img src="images/homeslider/lab-logo.jpg" width="520" alt="ragflow logo">
+<img src="images/homeslider/arx-logo.webp" width="520" alt="ragflow logo">
 </a>
 </div>
 
