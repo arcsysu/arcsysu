@@ -1,6 +1,20 @@
 # ============================================
 # 2026
 # ============================================
+- authors: "<u>Zejia Lin</u>, <u>Hongxin Xu</u>, <u>Guanyi Chen</u>, Zhiguang Chen, Yutong Lu<sup>&#9993;</sup> and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
+  title:
+    name: "Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration"
+    url: https://arxiv.org/abs/2504.19516
+  conf: "The 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems (<b>ASPLOS</b>), Pittsburgh, PA, United States, March 2026."
+  label: C32
+  desc: <font color="red">(CCF-A)</font>
+  year: 2026
+  theme:
+    - GPU
+    - ML
+    - Arch
+  highlight: 1
+
 - authors: "<u>Xuanteng Huang</u>, Fan Li, Riyang Hu, Jianchang Zhang, Yuan Peng, Yang Zhou, Fangying Chen and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
   title:
     name: "FusedRec: Fused Embedding Communication for Distributed Recommendation Training on GPUs"
