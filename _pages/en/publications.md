@@ -22,7 +22,7 @@ Also available at
 {% endfor %}-->
 
 <!-- ## Conference/Journal/Patent -->
-<b>Note</b>: <u>(Co-)Supervised Student</u>, Corresponding-Author<sup>&#9993;</sup>
+<b>Note</b>: <u>(Co-)Supervised Student</u>, Corresponding-Author<sup>&#9993;</sup>, ar/acceptance_rate
 
 {% include pub_sidebar.html %}
 

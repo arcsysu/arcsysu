@@ -7,7 +7,7 @@
     url: https://arxiv.org/abs/2504.19516
   conf: "The 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems (<b>ASPLOS</b>), Pittsburgh, PA, United States, March 2026."
   label: C32
-  desc: <font color="red">(CCF-A)</font>
+  desc: (<font color="red">CCF-A</font>, ar/10.6%)
   year: 2026
   theme:
     - GPU
@@ -21,7 +21,7 @@
     url: https://xianweiz.github.io/doc/papers/26aaai_fusedrec.pdf
   conf: "The 40th Annual AAAI Conference on Artificial Intelligence (<b>AAAI</b>), Singapore, January 2026."
   label: C31
-  desc: <font color="red">(CCF-A)</font>
+  desc: (<font color="red">CCF-A</font>, ar/17.6%)
   year: 2026
   theme:
     - GPU
@@ -34,7 +34,7 @@
     url:
   conf: "Design, Automation and Test in Europe Conference (<b>DATE</b>), Verona, Italy, April 2026."
   label: C30
-  desc: <font color="firebrick">(CCF-B)</font>
+  desc: (<font color="firebrick">CCF-B</font>, ar/25%)
   year: 2026
   theme:
     - GPU
@@ -51,7 +51,7 @@
     url: https://xianweiz.github.io/doc/papers/25taco_huntktm.pdf
   conf: "ACM Transactions on Architecture and Code Optimization (<b>TACO</b>)."
   label: J7
-  desc: <font color="red">(CCF-A)</font>
+  desc: (<font color="red">CCF-A</font>)
   year: 2025
   theme:
     - GPU
@@ -65,7 +65,7 @@
     url: https://xianweiz.github.io/doc/papers/25neurips_dynapipe.pdf
   conf: "The Thirty-Ninth Annual Conference on Neural Information Processing Systems (<b>NeurIPS</b>), San Diego, CA, United States, December 2025."
   label: C29
-  desc: <font color="red">(CCF-A)</font>
+  desc: (<font color="red">CCF-A</font>, ar/24.5%)
   year: 2025
   theme:
     - ML
@@ -77,7 +77,7 @@
     url: https://xianweiz.github.io/doc/papers/25sc_comtainer.pdf
   conf: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (<b>SC</b>), St. Louis, MO, United States, November 2025."
   label: C28
-  desc: <font color="red">(CCF-A)</font>
+  desc: (<font color="red">CCF-A</font>, ar/21.2%)
   year: 2025
   theme:
     - HPC
@@ -90,7 +90,7 @@
     url: https://xianweiz.github.io/doc/papers/25sc_gllm.pdf
   conf: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (<b>SC</b>), St. Louis, MO, United States, November 2025."
   label: C27
-  desc: <font color="red">(CCF-A)</font>
+  desc: (<font color="red">CCF-A</font>, ar/21.2%)
   year: 2025
   theme:
     - ML
@@ -103,7 +103,7 @@
     url: https://xianweiz.github.io/doc/papers/25sc_hstencil.pdf
   conf: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (<b>SC</b>), St. Louis, MO, United States, November 2025."
   label: C26
-  desc: <font color="red">(CCF-A)</font>
+  desc: (<font color="red">CCF-A</font>, ar/21.2%)
   year: 2025
   theme:
     - HPC
@@ -116,7 +116,7 @@
     url: https://xianweiz.github.io/doc/papers/25dac_pask.pdf
   conf: "The 62nd ACM/IEEE Design Automation Conference (<b>DAC</b>), San Francisco, CA, United States, June 2025."
   label: C25
-  desc: <font color="red">(CCF-A)</font>
+  desc: (<font color="red">CCF-A</font>, ar/23%)
   year: 2025
   theme:
     - GPU
@@ -129,7 +129,7 @@
     url: https://xianweiz.github.io/doc/papers/25dac_goptx.pdf
   conf: "The 62nd ACM/IEEE Design Automation Conference (<b>DAC</b>), San Francisco, CA, United States, June 2025."
   label: C24
-  desc: <font color="red">(CCF-A)</font>
+  desc: (<font color="red">CCF-A</font>, ar/23%)
   year: 2025
   theme:
     - GPU
@@ -142,7 +142,7 @@
     url: https://xianweiz.github.io/doc/papers/25www_orfa.pdf
   conf: "The ACM Web Conference (<b>WWW</b>), Sydney, NSW, Australia, April 2025."
   label: C23
-  desc: <font color="red">(CCF-A)</font>
+  desc: (<font color="red">CCF-A</font>, <font color="red">Oral</font>, ar/19.8%)
   year: 2025
   theme:
     - Compile
@@ -179,7 +179,7 @@
     url: https://xianweiz.github.io/doc/papers/25aspdac_mpache.pdf
   conf: "The 30th Asia and South Pacific Design Automation Conference (<b>ASP-DAC</b>), Tokyo Odaiba Miraikan, Japan, January 2025."
   label: C20
-  desc: <font color="#ff9933">(CCF-C)</font>
+  desc: (<font color="#ff9933">CCF-C</font>, ar/28.6%)
   year: 2025
   theme:
     - GPU
