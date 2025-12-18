@@ -240,7 +240,7 @@ Also available at
     {% endif %}
 <div class="pub-item" markdown="1">
 [{{ publi.label }}] {{ publi.authors }}  
-<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> <!--{{ publi.desc }}-->  
+<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
 <!--*{{ publi.conf }}*-->
 </div>
 

@@ -603,6 +603,18 @@
   # ============================================
   # arXiv
   # ============================================
+- authors: "<u>Yuhao Gu</u>, <u>Zhongchun Zheng</u>, Nong Xiao, Yutong Lu and <i>Xianwei Zhang</i>"
+  title:
+    name: "Partial Cross-Compilation and Mixed Execution for Accelerating Dynamic Binary Translation"
+    url: https://arxiv.org/abs/2512.00487
+  conf:
+  label: A5
+  desc:
+  year: "[arXiv]"
+  theme:
+    - arXiv
+  highlight: 0
+
 - authors: "<u>Tianyu Guo</u>, Tianming Xu, <u>Xianjie Chen</u>, <u>Junru Chen</u>, Nong Xiao and <i>Xianwei Zhang</i>"
   title:
     name: "RServe: Overlapping Encoding and Prefill for Efficient LMM Inference"
@@ -621,7 +633,7 @@
     url: https://arxiv.org/abs/2504.19516
   conf:
   label: A3
-  desc:
+  desc: (ASPLOS'2026)
   year: "[arXiv]"
   theme:
     - arXiv
