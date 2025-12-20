@@ -49,7 +49,7 @@
   title:
     name: "HuntKTm: Hybrid Scheduling and Automatic Management for Efficient Kernel Execution on Modern GPUs"
     url: https://xianweiz.github.io/doc/papers/25taco_huntktm.pdf
-  conf: "ACM Transactions on Architecture and Code Optimization (<b>TACO</b>)."
+  conf: "ACM Transactions on Architecture and Code Optimization (<b>TACO</b>), Volume 22, Issue 4, Article 161."
   label: J7
   desc: (<font color="red">CCF-A</font>)
   year: 2025
