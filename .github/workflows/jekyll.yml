@@ -35,6 +35,6 @@ jobs:
       
       - name: Trigger Deployment
         run: |
-          curl -f -v -X POST http://portal.m.arcsysu.cn/trigger/homepage \
+          curl -f -v -X POST https://portal.m.arcsysu.cn/trigger/homepage \
             -H "X-API-KEY: ${{ secrets.TRIGGER_KEY }}" \
             -H "Content-Type: application/json"
