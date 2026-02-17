@@ -32,3 +32,9 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
           publish_branch: gh-pages
+      
+      - name: Trigger Deployment
+        run: |
+          curl -f -v -X POST http://portal.m.arcsysu.cn/trigger/homepage \
+            -H "X-API-KEY: ${{ secrets.TRIGGER_KEY }}" \
+            -H "Content-Type: application/json"
