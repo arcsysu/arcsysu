@@ -4,7 +4,7 @@
 - authors: "<u>Zejia Lin</u>, <u>Hongxin Xu</u>, <u>Guanyi Chen</u>, Zhiguang Chen, Yutong Lu<sup>&#9993;</sup> and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
   title:
     name: "Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration"
-    url: https://arxiv.org/abs/2504.19516
+    url: https://xianweiz.github.io/doc/papers/26asplos_bullet.pdf
   conf: "The 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems (<b>ASPLOS</b>), Pittsburgh, PA, United States, March 2026."
   label: C32
   desc: (<font color="red">CCF-A</font>, ar/10.6%)
@@ -31,7 +31,7 @@
 - authors: "<i>Xianwei Zhang</i><sup>=</sup>, <u>Xuanteng Huang</u><sup>=</sup> and Nong Xiao<sup>&#9993;</sup> (<sup>=</sup>Equal Contribution)"
   title:
     name: "FEDCM: Fine-grained Kernel Scheduling and Management to Improve GPU Sharing"
-    url:
+    url: https://xianweiz.github.io/doc/papers/26date_fedcm.pdf
   conf: "Design, Automation and Test in Europe Conference (<b>DATE</b>), Verona, Italy, April 2026."
   label: C30
   desc: (<font color="firebrick">CCF-B</font>, ar/25%)
