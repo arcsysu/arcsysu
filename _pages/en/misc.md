@@ -13,6 +13,7 @@ permalink: /misc
 ## Artifacts
 Yat Compiler Construction with AI (<a href="https://yatcc-ai.com/" target="_blank">YatCC-AI</a>)<br>
 Yat Creative Cloud (YatCC)
+YatCC-AI Hub
 
 <a href="https://yatcc-ai.com/" target="_blank"> ![]({{ site.url }}{{ site.baseurl }}/images/misc/yatcc.webp){: style="width: 50%; margin: 30px"} </a>
 
