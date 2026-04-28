@@ -42,6 +42,19 @@
     - Arch
   highlight: 0
 
+- authors: "<u>Wenyuan Liang</u>, <u>Hengzhong Liang</u>, <u>Han Huang</u> and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
+  title:
+    name: "Porting LULESH to SYCL: Practical Insights and Performance Analysis"
+    url:
+  conf: "CCF Transactions on High Performance Computing (<b>THPC</b>), 2026."
+  label: J8
+  desc: <font color="#ff9933">(CCF-C)</font>
+  year: 2026
+  theme:
+    - HPC
+    - GPU
+  highlight: 0
+
 # ============================================
 # 2025
 # ============================================

@@ -1,3 +1,11 @@
+- date: "04/2026"
+  kind: Fund
+  desc: Two grants awarded to accelerate GPU computing, and support agentic research!
+
+- date: "03/2026"
+  kind: Tool
+  desc: New <a href="https://yatcc-ai.com/">YatCC</a> platform released for Teach+Research!
+
 - date: "12/2025"
   kind: Teach
   desc: Two Provincal Teaching Awards received! Thanks all!
@@ -67,7 +75,7 @@
   desc: One invited talk delivered at <a href="https://apan59.sched.com/event/1tG7z/asia-pacific-research-platform-aprp-wg-session-2">APAN'59</a>!
 
 - date: "02/2025"
-  kind: Teach
+  kind: Tool
   desc: YatCC-AI with Web and DeepSeek released. <a href="https://yatcc-ai.com/">Try it now</a>!
 
 - date: "02/2025"
