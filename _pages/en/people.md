@@ -10,7 +10,7 @@ permalink: /people
 
 # Team Members
   **<u>A</u>RCSYSUers <u>R</u>efine <u>C</u>omputing <u>Sys</u>tem <u>U</u>ses!**
-  Join us! (See <a href="{{ site.url }}{{ site.baseurl }}/files/hire_QAs.txt" target="_blank">FAQs</a>).
+  Join us! (See <a href="{{ site.url }}{{ site.baseurl }}/files/faq.html" target="_blank">FAQs</a>).
 
 
 <!-- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->

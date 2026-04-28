@@ -51,7 +51,7 @@ We work closely with other exceptional teams across the center on a broad spectr
 
 Our research is supported by prestigious programs, including the National Key R&D Program, the National Natural Science Foundation of China, as well as collaborative partnerships with industry leaders like Tencent®, Huawei® and Phytium®.
 
-<b>We are always seeking passionate PhD/MS students, postdoctoral researchers and undergraduates to join us in exploring the frontiers of computing!</b> (For more details, please refer to our &#8599; <a href="{{ site.url }}{{ site.baseurl }}/files/hire_QAs.txt" target="_blank">FAQs</a>).
+<b>We are always seeking passionate PhD/MS students, postdoctoral researchers and undergraduates to join us in exploring the frontiers of computing!</b> (For more details, please refer to our &#8599; <a href="{{ site.url }}{{ site.baseurl }}/files/faq.html" target="_blank">FAQs</a>).
 
 <figure class="fifth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_nRD.webp" style="height: 25px; padding-right:30px">
