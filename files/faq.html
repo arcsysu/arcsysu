@@ -8,55 +8,102 @@
 <style>
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
-  max-width: 980px;
-  margin: 40px auto;
+  max-width: 1000px;
+  margin: 0 auto;
   padding: 0 20px;
+  background: #fafafa;
+  color: #222;
   line-height: 1.7;
 }
 
-h1 {
-  text-align: center;
-}
-
+/* =========================
+   🧭 Sticky Control Bar
+   ========================= */
 .controls {
+  position: sticky;     /* ⭐ 核心 */
+  top: 0;
+  z-index: 1000;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(8px);
+
+  padding: 10px 0;
   text-align: center;
-  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
 }
 
+/* buttons */
 button {
-  padding: 6px 12px;
-  margin: 5px;
+  padding: 6px 14px;
+  margin: 4px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 8px;
   cursor: pointer;
-  border: 1px solid #ccc;
-  background: #fff;
-  border-radius: 6px;
+  transition: 0.2s;
+  font-size: 14px;
 }
 
 button:hover {
   background: #f5f5f5;
 }
 
+/* =========================
+   Header
+   ========================= */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* =========================
+   FAQ Cards
+   ========================= */
 .faq-item {
-  border-bottom: 1px solid #ddd;
-  padding: 14px 0;
+  background: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  padding: 14px 16px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  transition: 0.2s;
+}
+
+.faq-item:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
 }
 
 .question {
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 650;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.qtag {
+  color: #1f6feb;
+  margin-right: 6px;
 }
 
 .answer {
   display: none;
   margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed #eee;
   white-space: pre-line;
-  color: #333;
+  color: #444;
+  font-size: 14px;
 }
 
 .arrow {
-  transition: transform 0.2s;
+  transition: transform 0.2s ease;
 }
 
 .open .arrow {
@@ -67,8 +114,10 @@ button:hover {
 
 <body>
 
-<h1>FAQs to Join <i>arcSYSu</i></h1>
+<h1>arcSYSu Lab FAQ</h1>
+<div class="subtitle">Frequently Asked Questions</div>
 
+<!-- ⭐ Sticky control bar -->
 <div class="controls">
   <button onclick="setLang('zh')">中文</button>
   <button onclick="setLang('en')">English</button>
@@ -80,10 +129,11 @@ button:hover {
 
 <script>
 
+/* ===== 你的 data 原样放这里 ===== */
 const data = [
 
 {
-q_zh:`Q0. 可否先介绍下lab？`,
+q_zh:`可否先介绍下lab？`,
 a_zh:`lab名称为arcSYSu，全称是"ARChitecture and SYStem Upscaling @ SYSU"，也是“arcSYSu refines computing system uses”的递归缩写；
 简称为ARX，可理解为ARchitecture and system eXploration，或，Architecture Research led by Xianwei。
 
@@ -93,7 +143,7 @@ arcSYSu也是广州超算交叉研究中心的一部分，与中心系统方向�
 
 ☆ 注：arcSYSu是xianweiz指导的研究小组，不代表超算中心或学院的官方研究团队或大组结构。`,
 
-q_en:`Q0. Can you introduce the lab?`,
+q_en:`Can you introduce the lab?`,
 a_en:`arcSYSu (ARChitecture and SYStem Upscaling @ SYSU), also called ARX.
 
 A research group in GPU, compiler, HPC/ML systems.
@@ -102,7 +152,7 @@ Note: it is a research group, not an official organizational unit.`
 },
 
 {
-q_zh:`Q1. 能简单谈一谈你的研究方向吗？`,
+q_zh:`能简单谈一谈你的研究方向吗？`,
 a_zh:`我的主要研究方向是计算机系统、GPU、编译等，关注如何围绕前沿高性能（HPC）和智能应用（AI/LLM）需求来设计和优化计算机系统以提升整体性能与便捷性；
 此外，lab涉及其他研究方向也包括HPC应用及AI等，会更多偏向于算法和业务，但又基本都涉及到系统层面。
 
@@ -116,38 +166,38 @@ a_zh:`我的主要研究方向是计算机系统、GPU、编译等，关注如�
 
 ☆ 组内当前主要方向大体包括：GPU系统、编译、ML系统、HPC环境与平台、应用优化等。`,
 
-q_en:`Q1. Research directions?`,
+q_en:`Research directions?`,
 a_en:`We focus on GPU, systems, compilers, and AI/HPC optimization.
 
 Workflow: application → system design → validation.`
 },
 
 {
-q_zh:`Q2. 你的方向是不是很“硬件”？`,
+q_zh:`你的方向是不是很“硬件”？`,
 a_zh:`我们的研究虽接近硬件，但主要以“软件”的方法研究“软硬件”系统和应用性能优化，强调从“算法-软件-硬件”全栈知识体系和技能，但通常并不会涉及底层实现和电路。
 
 组内重点关注的学术会议包括：SC/ASPLOS/HPCA/ISCA/MICRO/PPoPP/SOSP/OSDI/CGO/NeurlIPS等。`,
 
-q_en:`Q2. Is your research hardware-oriented?`,
+q_en:`Is your research hardware-oriented?`,
 a_en:`We focus on software/system approaches for hardware-software optimization.
 
 Venues: ASPLOS, ISCA, MICRO, OSDI, SOSP, NeurIPS.`
 },
 
 {
-q_zh:`Q3. 你招学生最看重哪些方面？`,
+q_zh:`你招学生最看重哪些方面？`,
 a_zh:`踏实上进的态度、良好的自我能驱动性（self-motivated）；
 有对自我优秀的追求，而非仅仅提升学历或满足毕业要求；
 对计算机系统及应用有兴趣（e.g., 好奇程序全栈执行过程）；
 有扎实的计算机基础，熟练掌握1-2门编程语言（注：并不需要熟悉Q1/A1提到的工具或语言）；
 ☆ 彼此聊得来，style match，双方预计可以合作愉快。`,
 
-q_en:`Q3. What do you value in students?`,
+q_en:`What do you value in students?`,
 a_en:`Self-motivation, curiosity, fundamentals, and good collaboration fit.`
 },
 
 {
-q_zh:`Q4. 选择你作为导师，有何优势？`,
+q_zh:`选择你作为导师，有何优势？`,
 a_zh:`在国内外工业界、学术界和管理机构都有过经历，能够从更实用、长远和综合的角度培养指导，及在就业/深造上给予建议；
 坚信导师应该与学生共同成长，会全流程亲自指导培养；
 有一定的合作资源，可以推荐到国内外高校或企业；
@@ -155,12 +205,12 @@ a_zh:`在国内外工业界、学术界和管理机构都有过经历，能够�
 
 [Reminder: 以上优势及以下QA可能本身亦是劣势，关键看是否match，请结合个人情况与组内学生反馈综合判断]`,
 
-q_en:`Q4. Advisor advantages?`,
+q_en:`Advisor advantages?`,
 a_en:`Industry + academia experience, strong mentoring, resources, and platform.`
 },
 
 {
-q_zh:`Q5. 具体来讲，你会怎么指导学生？`,
+q_zh:`具体来讲，你会怎么指导学生？`,
 a_zh:`选题：结合科研项目、学生背景和兴趣帮助选定方向，共同研读讨论文献
 研究：全流程指导研究开展，每周1x1小方向组讨论，平等沟通
 能力：培养动手实践、独立思考、双向沟通和团队协作
@@ -172,12 +222,12 @@ a_zh:`选题：结合科研项目、学生背景和兴趣帮助选定方向，�
 [Herman@ColumbiaU, https://www.nature.com/articles/nj7124-228a]
 ...`,
 
-q_en:`Q5. How do you mentor students?`,
+q_en:`How do you mentor students?`,
 a_en:`Topic selection, research guidance, weekly discussions, and growth mentoring.`
 },
 
 {
-q_zh:`Q6. 你对学生有什么总体培养目标？`,
+q_zh:`你对学生有什么总体培养目标？`,
 a_zh:`系统（或者说计算机）方向通常是全栈性的，因而应该努力兼顾“专”和“广”。
 专：成为某一个方向或子领域的专家
 广：建立从算法到系统的全面认知
@@ -186,60 +236,60 @@ a_zh:`系统（或者说计算机）方向通常是全栈性的，因而应该�
 
 [Reminder：以上目标和要求可能并不容易达到，plz think twice]`,
 
-q_en:`Q6. Training goals?`,
+q_en:`Training goals?`,
 a_en:`Depth + breadth: become both specialized and system-aware.`
 },
 
 {
-q_zh:`Q7. 你怎么看待实习与工业界？`,
+q_zh:`你怎么看待实习与工业界？`,
 a_zh:`计算机的研究是紧密联系产业界的，而实习是了解业界前沿、提升能力的绝佳方式，所以实习是鼓励的（当然，最好是和自己所作方向相关；同时，做好提前规划和沟通）；
 公司实习和学校研究不应该是相互对立，相反应该是互为补充，共同支撑研究生阶段的能力培养提升；
 另，学术界和工业界都有很好地平台和机会，所以更多是个人选择，并无优劣之分。
 ☆ 我总体认同未来是高度不确定的，要保留更多的可能性，有更高的眼界和视野，把路尽量走宽，而不要迫不得已（Be Prepared, Be Open）`,
 
-q_en:`Q7. Internships and industry?`,
+q_en:`Internships and industry?`,
 a_en:`Encouraged and complementary to research. Keep options open.`
 },
 
 {
-q_zh:`Q8. 如果选择去工业界，有哪些适合的公司和岗位？`,
+q_zh:`如果选择去工业界，有哪些适合的公司和岗位？`,
 a_zh:`作为一个熟悉全栈系统和应用、兼顾“专”和“广”的毕业生，选择面很宽：
 可以去相对偏系统的公司（e.g.,华为、AMD和Nvidia等）从事架构或系统相关的研发设计；
 也可以去互联网公司（e.g.,字节、腾讯、阿里、Google）从事软硬件研发；
 当然，针对HPC/AI等领域应用加速的startups也是很好地选择。`,
 
-q_en:`Q8. Career options?`,
+q_en:`Career options?`,
 a_en:`System companies, tech giants, and startups.`
 },
 
 {
-q_zh:`Q9. 组内有无样本数据供参考？`,
+q_zh:`组内有无样本数据供参考？`,
 a_zh:`目前组内博士和硕士研究生24人（2021 - 2025级），预计未来也会维持在20人左右规模；在读期间大多有实习经历（NV、Intel、ALI、字节、腾讯、华为、阿里、Kimi等）；
 已毕业硕士生8人，首份单位去向为Intel、HKUST(GZ)、Nvidia、Huawei、MetaX、字节、京东、选调；截止到目前，约1/3硕士选择攻读PhD（毕业后读博+硕转博）；
 另有各年级本科生若干。
 更多信息请查阅<a href="https://arcsysu.tech/">https://arcsysu.tech/</a>相关页面`,
 
-q_en:`Q9. Lab statistics?`,
+q_en:`Lab statistics?`,
 a_en:`~24 students, strong industry + PhD outcomes.`
 },
 
 {
-q_zh:`Q10. 以上更多是面向研究生，本科生可以加入lab吗`,
+q_zh:`以上更多是面向研究生，本科生可以加入lab吗?`,
 a_zh:`可以，且非常欢迎。如果你对lab研究方向感兴趣，且学有余力/积极主动，欢迎加入到lab学习交流。
 但需提醒：本科阶段更多要全面发展，提升全栈知识体系和技能，不必过早限定方向（你无法在这个阶段笃定自己一定做什么或者一定不做什么^_^）。
 lab的参与更多是课堂学习的延伸，你需要主动学习、积极交流、开阔眼界，发掘自己的兴趣和潜力。
 原则上，你需要积极参与到lab至少一学期（组会、讨论、竞赛等），且得到大家的认可后，才officially成为arcSYSu一员（即，作为Ug/RA）。`,
 
-q_en:`Q10. Can undergraduates join?`,
+q_en:`Can undergraduates join?`,
 a_en:`Yes. Active participation required before formal joining.`
 },
 
 {
-q_zh:`Q11. 怎么联系你以更进一步的互相了解？`,
+q_zh:`怎么联系你以更进一步的互相了解？`,
 a_zh:`发送邮件至zhangxw79[at]mail.sysu.edu.cn，可以安排当面或电话沟通；
 同时，建议查阅<a href="https://arcsysu.tech/">https://arcsysu.tech/</a>联系组内学生，可以了解到更全面客观和综合信息以做判断`,
 
-q_en:`Q11. Contact?`,
+q_en:`Contact?`,
 a_en:`Email: zhangxw79@mail.sysu.edu.cn`
 }
 
@@ -257,12 +307,15 @@ function render(){
 
     const div = document.createElement("div");
     div.className="faq-item";
+
     div.innerHTML=`
       <div class="question" onclick="toggle(${i})">
-        ${q}<span class="arrow">▶</span>
+        <div><span class="qtag">Q${i}:</span>${q}</div>
+        <span class="arrow">▶</span>
       </div>
       <div class="answer" id="a${i}">${a}</div>
     `;
+
     c.appendChild(div);
   });
 }
@@ -270,6 +323,7 @@ function render(){
 function toggle(i){
   const a=document.getElementById("a"+i);
   const p=a.parentElement;
+
   if(a.style.display==="block"){
     a.style.display="none";
     p.classList.remove("open");
@@ -284,18 +338,25 @@ function setLang(l){lang=l;render();}
 function expandAll(){
   data.forEach((_,i)=>{
     const a=document.getElementById("a"+i);
-    if(a){a.style.display="block";a.parentElement.classList.add("open");}
+    if(a){
+      a.style.display="block";
+      a.parentElement.classList.add("open");
+    }
   });
 }
 
 function collapseAll(){
   data.forEach((_,i)=>{
     const a=document.getElementById("a"+i);
-    if(a){a.style.display="none";a.parentElement.classList.remove("open");}
+    if(a){
+      a.style.display="none";
+      a.parentElement.classList.remove("open");
+    }
   });
 }
 
 render();
+
 </script>
 
 </body>
