@@ -205,13 +205,46 @@ input:focus {
   }
 }
 
+/* ===== Elegant Link System ===== */
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(31, 111, 235, 0.25);
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: #1f6feb;
+  border-bottom: 1px solid rgba(31, 111, 235, 0.7);
+}
+
+/* Optional: inline academic-style link */
+a.inline-link {
+  color: inherit;
+  border-bottom: 1px dotted rgba(31, 111, 235, 0.35);
+}
+
+a.inline-link:hover {
+  color: #1f6feb;
+  border-bottom: 1px solid rgba(31, 111, 235, 0.8);
+}
+
+/* Optional: subtle external link indicator */
+a[href^="http"]::after {
+  content: "↗";
+  font-size: 11px;
+  margin-left: 3px;
+  opacity: 0.5;
+}
+
 </style>
 </head>
 
 <body>
 
 <h1>Join arcSYSu</h1>
-<div class="subtitle">We build systems that matter. From ideas → designs → impacts.
+<div class="subtitle">We study systems that matter. <br>
+  Build designs • Scale ideas • Deliver impacts
 </div>
 
 <div class="controls">
@@ -281,7 +314,7 @@ Common languages: C/C++, Python, Bash, CUDA/HIP/OpenCL.
 },
 
 {
-q_zh:`你的方向是不是很“硬件”？`,
+q_zh:`研究方向是不是很“硬件”？`,
 a_zh:`我们的研究虽接近硬件，但主要以“软件”的方法研究“软硬件”系统和应用性能优化，强调从“算法-软件-硬件”全栈知识体系和技能，但通常并不会涉及底层实现和电路。
 
 组内重点关注的学术会议包括：SC/ASPLOS/HPCA/ISCA/MICRO/PPoPP/SOSP/OSDI/CGO/NeurlIPS/AAAI/ICLR等。`,
@@ -336,7 +369,7 @@ Strong platform with state-of-the-art resources and projects.
 },
 
 {
-q_zh:`具体来讲，你会怎么指导学生？`,
+q_zh:`你会怎么指导学生？`,
 a_zh:`选题：结合科研项目、学生背景和兴趣帮助选定方向，共同研读讨论文献；
 研究：指导研究开展，每周1x1小方向组讨论，平等沟通；
 能力：培养动手实践、独立思考、双向沟通和团队协作；
@@ -368,7 +401,7 @@ a_zh:`系统（或者说计算机）方向天然是全栈性的，因而应该�
 
 [Reminder：以上目标和要求可能并不容易达到，plz think twice]`,
 
-q_en:`What are your training goals`,
+q_en:`What are your training goals?`,
 a_en:`Systems research is inherently full-stack, so we aim for both:
 Depth: expertise in a focused area
 Breadth: end-to-end understanding (algorithm → system)
@@ -402,13 +435,13 @@ Be Prepared, Be Open.`
 },
 
 {
-q_zh:`如果选择去工业界，有哪些合适的选择？`,
+q_zh:`如果去工业界，有哪些适合的选择？`,
 a_zh:`作为一个熟悉全栈系统和应用、兼顾“专”和“广”的毕业生，选择面很宽：
 - 可以去相对偏系统的公司（e.g.,华为、AMD和Nvidia等）从事架构或系统相关的研发设计；
 - 也可以去互联网公司（e.g.,字节、腾讯、阿里、Google）从事软硬件研发；
 - 当然，针对HPC/AI等领域应用加速的startups也是很好地选择。`,
 
-q_en:`What career paths do your students pursue?`,
+q_en:`What career paths to pursue?`,
 a_en:`Graduates with full-stack systems expertise have broad options, including:
 System/architecture roles (e.g., Huawei, AMD, NVIDIA);
 Software/hardware engineering in leading tech companies (e.g., ByteDance, Tencent, Alibaba, Google);
@@ -416,7 +449,7 @@ Startups in HPC/AI infrastructure and acceleration.`
 },
 
 {
-q_zh:`组内有无样本数据供参考？`,
+q_zh:`lab有无样本数据供参考？`,
 a_zh:`目前组内博士和硕士研究生24人（2021 - 2025级），预计未来也会维持在20人左右规模；
 在读期间大多有实习经历（NV、Intel、ALI、字节、腾讯、华为、阿里、Kimi等）；
 已毕业硕士生8人，首份单位去向为Intel、HKUST(GZ)、Nvidia、Huawei、MetaX、字节、京东、选调；
@@ -463,7 +496,7 @@ q_zh:`怎么进一步联系？`,
 a_zh:`发送邮件至zhangxw79[at]mail.sysu.edu.cn，可以安排当面或电话沟通；
 同时，建议查阅<a href="https://arcsysu.tech/">https://arcsysu.tech/</a>联系组内学生，可以了解到更全面客观和综合信息以做判断。`,
 
-q_en:`How can I contact you?`,
+q_en:`How can I contact for further info?`,
 a_en:`Email: zhangxw79@mail.sysu.edu.cn
 
 We can have a coffee chat in person or have virtual meeting.
