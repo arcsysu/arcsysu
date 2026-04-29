@@ -8,16 +8,16 @@ permalink: /join
 ---
 
 {::nomarkdown}
-<h1><span class="zh-text">加入 arcSYSu</span><span class="en-text">Join arcSYSu</span></h1>
+<h1><span class="zh-text">Join arcSYSu</span><span class="en-text">Join arcSYSu</span></h1>
 <div class="subtitle">
-  <span class="zh-text">我们构建有意义的系统。从想法 → 设计 → 影响。</span>
+  <span class="zh-text">We build systems that matter. From ideas → designs → impacts.</span>
   <span class="en-text">We build systems that matter. From ideas → designs → impacts.</span>
 </div>
 
 <div class="controls">
   <button id="langBtn" onclick="toggleLang()">English</button>
   <button id="expandBtn" onclick="toggleExpand()">展开全部 / Expand All</button>
-  <input id="searchBox" placeholder="Search..." oninput="searchFAQ()" style="width:180px;">
+  <input id="searchBox" placeholder="Search..." oninput="searchFAQ()">
 </div>
 
 <div id="faq">

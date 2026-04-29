@@ -506,7 +506,7 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
 max-width: 920px;
 margin: 0 auto;
-padding: 0 20px;
+padding: 18px 24px;
 background: #fafafa;
 color: #1f2328;
 line-height: 1.75;
@@ -541,24 +541,46 @@ text-align: center;
 border-bottom: 1px solid #eee;
 }
 
-#joinid button, #joinid input {
-padding: 6px 14px;
+#joinid button {
+font-size: 16px;
+font-weight: 600;
+padding: 10px 35px;
 margin: 4px;
-border: 1px solid #ddd;
-background: white;
-border-radius: 10px;
-font-size: 13.5px;
-transition: all 0.2s ease;
+border: 3px solid #ddd;
+background-color: #f8f9fa;
+color: #666;
+border-radius: 6px;
+cursor: pointer;
+transition: all 0.3s ease;
+-webkit-tap-highlight-color: rgba(0,0,0,0.1);
+touch-action: manipulation;
 }
 
 #joinid button:hover {
-background: #f3f6ff;
-border-color: #c9d8ff;
+background-color: #e9ecef;
+color: #057234;
+border-color: #ddd;
+}
+
+#joinid input {
+padding: 12px 15px;
+margin: 4px;
+border: 2px solid #ddd;
+background-color: #fff;
+border-radius: 6px;
+font-size: 15px;
+outline: none;
+transition: all 0.3s ease;
+width: 240px;
 }
 
 #joinid input:focus {
-outline: none;
-border-color: #1f6feb;
+border-color: #057234;
+box-shadow: 0 0 0 3px rgba(5, 114, 52, 0.1);
+}
+
+#joinid input::placeholder {
+color: #999;
 }
 
 #joinid .faq-item {
@@ -665,7 +687,16 @@ font-weight: 500;
 }
 
 @media (max-width: 768px) {
-#joinid { padding: 0 14px; }
+#joinid { padding: 24px 14px; }
 #joinid h1 { font-size: 26px; }
-#joinid input { width: 140px !important; }
+#joinid button {
+    font-size: 12px;
+    padding: 8px 12px;
+}
+#joinid input {
+    font-size: 14px;
+    padding: 10px 12px;
+    width: 100% !important;
+    max-width: 100% !important;
+}
 }
