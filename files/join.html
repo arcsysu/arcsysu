@@ -211,7 +211,8 @@ input:focus {
 <body>
 
 <h1>Join arcSYSu</h1>
-<div class="subtitle">We build systems that matter. From ideas → designs → impacts.</div>
+<div class="subtitle">We build systems that matter. From ideas → designs → impacts.
+</div>
 
 <div class="controls">
   <button id="langBtn" onclick="toggleLang()">English</button>
@@ -232,12 +233,12 @@ q_zh:`可否先介绍下lab？`,
 a_zh:`lab名称为arcSYSu，全称是"ARChitecture and SYStem Upscaling @ SYSU"，也是“arcSYSu refines computing system uses”的递归缩写；
 简称为ARX，可理解为<b><u>AR</u></b>chitecture and system e<b><u>X</u></b>ploration，或，<b><u>A</u></b>rchitecture <b><u>R</u></b>esearch led by <b><u>X</u></b>ianwei。
 
-arcSYSu是国家超算广州中心（广州超算）下属研究组，研究聚焦GPU系统、编译、HPC/AI Infra、基础软件框架，面向LLM/Agent等新型计算负载构建高性能、可扩展、实用化的系统能力。
+arcSYSu是国家超算广州中心（广州超算）下属研究组，研究聚焦GPU系统、编译技术、HPC/AI Infra及基础软件框架，致力于面向HPC/AI等关键场景构建高性能、高扩展、高实用的系统能力。
 lab成员是直接接受xianweiz指导的学生（包括与其他老师共同指导学生）。
 
 arcSYSu也是广州超算交叉研究中心（xRC）的一部分，与中心系统方向及其他方向老师的研究组在项目、论文、指导等各方面保持紧密协作。
 
-☆ 注：arcSYSu是<a href="https://xianweiz.github.io/">xianweiz</a>指导的研究小组，不代表超算中心或学院的官方研究团队或大组结构。`,
+☆ 注：arcSYSu是<a href="https://xianweiz.github.io/">xianweiz</a>指导的研究小组（research group），不代表超算中心或学院的官方研究团队或大组结构。`,
 
 q_en:`Can you briefly introduce the lab?`,
 a_en:`<b>arcSYSu</b> (ARChitecture and SYStem Upscaling @ SYSU), also known as <b>ARX</b>, is a research group led by <a href="https://xianweiz.github.io/">Xianwei</a>. The name also forms a recursive acronym: “arcSYSu refines computing system uses.”
@@ -250,19 +251,18 @@ arcSYSu is also part of the Interdisciplinary Research Center (<b>xRC</b>), with
 
 {
 q_zh:`能简单谈一谈你的研究方向吗？`,
-a_zh:`我们的核心关注是：如何围绕HPC与AI工作负载，设计
-我的主要研究方向是计算机系统、GPU、编译等，关注如何围绕前沿高性能（HPC）和智能应用（AI/LLM/Agent）需求来设计和优化计算机系统以提升整体性能与便捷性；
+a_zh:`主要研究方向是计算机系统、GPU、编译等，关注如何围绕前沿高性能（HPC）和智能应用（AI/LLM/Agent）需求来设计和优化计算机系统以提升整体性能与可用性；
 此外，lab涉及其他研究方向也包括HPC应用及AI等，会更多偏向于算法和业务，但又基本都涉及到系统层面。
 
 大概的研究流程是“应用出发 - 系统设计 - 回到应用”：
-1）分析应用程序，确定性能瓶颈；
-2）设计软件或硬件层面的解决方案；
-3）实现并验证方案有效性；
+- 分析应用程序，确定性能瓶颈；
+- 设计软件或硬件层面解决方案；
+- 实现并验证方案有效性。
 
-常用工具是profiler（e.g.，nvprof/rocprof）、clang/LLVM、CUDA/ROCm Runtime、docker/container、K8s、vLLM/SGLang等，
+常用工具是profiler（e.g.，nvprof/rocprof）、clang/LLVM、CUDA/ROCm Runtime、docker/container、K8s、vLLM/SGLang等；
 常用语言是C/C++, Python, Bash, CUDA/HIP/OpenCL等。
 
-☆ 组内当前致力于构建Agent智能计算系统，涉及方向包括：CPU/GPU系统、编译运行时、软件平台、应用优化等。`,
+☆ 当前重点：Agent时代的智能计算系统，涵盖：CPU/GPU、编译运行时、系统平台与应用优化等。`,
 
 q_en:`What are your research directions?`,
 a_en:`We work on computer systems, GPU architectures, and compilers, with an emphasis on optimizing systems for HPC and modern AI workloads (LLMs, agents, etc.).
@@ -298,11 +298,11 @@ SC, ASPLOS, HPCA, ISCA, MICRO, PPoPP, SOSP, OSDI, CGO, NeurIPS, AAAI, ICLR.`
 
 {
 q_zh:`你招学生最看重哪些方面？`,
-a_zh:`我们更看重“潜力与驱动力”，而不是已有经验：
-踏实上进的态度、良好的自我能驱动性（self-motivated）；
-有对自我优秀的追求，而非仅仅提升学历或满足毕业要求；
-对计算机系统及应用有兴趣（e.g., 好奇程序全栈执行过程）；
-有扎实的计算机基础，熟练掌握1-2门编程语言（注：并不需要熟悉Q1/A1提到的工具或语言）；
+a_zh:`我们更看重“潜力与驱动力”（potential & motivation），而非已有经验：
+- 踏实上进的态度、良好的自我能驱动性（self-motivated）；
+- 有对自我优秀的追求，而非仅仅提升学历或满足毕业要求；
+- 对计算机系统及应用有兴趣（e.g., 好奇程序全栈执行过程）；
+- 有扎实的计算机基础，熟练掌握1-2门编程语言（注：并不需要熟悉Q1/A1提到的工具或语言）；
 
 ☆ 彼此聊得来，style match，双方预计可以合作愉快。`,
 
@@ -337,10 +337,10 @@ Strong platform with state-of-the-art resources and projects.
 
 {
 q_zh:`具体来讲，你会怎么指导学生？`,
-a_zh:`选题：结合科研项目、学生背景和兴趣帮助选定方向，共同研读讨论文献
-研究：指导研究开展，每周1x1小方向组讨论，平等沟通
-能力：培养动手实践、独立思考、双向沟通和团队协作
-眼界：鼓励对外交流，支持参加国内外会议和活动
+a_zh:`选题：结合科研项目、学生背景和兴趣帮助选定方向，共同研读讨论文献；
+研究：指导研究开展，每周1x1小方向组讨论，平等沟通；
+能力：培养动手实践、独立思考、双向沟通和团队协作；
+眼界：鼓励对外交流，支持参加国内外会议和活动。
 
 另，我所认同的advisor/advisee relationship，供参考:
 [Harcol@CMU, https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf]
@@ -360,9 +360,9 @@ we work side-by-side, learn from each other, and make discoveries together.
 
 {
 q_zh:`你对学生有什么总体培养目标？`,
-a_zh:`系统（或者说计算机）方向通常是全栈性的，因而应该努力兼顾“专”和“广”。
-专：成为某一个方向或子领域的专家
-广：建立从算法到系统的全面认知
+a_zh:`系统（或者说计算机）方向天然是全栈性的，因而应该努力兼顾“专”和“广”。
+- 专（Depth）：成为某一个方向或子领域的专家
+- 广（Breadth）：建立从算法到系统的全面认知
 关于毕业标准，并无量化要求（例如，几篇论文、什么级别），但总体认同研究生阶段需要在实践、研究、沟通和综合能力上获得质的提升（Be Professional，Do Smart, Show Impact），
 且应该在个人简历中的项目和研究方面有直接的体现，在就业市场和长远发展要具有相当的竞争力（专业技术，以及更多方面）。
 
@@ -387,7 +387,7 @@ a_zh:`计算机的研究是紧密联系产业界的，而实习是了解业界�
 公司实习和学校研究不应该是相互对立，相反应该是互为补充，共同支撑研究生阶段的能力培养提升；
 另，学术界和工业界都有很好地平台和机会，所以更多是个人选择，并无优劣之分。
 
-☆ 我总体认同未来是高度不确定的，要保留更多的可能性，有更高的眼界和视野，把路尽量走宽，而不要迫不得已（Be Prepared, Be Open）`,
+☆ 我总体认同未来是高度不确定的，要保留更多的可能性，有更高的眼界和视野，把路尽量走宽，而不要迫不得已（Be Prepared, Be Open）。`,
 
 q_en:`How do you view internships and industry?`,
 a_en:`Internships are strongly encouraged, especially when aligned with your research.
@@ -402,11 +402,11 @@ Be Prepared, Be Open.`
 },
 
 {
-q_zh:`如果选择去工业界，有哪些适合的公司和岗位？`,
+q_zh:`如果选择去工业界，有哪些合适的选择？`,
 a_zh:`作为一个熟悉全栈系统和应用、兼顾“专”和“广”的毕业生，选择面很宽：
-可以去相对偏系统的公司（e.g.,华为、AMD和Nvidia等）从事架构或系统相关的研发设计；
-也可以去互联网公司（e.g.,字节、腾讯、阿里、Google）从事软硬件研发；
-当然，针对HPC/AI等领域应用加速的startups也是很好地选择。`,
+- 可以去相对偏系统的公司（e.g.,华为、AMD和Nvidia等）从事架构或系统相关的研发设计；
+- 也可以去互联网公司（e.g.,字节、腾讯、阿里、Google）从事软硬件研发；
+- 当然，针对HPC/AI等领域应用加速的startups也是很好地选择。`,
 
 q_en:`What career paths do your students pursue?`,
 a_en:`Graduates with full-stack systems expertise have broad options, including:
@@ -417,11 +417,13 @@ Startups in HPC/AI infrastructure and acceleration.`
 
 {
 q_zh:`组内有无样本数据供参考？`,
-a_zh:`目前组内博士和硕士研究生24人（2021 - 2025级），预计未来也会维持在20人左右规模；在读期间大多有实习经历（NV、Intel、ALI、字节、腾讯、华为、阿里、Kimi等）；
-已毕业硕士生8人，首份单位去向为Intel、HKUST(GZ)、Nvidia、Huawei、MetaX、字节、京东、选调；截止到目前，约1/3硕士选择攻读PhD（毕业后读博+硕转博）；
+a_zh:`目前组内博士和硕士研究生24人（2021 - 2025级），预计未来也会维持在20人左右规模；
+在读期间大多有实习经历（NV、Intel、ALI、字节、腾讯、华为、阿里、Kimi等）；
+已毕业硕士生8人，首份单位去向为Intel、HKUST(GZ)、Nvidia、Huawei、MetaX、字节、京东、选调；
+截止到目前，约1/3硕士选择攻读PhD（毕业后读博+硕转博）；
 另有各年级本科生若干。
 
-更多信息请查阅<a href="https://arcsysu.tech/">https://arcsysu.tech/</a>相关页面`,
+更多信息请查阅<a href="https://arcsysu.tech/">https://arcsysu.tech/</a>相关页面。`,
 
 q_en:`Lab statistics?`,
 a_en:`~24 current PhD/MS students (2021–2025), expected steady at ~20;
@@ -435,8 +437,9 @@ See more at: <a href="https://arcsysu.tech/">https://arcsysu.tech/</a>`
 
 {
 q_zh:`本科生可以加入lab吗?`,
-a_zh:`可以，且非常欢迎。如果你对lab研究方向感兴趣，且学有余力/积极主动，欢迎加入到lab学习交流。
-但需提醒：本科阶段更多要全面发展，提升全栈知识体系和技能，不必过早限定方向（你无法在这个阶段笃定自己一定做什么或者一定不做什么^_^）。
+a_zh:`可以，且非常欢迎。
+如果你对lab研究方向感兴趣，且学有余力/积极主动，欢迎加入到lab学习交流；
+但需提醒：本科阶段更多要全面发展，提升全栈知识体系和技能，不必过早限定方向（你无法在这个阶段笃定自己一定做什么或者一定不做什么^_^）；
 lab的参与更多是课堂学习的延伸，你需要主动学习、积极交流、开阔眼界，发掘自己的兴趣和潜力。
 
 原则上，你需要积极参与到lab至少一学期（组会、讨论、竞赛等），且得到大家的认可后，才officially成为arcSYSu一员（即，作为Ug/RA）。`,
