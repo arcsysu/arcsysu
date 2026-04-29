@@ -14,6 +14,11 @@
   <!-- Publications selector and search box -->
   <script src="{{ site.url }}{{ site.baseurl }}/js/custom.js"></script>
   
+  <!-- Join page FAQ script (conditional load) -->
+  {% if page.layout == 'join' %}
+  <script src="{{ site.url }}{{ site.baseurl }}/js/join.js"></script>
+  {% endif %}
+  
 {% if jekyll.environment == 'production' %}
 {% include analytics.html %}
 {% endif %}

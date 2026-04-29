@@ -23,6 +23,6 @@ Learn more about our research and teaching activities.
 <a href="https://www.xiaohongshu.com/user/profile/68b412c2000000001900f4fe"> ![]({{ site.url }}{{ site.baseurl }}/images/misc/RedNote.jpeg){: style="height: 20px; float: center; margin: 0px"} </a>
 
 ## Join Us
-Shape the future of computing with us. See [FAQs](https://xianweiz.github.io/notes/hire_QAs.txt).
+Shape the future of computing with us. See [FAQs]({{ site.url }}{{ site.baseurl }}/join).
 <br>
-<a href="https://xianweiz.github.io/notes/hire_QAs.txt"> ![]({{ site.url }}{{ site.baseurl }}/images/misc/join.png){: style="height: 50px; float: center; margin: 0px"} </a>
+<a href="{{ site.url }}{{ site.baseurl }}/join"> ![]({{ site.url }}{{ site.baseurl }}/images/misc/join.png){: style="height: 50px; float: center; margin: 0px"} </a>

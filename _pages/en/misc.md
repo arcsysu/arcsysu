@@ -29,6 +29,6 @@ Learn more about our research, projects and related activities.
 
 
 ## Join Us
-Shape the future of computing together with us. See <a href="{{ site.url }}{{ site.baseurl }}/files/join.html" target="_blank">FAQs</a>.
+Shape the future of computing together with us. See <a href="{{ site.url }}{{ site.baseurl }}/join">FAQs</a>.
 <br>
-<a href="https://xianweiz.github.io/notes/join.html" target="_blank"> ![]({{ site.url }}{{ site.baseurl }}/images/misc/join.webp){: style="height: 70px; float: center; margin: 15px"} </a>
+<a href="{{ site.url }}{{ site.baseurl }}/join"> ![]({{ site.url }}{{ site.baseurl }}/images/misc/join.webp){: style="height: 70px; float: center; margin: 15px"} </a>

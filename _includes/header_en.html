@@ -46,7 +46,13 @@
 
 	    <!--<li><a href="{{ site.url }}{{ site.baseurl }}/projects">Projects</a></li>-->
 
-		{% if page.permalink == '/misc' or page.url == '/misc' %}
+	 {% if page.permalink == '/join' %}
+	  <li class="active"><a href="{{ site.url }}{{ site.baseurl }}/join"><font color=#ffffff>Join</font></a></li>
+	 {% else %}
+	  <li><a href="{{ site.url }}{{ site.baseurl }}/join"><font color=#ffffff>Join</font></a></li>
+	 {% endif %}
+
+	 {% if page.permalink == '/misc' or page.url == '/misc' %}
 			<li class="active"><a href="{{ site.url }}{{ site.baseurl }}/misc"><font color=#ffffff>Miscellaneous</font></a></li>
 		{% else %}
 			<li><a href="{{ site.url }}{{ site.baseurl }}/misc"><font color=#ffffff>Miscellaneous</font></a></li>

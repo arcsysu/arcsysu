@@ -47,7 +47,7 @@ permalink: /zh/home
 
 <p class="homeid">我们的研究得到了多个国家重点项目的资助，包括国家重点研发计划、国家自然科学基金（NSFC），以及腾讯®、华为®、飞腾®等知名企业的支持。</p>
 
-<p class="homeid">**我们始终欢迎充满热情的博士/硕士毕业生、博士后研究员以及本科研究助理或实习生加入我们的团队！**（更多详情请参阅我们的<a href="https://xianweiz.github.io/notes/hire_QAs.txt">FAQs</a>）</p>
+<p class="homeid">**我们始终欢迎充满热情的博士/硕士毕业生、博士后研究员以及本科研究助理或实习生加入我们的团队！**（更多详情请参阅我们的<a href="{{ site.url }}{{ site.baseurl }}/join">FAQs</a>）</p>
 
 
 
