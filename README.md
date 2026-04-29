@@ -11,7 +11,7 @@
 
 <p>This is the website of <i>arcSYSu lab</i> at <a href="https://www.sysu.edu.cn/">Sun Yat-Sen University</a>. we conduct cutting-edge research in computer systems and architecture, with a particular emphasis on advancing high-performance and intelligent computing technologies. For more details about our lab, please visit our <a href="https://arcsysu.github.io/arcsysu/">site</a>.</p>
 
-<p>We are always looking for passionate new PhD/MS graduates, Postdocs, and Undergraduate RAs/Interns to join the team! For more details about recruitments, please take a look at <a href="https://xianweiz.github.io/notes/hire_QAs.txt"> FAQs </a>.</p>
+<p>We are always looking for passionate new PhD/MS graduates, Postdocs, and Undergraduate RAs/Interns to join the team! For more details about recruitments, please take a look at <a href="https://arcsysu.github.io/arcsysu/join"> FAQs </a>.</p>
 
 
 
