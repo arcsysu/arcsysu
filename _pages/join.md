@@ -10,8 +10,8 @@ permalink: /join
 {::nomarkdown}
 <h1><span class="zh-text">Join arcSYSu</span><span class="en-text">Join arcSYSu</span></h1>
 <div class="subtitle">
-  <span class="zh-text">We build systems that matter. From ideas → designs → impacts.</span>
-  <span class="en-text">We build systems that matter. From ideas → designs → impacts.</span>
+  <span class="zh-text">We build systems that matter. <br> Build designs • Scale ideas • Deliver impacts</span>
+  <span class="en-text">We build systems that matter. <br> Build designs • Scale ideas • Deliver impacts</span>
 </div>
 
 <div class="controls">
@@ -92,7 +92,7 @@ Common languages: C/C++, Python, Bash, CUDA/HIP/OpenCL.
 <div class="faq-item" id="q2">
   <div class="question" onclick="toggle(2)">
     <div>
-      <span class="qtag zh-text">Q2:</span><span class="zh-text">你的方向是不是很"硬件"？</span>
+      <span class="qtag zh-text">Q2:</span><span class="zh-text">研究方向是不是很"硬件"？</span>
       <span class="qtag en-text">Q2:</span><span class="en-text">Is your research hardware-oriented?</span>
     </div>
     <span class="arrow">▶</span>
@@ -168,7 +168,7 @@ Strong platform with state-of-the-art resources and projects.
 <div class="faq-item" id="q5">
   <div class="question" onclick="toggle(5)">
     <div>
-      <span class="qtag zh-text">Q5:</span><span class="zh-text">具体来讲，你会怎么指导学生？</span>
+      <span class="qtag zh-text">Q5:</span><span class="zh-text">你会怎么指导学生？</span>
       <span class="qtag en-text">Q5:</span><span class="en-text">How do you mentor students?</span>
     </div>
     <span class="arrow">▶</span>
@@ -255,7 +255,7 @@ Be Prepared, Be Open.</div>
 <div class="faq-item" id="q8">
   <div class="question" onclick="toggle(8)">
     <div>
-      <span class="qtag zh-text">Q8:</span><span class="zh-text">如果选择去工业界，有哪些合适的选择？</span>
+      <span class="qtag zh-text">Q8:</span><span class="zh-text">如果去工业界，有哪些合适的选择？</span>
       <span class="qtag en-text">Q8:</span><span class="en-text">What career paths do your students pursue?</span>
     </div>
     <span class="arrow">▶</span>
@@ -276,7 +276,7 @@ Startups in HPC/AI infrastructure and acceleration.</div>
 <div class="faq-item" id="q9">
   <div class="question" onclick="toggle(9)">
     <div>
-      <span class="qtag zh-text">Q9:</span><span class="zh-text">组内有无样本数据供参考？</span>
+      <span class="qtag zh-text">Q9:</span><span class="zh-text">lab有无样本数据供参考？</span>
       <span class="qtag en-text">Q9:</span><span class="en-text">Lab statistics?</span>
     </div>
     <span class="arrow">▶</span>
