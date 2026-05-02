@@ -10,8 +10,8 @@ permalink: /join
 {::nomarkdown}
 <h1><span class="zh-text">Join arcSYSu</span><span class="en-text">Join arcSYSu</span></h1>
 <div class="subtitle">
-  <span class="zh-text">We study systems that matter. <br> Build designs • Scale ideas • Deliver impacts</span>
-  <span class="en-text">We study systems that matter. <br> Build designs • Scale ideas • Deliver impacts</span>
+  <span class="zh-text">We define systems that shape the future. <br> Ignite ideas • Build designs • Push limits • Deliver impact</span>
+  <span class="en-text">We define systems that shape the future. <br> Ignite ideas • Build designs • Push limits • Deliver impact</span>
 </div>
 
 <div class="controls">

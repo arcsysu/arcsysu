@@ -6,7 +6,7 @@
     name: "Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration"
     url: https://xianweiz.github.io/doc/papers/26asplos_bullet.pdf
   conf: "The 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems (<b>ASPLOS</b>), Pittsburgh, PA, United States, March 2026."
-  label: C32
+  label: C33
   desc: (<font color="red">CCF-A</font>, ar/10.6%)
   year: 2026
   theme:
@@ -20,7 +20,7 @@
     name: "FusedRec: Fused Embedding Communication for Distributed Recommendation Training on GPUs"
     url: https://xianweiz.github.io/doc/papers/26aaai_fusedrec.pdf
   conf: "The 40th Annual AAAI Conference on Artificial Intelligence (<b>AAAI</b>), Singapore, January 2026."
-  label: C31
+  label: C32
   desc: (<font color="red">CCF-A</font>, ar/17.6%)
   year: 2026
   theme:
@@ -33,13 +33,27 @@
     name: "FEDCM: Fine-grained Kernel Scheduling and Management to Improve GPU Sharing"
     url: https://xianweiz.github.io/doc/papers/26date_fedcm.pdf
   conf: "Design, Automation and Test in Europe Conference (<b>DATE</b>), Verona, Italy, April 2026."
-  label: C30
+  label: C31
   desc: (<font color="firebrick">CCF-B</font>, ar/25%)
   year: 2026
   theme:
     - GPU
     - Compile
     - Arch
+  highlight: 0
+
+- authors: "<u>Tengyang Zheng</u>, <u>Han Huang</u>, <u>Junru Chen</u>, <i>Xianwei Zhang</i> and Yutong Lu"
+  title:
+    name: "SMEAtten: Fast and Memory-Efficient Outer Product-based Attention on ARMv9 CPUs with SME"
+    url:
+  conf: "The 32nd International European Conference on Parallel and Distributed Computing (<b>Euro-Par</b>), Pisa, Italy, August 2026."
+  label: C30
+  desc: (<font color="firebrick">CCF-B</font>, ar/26.2%)
+  year: 2026
+  theme:
+    - Arch
+    - ML
+    - HPC
   highlight: 0
 
 - authors: "<u>Wenyuan Liang</u>, <u>Hengzhong Liang</u>, <u>Han Huang</u> and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
