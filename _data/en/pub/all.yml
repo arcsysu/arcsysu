@@ -42,7 +42,7 @@
     - Arch
   highlight: 0
 
-- authors: "<u>Tengyang Zheng</u>, <u>Han Huang</u>, <u>Junru Chen</u>, <i>Xianwei Zhang</i> and Yutong Lu"
+- authors: "<u>Tengyang Zheng</u>, <u>Han Huang</u>, <u>Junru Chen</u>, <i>Xianwei Zhang</i><sup>&#9993;</sup> and Yutong Lu<sup>&#9993;</sup>"
   title:
     name: "SMEAtten: Fast and Memory-Efficient Outer Product-based Attention on ARMv9 CPUs with SME"
     url:
