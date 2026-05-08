@@ -630,6 +630,18 @@
   # ============================================
   # arXiv
   # ============================================
+- authors: "<u>Yipeng Ouyang</u>, <u>Yi Xiao</u>, <u>Yuhao Gu</u> and <i>Xianwei Zhang</i>"
+  title:
+    name: "SkCC: Portable and Secure Skill Compilation for Cross-Framework LLM Agents"
+    url: http://arxiv.org/abs/2605.03353
+  conf:
+  label: A6
+  desc:
+  year: "[arXiv]"
+  theme:
+    - arXiv
+  highlight: 0
+
 - authors: "<u>Yuhao Gu</u>, <u>Zhongchun Zheng</u>, Nong Xiao, Yutong Lu and <i>Xianwei Zhang</i>"
   title:
     name: "Partial Cross-Compilation and Mixed Execution for Accelerating Dynamic Binary Translation"

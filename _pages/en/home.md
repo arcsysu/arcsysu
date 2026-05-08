@@ -54,10 +54,13 @@ Our research is supported by prestigious programs, including the National Key R&
 <b>We are always seeking passionate PhD/MS students, postdoctoral researchers and undergraduates to join us in exploring the frontiers of computing!</b> (For more details, please refer to our &#8599; <a href="{{ site.url }}{{ site.baseurl }}/join">FAQs</a>).
 
 <figure class="fifth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_nRD.webp" style="height: 25px; padding-right:30px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_nsfc.webp" style="height: 45px; padding-right:30px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_cast.webp" style="height: 30px; padding-right:40px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_tencent.webp" style="height: 15px; padding-right:20px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_hw.webp" style="height: 20px; padding-right:20px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_ft.webp" style="height: 15px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_nRD.webp" style="height: 20px; padding-right:10px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_nsfc.webp" style="height: 35px; padding-right:10px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_cast.webp" style="height: 30px; padding-right:10px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_tencent.webp" style="height: 15px; padding-right:10px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_hw.webp" style="height: 20px; padding-right:10px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_ft.webp" style="height: 15px; padding-right:10px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_xm.webp" style="height: 25px; padding-right:10px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_ncti.webp" style="height: 25px; padding-right:10px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_hx.webp" style="height: 25px">
 </figure>
