@@ -10,7 +10,7 @@ permalink: /people
 
 # Team Members
   **<u>A</u>RCSYSUers <u>R</u>efine <u>C</u>omputing <u>Sys</u>tem <u>U</u>ses!**
-  Join us! (See <a href="{{ site.url }}{{ site.baseurl }}/join">FAQs</a>).
+  Join us! (See <a href="{{ '/join' | relative_url }}">FAQs</a>).
 
 
 <!-- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->
@@ -19,7 +19,7 @@ permalink: /people
 {% for member in site.data.en.people.people_faculty %}
 <div class="row">
   <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="30%" style="float: left" />
+  <img src="{{ '/images/teampic/' | append: member.photo | relative_url }}" class="img-responsive" width="30%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">

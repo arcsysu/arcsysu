@@ -27,13 +27,13 @@ At <i>arcSYSu</i>, we are committed to design speedy, scalable and smart (<i><b>
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/homeslider/arx-logo.webp" alt="Slide 1" />
+            <img src="{{ '/images/homeslider/arx-logo.webp' | relative_url }}" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/homeslider/wordcloud.webp" alt="Slide 2" />
+            <img src="{{ '/images/homeslider/wordcloud.webp' | relative_url }}" alt="Slide 2" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/homeslider/haci-2024.webp" alt="Slide 2" />
+            <img src="{{ '/images/homeslider/haci-2024.webp' | relative_url }}" alt="Slide 3" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -51,16 +51,16 @@ We work closely with other exceptional teams across the center on a broad spectr
 
 Our research is supported by prestigious programs, including the National Key R&D Program, the National Natural Science Foundation of China, as well as collaborative partnerships with industry leaders like Tencent®, Huawei® and Phytium®.
 
-<b>We are always seeking passionate PhD/MS students, postdoctoral researchers and undergraduates to join us in exploring the frontiers of computing!</b> (For more details, please refer to our &#8599; <a href="{{ site.url }}{{ site.baseurl }}/join">FAQs</a>).
+<b>We are always seeking passionate PhD/MS students, postdoctoral researchers and undergraduates to join us in exploring the frontiers of computing!</b> (For more details, please refer to our &#8599; <a href="{{ '/join' | relative_url }}">FAQs</a>).
 
 <figure class="fifth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_nRD.webp" style="height: 20px; padding-right:10px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_nsfc.webp" style="height: 35px; padding-right:10px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_cast.webp" style="height: 30px; padding-right:10px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_tencent.webp" style="height: 15px; padding-right:10px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_hw.webp" style="height: 20px; padding-right:10px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_ft.webp" style="height: 15px; padding-right:10px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_xm.webp" style="height: 25px; padding-right:10px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_ncti.webp" style="height: 25px; padding-right:10px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_hx.webp" style="height: 25px">
+  <img src="{{ '/images/logopic/logo_nRD.webp' | relative_url }}" style="height: 20px; padding-right:10px">
+  <img src="{{ '/images/logopic/logo_nsfc.webp' | relative_url }}" style="height: 35px; padding-right:10px">
+  <img src="{{ '/images/logopic/logo_cast.webp' | relative_url }}" style="height: 30px; padding-right:10px">
+  <img src="{{ '/images/logopic/logo_tencent.webp' | relative_url }}" style="height: 15px; padding-right:10px">
+  <img src="{{ '/images/logopic/logo_hw.webp' | relative_url }}" style="height: 20px; padding-right:10px">
+  <img src="{{ '/images/logopic/logo_ft.webp' | relative_url }}" style="height: 15px; padding-right:10px">
+  <img src="{{ '/images/logopic/logo_xm.webp' | relative_url }}" style="height: 25px; padding-right:10px">
+  <img src="{{ '/images/logopic/logo_ncti.webp' | relative_url }}" style="height: 25px; padding-right:10px">
+  <img src="{{ '/images/logopic/logo_hx.webp' | relative_url }}" style="height: 25px">
 </figure>

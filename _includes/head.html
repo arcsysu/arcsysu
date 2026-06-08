@@ -4,19 +4,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | prepend: site.url}}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="icon" href="{{ '/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
   
-  <script src="{{ site.url }}{{ site.baseurl }}/js/jquery.min.js"></script>
-  <script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
-  
+  <script src="{{ '/js/jquery.min.js' | relative_url }}"></script>
+  <script src="{{ '/js/bootstrap.min.js' | relative_url }}"></script>
+
   <!-- Publications selector and search box -->
-  <script src="{{ site.url }}{{ site.baseurl }}/js/custom.js"></script>
+  <script src="{{ '/js/custom.js' | relative_url }}"></script>
+
   
   <!-- Join page FAQ script (conditional load) -->
   {% if page.layout == 'join' %}
-  <script src="{{ site.url }}{{ site.baseurl }}/js/join.js"></script>
+  <script src="{{ '/js/join.js' | relative_url }}"></script>
   {% endif %}
   
 {% if jekyll.environment == 'production' %}

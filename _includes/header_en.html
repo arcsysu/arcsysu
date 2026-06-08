@@ -1,7 +1,7 @@
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
 	<div class="navbar-header">
-		<a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">
+		<a class="navbar-brand" href="{{ '/' | relative_url }}">
 		  <font color=#ffffff><u>Arc</u>hitecture and
 		  <u>Sys</u>tem
 		  <u>U</u>pscaling</font>
@@ -20,7 +20,7 @@
 	  <!-- <ul class="nav navbar-nav navbar-right">
 			{% if page.zh_url %}
 				<li class="lang-switch">
-					<a href="{{ site.url }}{{ site.baseurl }}{{ page.zh_url }}" title="切换至中文">
+					<a href="{{ page.zh_url }}" title="切换至中文">
 						<img src="{{ '/images/i18n.svg' | relative_url }}" alt="EN" />
 					</a>
 				</li>
@@ -28,36 +28,36 @@
 	  </ul> -->
 	  <ul class="nav navbar-nav navbar-right">
 		{% if page.permalink == '/' %}
-			<li class="active"><a href="{{ site.url }}{{ site.baseurl }}/"><font color=#ffffff>Home</font></a></li>
+			<li class="active"><a href="{{ '/' | relative_url }}"><font color=#ffffff>Home</font></a></li>
 		{% else %}
-			<li><a href="{{ site.url }}{{ site.baseurl }}/"><font color=#ffffff>Home</font></a></li>
+			<li><a href="{{ '/' | relative_url }}"><font color=#ffffff>Home</font></a></li>
 		{% endif %}
 		{% if page.permalink == '/people' or page.url == '/people' %}
-			<li class="active"><a href="{{ site.url }}{{ site.baseurl }}/people"><font color=#ffffff>People</font></a></li>
+			<li class="active"><a href="{{ '/people' | relative_url }}"><font color=#ffffff>People</font></a></li>
 		{% else %}
-			<li><a href="{{ site.url }}{{ site.baseurl }}/people"><font color=#ffffff>People</font></a></li>
+			<li><a href="{{ '/people' | relative_url }}"><font color=#ffffff>People</font></a></li>
 		{% endif %}
 
 		{% if page.permalink == '/publications' or page.url == '/publications' %}
-			<li class="active"><a href="{{ site.url }}{{ site.baseurl }}/publications"><font color=#ffffff>Publications</font></a></li>
+			<li class="active"><a href="{{ '/publications' | relative_url }}"><font color=#ffffff>Publications</font></a></li>
 		{% else %}
-			<li><a href="{{ site.url }}{{ site.baseurl }}/publications"><font color=#ffffff>Publications</font></a></li>
+			<li><a href="{{ '/publications' | relative_url }}"><font color=#ffffff>Publications</font></a></li>
 		{% endif %}
 
-	    <!--<li><a href="{{ site.url }}{{ site.baseurl }}/projects">Projects</a></li>-->
+	    <!--<li><a href="/projects">Projects</a></li>-->
 
 	 {% if page.permalink == '/join' %}
-	  <li class="active"><a href="{{ site.url }}{{ site.baseurl }}/join"><font color=#ffffff>Join</font></a></li>
+	  <li class="active"><a href="{{ '/join' | relative_url }}"><font color=#ffffff>Join</font></a></li>
 	 {% else %}
-	  <li><a href="{{ site.url }}{{ site.baseurl }}/join"><font color=#ffffff>Join</font></a></li>
+	  <li><a href="{{ '/join' | relative_url }}"><font color=#ffffff>Join</font></a></li>
 	 {% endif %}
 
 	 {% if page.permalink == '/misc' or page.url == '/misc' %}
-			<li class="active"><a href="{{ site.url }}{{ site.baseurl }}/misc"><font color=#ffffff>Miscellaneous</font></a></li>
+			<li class="active"><a href="{{ '/misc' | relative_url }}"><font color=#ffffff>Miscellaneous</font></a></li>
 		{% else %}
-			<li><a href="{{ site.url }}{{ site.baseurl }}/misc"><font color=#ffffff>Miscellaneous</font></a></li>
+			<li><a href="{{ '/misc' | relative_url }}"><font color=#ffffff>Miscellaneous</font></a></li>
 		{% endif %}
-	<!-- li><a href="{{ site.url }}{{ site.baseurl }}/pictures">(Pics)</a></li> -->
+	<!-- li><a href="/pictures">(Pics)</a></li> -->
 	  </ul>
 	</div>
   </div>

@@ -6,6 +6,6 @@
 <p>{{ article.date }}: [<i><font color="darkred">{{ article.kind }}</font></i>] {{ article.desc }}</p>
 {% endfor %}
 
-<h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>
+<h4><a href="{{ '/allnews.html' | relative_url }}">... see all News</a></h4>
 
     </div>
