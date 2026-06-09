@@ -65,9 +65,10 @@ Also available at
 #### {{ current_year }}
 
     {% endif %}
+
 <div class="pub-item" markdown="1">
 [{{ publi.label }}] {{ publi.authors }}  
-<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+{% if publi.title.url contains "http" %} <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }} {% else %} <a href="{{ '/assets/papers' | relative_url }}/{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }} {% endif %} 
 *{{ publi.conf }}*
 </div>
 
@@ -89,9 +90,10 @@ Also available at
 #### {{ current_year }}
 
   {% endif %}
+
 <div class="pub-item" markdown="1">
 [{{ publi.label }}] {{ publi.authors }}  
-<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}
+{% if publi.title.url contains "http" %} <a href="{{ publi.title.url }}">{{ publi.title.name }}</a>{{ publi.desc }} {% else %} <a href="{{ '/assets/papers' | relative_url }}/{{ publi.title.url }}">{{ publi.title.name }}</a>{{ publi.desc }}{% endif %}
 {% unless publi.theme contains "arXiv" %} <br>*{{ publi.conf }}* {% endunless %}
 </div>
 
@@ -113,9 +115,10 @@ Also available at
 #### {{ current_year }}
 
     {% endif %}
+
 <div class="pub-item" markdown="1">
 [{{ publi.label }}] {{ publi.authors }}  
-<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+{% if publi.title.url contains "http" %} <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }} {% else %} <a href="{{ '/assets/papers' | relative_url }}/{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }} {% endif %} 
 *{{ publi.conf }}*
 </div>
 
@@ -138,9 +141,10 @@ Also available at
 #### {{ current_year }}
 
     {% endif %}
+
 <div class="pub-item" markdown="1">
 [{{ publi.label }}] {{ publi.authors }}  
-<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+{% if publi.title.url contains "http" %} <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }} {% else %} <a href="{{ '/assets/papers' | relative_url }}/{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }} {% endif %} 
 *{{ publi.conf }}*
 </div>
 
@@ -163,9 +167,10 @@ Also available at
 #### {{ current_year }}
 
     {% endif %}
+
 <div class="pub-item" markdown="1">
 [{{ publi.label }}] {{ publi.authors }}  
-<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+{% if publi.title.url contains "http" %} <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }} {% else %} <a href="{{ '/assets/papers' | relative_url }}/{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }} {% endif %} 
 *{{ publi.conf }}*
 </div>
 
@@ -188,9 +193,10 @@ Also available at
 #### {{ current_year }}
 
     {% endif %}
+
 <div class="pub-item" markdown="1">
 [{{ publi.label }}] {{ publi.authors }}  
-<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+{% if publi.title.url contains "http" %} <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }} {% else %} <a href="{{ '/assets/papers' | relative_url }}/{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }} {% endif %} 
 *{{ publi.conf }}*
 </div>
 
@@ -213,9 +219,10 @@ Also available at
 #### {{ current_year }}
 
     {% endif %}
+
 <div class="pub-item" markdown="1">
 [{{ publi.label }}] {{ publi.authors }}  
-<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+{% if publi.title.url contains "http" %} <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }} {% else %} <a href="{{ '/assets/papers' | relative_url }}/{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }} {% endif %} 
 *{{ publi.conf }}*
 </div>
 
@@ -238,9 +245,10 @@ Also available at
 <!-- #### {{ current_year }} -->
 
     {% endif %}
+
 <div class="pub-item" markdown="1">
 [{{ publi.label }}] {{ publi.authors }}  
-<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+{% if publi.title.url contains "http" %} <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }} {% else %} <a href="{{ '/assets/papers' | relative_url }}/{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }} {% endif %} 
 <!--*{{ publi.conf }}*-->
 </div>
 
@@ -263,11 +271,13 @@ Also available at
 <!-- #### {{ current_year }} -->
 
     {% endif %}
+
 <div class="pub-item" markdown="1">
 [{{ publi.label }}] {{ publi.authors }}  
-<a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }}  
+{% if publi.title.url contains "http" %} <a href="{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }} {% else %} <a href="{{ '/assets/papers' | relative_url }}/{{ publi.title.url }}">{{ publi.title.name }}</a> {{ publi.desc }} {% endif %} 
 *{{ publi.conf }}*
 </div>
+
   {% endif %}
 {% endfor %}
 

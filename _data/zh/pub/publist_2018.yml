@@ -1,8 +1,0 @@
-- authors: "Anthony Gutierrez, Brad Beckmann, Alexandru Dutu, Joseph Gross, Michael LeBeane, John Kalamatianos, Onur Kayiran, Matthew Poremba, Brandon Potter, Sooraj Puthoor, Matt Sinclair, Mark Wyse, Jieming Yin, <i>Xianwei Zhang</i>, Akshay Jain and Tim Rogers"
-  title:
-    name: "Lost in Abstraction: Pitfalls of Analyzing GPUs at the Intermediate Language Level"
-    url: https://xianweiz.github.io/doc/papers/gem5_hpca18.pdf
-  conf: "The 24th IEEE International Symposium on High-Performance Computer Architecture (<b>HPCA</b>), Vienna, Austria, February 2018."
-  label: C8
-  desc: <font color="red">(CCF-A)</font>
-  highlight: 1

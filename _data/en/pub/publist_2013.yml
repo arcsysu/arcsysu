@@ -1,8 +1,0 @@
-- authors: "<i>Xianwei Zhang</i>, Lei Jiang, Youtao Zhang, Chuanjun Zhang and Jun Yang"
-  title:
-    name: "WoM-SET: Lowering Write Power of Proactive-SET based PCM Write Strategy Using WoM Code"
-    url: https://xianweiz.github.io/doc/papers/wom_islped13.pdf
-  conf: "The International Symposium on Low Power Electronics and Design (<b>ISLPED</b>), Beijing, China, September 2013."
-  label: C1
-  desc: <font color="#ff9933">(CCF-C)</font>, <font color="red">(Best Paper Award)</font>
-  highlight: 1

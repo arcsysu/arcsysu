@@ -1,8 +1,0 @@
-- authors: "<u>Yue Weng</u>, Xi Zhang, Xiaohu Guo, <i>Xianwei Zhang</i><sup>#</sup>, Yutong Lu and Yang Liu"
-  title:
-    name: "Effects of Mesh Loop Modes on Performance of Unstructured Finite Volume GPU Simulations"
-    url: https://aia.springeropen.com/articles/10.1186/s42774-021-00073-y
-  conf: "Advances in Aerodynamics (<b>AIA</b>), 3(21), 2021."
-  label: J2
-  desc:
-  highlight: 1
