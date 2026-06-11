@@ -59,7 +59,7 @@
 - authors: "<u>Wenyuan Liang</u>, <u>Hengzhong Liang</u>, <u>Han Huang</u> and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
   title:
     name: "Porting LULESH to SYCL: Practical Insights and Performance Analysis"
-    url:
+    url: tbd
   conf: "CCF Transactions on High Performance Computing (<b>THPC</b>), 2026."
   label: J8
   desc: <font color="#ff9933">(CCF-C)</font>
@@ -630,6 +630,18 @@
   # ============================================
   # arXiv
   # ============================================
+- authors: "<u>Yipeng Ouyang</u>, <u>Xin Huang</u>, <u>Bingjie Liu</u>, <u>Zhongchun Zheng</u>, <u>Yuhao Gu</u> and <i>Xianwei Zhang</i>"
+  title:
+    name: "Benchmarks are Not Enough: Ramp for Runtime Assessing of Agentic Models in Production Systems"
+    url: https://arxiv.org/pdf/2605.27492
+  conf:
+  label: A7
+  desc:
+  year: "[arXiv]"
+  theme:
+    - arXiv
+  highlight: 0
+  
 - authors: "<u>Yipeng Ouyang</u>, <u>Yi Xiao</u>, <u>Yuhao Gu</u> and <i>Xianwei Zhang</i>"
   title:
     name: "SkCC: Portable and Secure Skill Compilation for Cross-Framework LLM Agents"
