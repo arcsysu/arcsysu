@@ -9,9 +9,9 @@ permalink: /
 ---
 
 **<u>Arc</u>hitecture and <u>Sys</u>tem <u>U</u>pscaling @ Sun Yat-sen University!**<br>
-**<u>A</u>rcsys <u>R</u>esearch led by <u>X</u>ianwei (ARX)!**
+**<u>A</u>rcsys <u>R</u>esearch led by <u>X</u>ianwei (ARX) on HPC/AI Infra!**
 <p>
-<i>arcSYSu</i>, abbreviated as ARX (pronounced /ɑːrks/, <u>AR</u>chitecture and system e<u>X</u>ploration, or <u>A</u>rcsys <u>R</u>esearch led by <u>X</u>ianwei), is a research group working under the guidance of Associate Professor <a href="https://xianweiz.github.io" target="_blank">Xianwei Zhang</a> in the <a href="https://cse.sysu.edu.cn/" target="_blank">School of Computer Science & Engineering</a> at <a href="https://www.sysu.edu.cn/sysuen/" target="_blank">Sun Yat-sen University</a>. Our research focuses on advancing computer <u>a</u>rchitecture, <u>r</u>untime and <u>c</u>ompilation systems for high-performance and intelligent computing (HPC/AI Infra).
+<i>arcSYSu</i>, abbreviated as ARX (pronounced /ɑːrks/, <u>A</u>rcsys <u>R</u>esearch led by <u>X</u>ianwei, or <u>A</u>I/HPC inf<u>R</u>a e<u>X</u>ploration), is a research group working under the guidance of Associate Professor <a href="https://xianweiz.github.io" target="_blank">Xianwei Zhang</a> in the <a href="https://cse.sysu.edu.cn/" target="_blank">School of Computer Science & Engineering</a> at <a href="https://www.sysu.edu.cn/sysuen/" target="_blank">Sun Yat-sen University</a>. Our research focuses on advancing computer <u>a</u>rchitecture, <u>r</u>untime and <u>c</u>ompilation systems for high-performance and intelligent computing (HPC/AI Infra).
 At <i>arcSYSu</i>, we are committed to design speedy, scalable and smart (<i><b>S<sup>3</sup></b></i>) systems that push performance boundaries and drive the next-generation computational paradigms.
 </p>
 
