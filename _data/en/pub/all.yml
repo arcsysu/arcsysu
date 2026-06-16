@@ -65,8 +65,9 @@
   desc: <font color="#ff9933">(CCF-C)</font>
   year: 2026
   theme:
-    - HPC
     - GPU
+    - ML
+    - Compile
   highlight: 0
 
 - authors: "<u>Wenyuan Liang</u>, <u>Hengzhong Liang</u>, <u>Han Huang</u> and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
@@ -78,9 +79,8 @@
   desc: <font color="#ff9933">(CCF-C)</font>
   year: 2026
   theme:
+    - HPC
     - GPU
-    - ML
-    - Compile
   highlight: 0
 
 # ============================================

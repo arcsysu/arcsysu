@@ -49,7 +49,7 @@ At <i>arcSYSu</i>, we are committed to design speedy, scalable and smart (<i><b>
 <i>arcSYSu</i> is proudly part of the Interdisciplinary Research Center (<i><b>xRC</b></i>), directed by Prof. <a href="https://cse.sysu.edu.cn/teacher/LuYutong" target="_blank">Yutong Lu</a> and Prof. <a href="https://cse.sysu.edu.cn/teacher/XiaoNong" target="_blank">Nong Xiao</a>.
 We work closely with other exceptional teams across the center on a broad spectrum of HPC+AI design and application areas.
 
-Our research is supported by prestigious programs, including the National Key R&D Program, the National Natural Science Foundation of China, as well as collaborative partnerships with industry leaders like Tencent®, Huawei® and Phytium®.
+Our research is supported by prestigious programs, including the National Key R&D Program, the National Natural Science Foundation of China, as well as collaborative partnerships with industry leaders like Tencent®, Huawei®, Xiaomi® and Phytium®.
 
 <b>We are always seeking passionate PhD/MS students, postdoctoral researchers and undergraduates to join us in exploring the frontiers of computing!</b> (For more details, please refer to our &#8599; <a href="{{ '/join' | relative_url }}">FAQs</a>).
 
