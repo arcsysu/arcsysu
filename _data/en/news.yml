@@ -1,3 +1,7 @@
+- date: "07/2026"
+  kind: People
+  desc: Five ARXers graduated! Cheers and all the best!
+
 - date: "06/2026"
   kind: Paper
   desc: New preprint on Agent Assessment (<i>RAMP</i>) released on <a href="https://arxiv.org/abs/2605.27492">arXiv</a>.
@@ -56,7 +60,7 @@
 
 - date: "09/2025"
   kind: People
-  desc: Five new ARCSYSUers joined the lab. Welcome aboard!
+  desc: Five new ARXers joined the lab. Welcome aboard!
 
 - date: "08/2025"
   kind: Talk
@@ -72,7 +76,7 @@
 
 - date: "06/2025"
   kind: People
-  desc: Nine ARCSYSUers graduated! Cheers and all the best!
+  desc: Nine ARXers graduated! Cheers and all the best!
 
 - date: "04/2025"
   kind: Paper
@@ -108,7 +112,7 @@
 
 - date: "09/2024"
   kind: People
-  desc: Six new ARCSYSUers joined the lab. Welcome aboard!
+  desc: Six new ARXers joined the lab. Welcome aboard!
 
 - date: "08/2024"
   kind: Fund
