@@ -8,7 +8,7 @@ zh_url: /zh/people
 permalink: /people
 ---
 
-# Team Members
+# The Team
   **<u>A</u>RCSYSUers <u>R</u>efine <u>C</u>omputing <u>Sys</u>tem <u>U</u>ses!**
   Join us! (See <a href="{{ '/join' | relative_url }}">FAQs</a>).
   <br>Think Deep・Build Bold・Explore Beyond・Be an ARXer.
@@ -38,14 +38,14 @@ permalink: /people
 <div class="row">
 
 <div class="col-sm-4 clearfix">
-<h4>PhD Student</h4>
+<h4>Ph.D Student</h4>
 {% for member in site.data.en.people.current_phd %}
 {{ member.name }}
 {% endfor %}
 </div>
 
 <div class="col-sm-4 clearfix">
-<h4>Master Student</h4>
+<h4>Master's Student</h4>
 {% for member in site.data.en.people.current_ms %}
 {{ member.name }}
 {% endfor %}

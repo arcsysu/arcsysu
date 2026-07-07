@@ -8,8 +8,8 @@ zh_url: /zh/home
 permalink: /
 ---
 
-**<u>Arc</u>hitecture and <u>Sys</u>tem <u>U</u>pscaling @ Sun Yat-sen University!**<br>
-**<u>A</u>rcsys <u>R</u>esearch led by <u>X</u>ianwei (ARX) on HPC/AI Infra!**
+**<u>Arc</u>hitecture and <u>Sys</u>tems <u>U</u>pscaling @ Sun Yat-sen University!**<br>
+**<u>A</u>rcsys <u>R</u>esearch led by <u>X</u>ianwei (ARX) on HPC/AI Infrastructure!**
 <p>
 <i>arcSYSu</i>, abbreviated as ARX (pronounced /ɑːrks/, <u>A</u>rcsys <u>R</u>esearch led by <u>X</u>ianwei, or <u>A</u>I/HPC inf<u>R</u>a e<u>X</u>ploration), is a research group working under the guidance of Associate Professor <a href="https://xianweiz.github.io" target="_blank">Xianwei Zhang</a> in the <a href="https://cse.sysu.edu.cn/" target="_blank">School of Computer Science & Engineering</a> at <a href="https://www.sysu.edu.cn/sysuen/" target="_blank">Sun Yat-sen University</a>. Our research focuses on advancing computer <u>a</u>rchitecture, <u>r</u>untime and <u>c</u>ompilation systems for high-performance and intelligent computing (HPC/AI Infra).
 At <i>arcSYSu</i>, we are committed to design speedy, scalable and smart (<i><b>S<sup>3</sup></b></i>) systems that push performance boundaries and drive the next-generation computational paradigms.
@@ -46,7 +46,7 @@ At <i>arcSYSu</i>, we are committed to design speedy, scalable and smart (<i><b>
   </a>
 </div>
 
-<i>arcSYSu</i> is proudly part of the Interdisciplinary Research Center (<i><b>xRC</b></i>), directed by Prof. <a href="https://cse.sysu.edu.cn/teacher/LuYutong" target="_blank">Yutong Lu</a> and Prof. <a href="https://cse.sysu.edu.cn/teacher/XiaoNong" target="_blank">Nong Xiao</a>.
+<i>arcSYSu</i> is proudly part of the Interdisciplinary Research Center (<i><b>xRC</b></i>), jointly directed by Prof. <a href="https://cse.sysu.edu.cn/teacher/LuYutong" target="_blank">Yutong Lu</a> and Prof. <a href="https://cse.sysu.edu.cn/teacher/XiaoNong" target="_blank">Nong Xiao</a>.
 We work closely with other exceptional teams across the center on a broad spectrum of HPC+AI design and application areas.
 
 Our research is supported by prestigious programs, including the National Key R&D Program, the National Natural Science Foundation of China, as well as collaborative partnerships with industry leaders like Tencent®, Huawei®, Xiaomi® and Phytium®.
