@@ -11,7 +11,7 @@ permalink: /people
 # The Team
   **<u>A</u>RCSYSUers <u>R</u>efine <u>C</u>omputing <u>Sys</u>tem <u>U</u>ses!**
   Join us! (See <a href="{{ '/join' | relative_url }}">FAQs</a>).
-  <br>Think Deep・Build Bold・Explore Beyond・Be an ARXer.
+  <br>Think Deep・Build Bold・Explore Beyond・Be an ARXer
 
 
 <!-- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->

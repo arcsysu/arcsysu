@@ -1,6 +1,33 @@
 # ============================================
 # 2026
 # ============================================
+- authors: "<u>Yuhao Gu</u>, <u>Zhongchun Zheng</u>, Nong Xiao<sup>&#9993;</sup>, Yutong Lu and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
+  title:
+    name: "coMulator: Coordinate Cross-architecture Compilation and Emulation to Accelerate Dynamic Binary Translation"
+    url: tbd
+  conf: "The 59th IEEE/ACM International Symposium on Microarchitecture (<b>MICRO</b>), Athens, Greece, October 2026."
+  label: C36
+  desc: (<font color="red">CCF-A</font>, ar/25.3%)
+  year: 2026
+  theme:
+    - Compile
+    - Arch
+  highlight: 1
+
+- authors: "<u>Han Huang</u>, Lanshu Huang, <u>Xianjie Chen</u>, <i>Xianwei Zhang</i><sup>&#9993;</sup> and Yutong Lu<sup>&#9993;</sup>"
+  title:
+    name: "HSPref: Efficient Software Prefetching for ARM SME Outer-Products"
+    url: tbd
+  conf: "The 59th IEEE/ACM International Symposium on Microarchitecture (<b>MICRO</b>), Athens, Greece, October 2026."
+  label: C35
+  desc: (<font color="red">CCF-A</font>, ar/25.3%)
+  year: 2026
+  theme:
+    - Compile
+    - HPC
+    - Arch
+  highlight: 1
+
 - authors: "<u>Zejia Lin</u>, <u>Hongxin Xu</u>, <u>Guanyi Chen</u>, Zhiguang Chen, Yutong Lu<sup>&#9993;</sup> and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
   title:
     name: "Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration"
