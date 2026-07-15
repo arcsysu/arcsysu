@@ -9,11 +9,10 @@ permalink: /
 ---
 
 **<u>Arc</u>hitecture and <u>Sys</u>tems <u>U</u>pscaling @ Sun Yat-sen University!**<br>
-**<u>A</u>rcsys <u>R</u>esearch led by <u>X</u>ianwei (ARX) on HPC/AI Infrastructure!**
+**HPC/<u>A</u>I <u>R</u>esearch led by <u>X</u>ianwei (ARX)!**
 <p>
-<i>arcSYSu</i>, abbreviated as ARX (pronounced /ɑːrks/, <u>A</u>rcsys <u>R</u>esearch led by <u>X</u>ianwei, or <u>A</u>I/HPC inf<u>R</u>a e<u>X</u>ploration), is a research group working under the guidance of Associate Professor <a href="https://xianweiz.github.io" target="_blank">Xianwei Zhang</a> in the <a href="https://cse.sysu.edu.cn/" target="_blank">School of Computer Science & Engineering</a> at <a href="https://www.sysu.edu.cn/sysuen/" target="_blank">Sun Yat-sen University</a>. Our research focuses on advancing computer <u>a</u>rchitecture, <u>r</u>untime and <u>c</u>ompilation systems for high-performance and intelligent computing (HPC/AI Infra).
-At <i>arcSYSu</i>, we are committed to design scalable, sustainable and systematic (<i><b>S<sup>3</sup></b></i>) systems that push performance boundaries and drive the next-generation computational paradigms.
-<!--<br><br>Architecture • Compiler & Runtime • HPC/AI Systems • Computing Platforms-->
+<i>arcSYSu</i>, abbreviated as ARX (pronounced /ɑːrks/), is a research group led by Associate Professor <a href="https://xianweiz.github.io" target="_blank">Xianwei Zhang</a> in the <a href="https://cse.sysu.edu.cn/" target="_blank">School of Computer Science & Engineering</a> at <a href="https://www.sysu.edu.cn/sysuen/" target="_blank">Sun Yat-sen University</a>. Our research spans <i>computer architecture</i>, <i>compilation and runtime</i>, <i>scalable systems</i>, and <i>computing platforms</i>, with the mission of building next-generation <i>HPC/AI infrastructure</i>.
+At <i>arcSYSu</i>, we design and build scalable, sustainable and systematic (<i><b>S<sup>3</sup></b></i>) foundations that connect architecture, system software, and applications, transforming research innovations into practical computing infrastructure.
 </p>
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
