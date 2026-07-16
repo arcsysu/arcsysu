@@ -11,12 +11,12 @@ permalink: /misc
 # Miscellaneous
 
 ## Artifacts and Services
-Yat Creative Cloud (<a href="https://yatcc-ai.com/" target="_blank">YatCC</a>)<br>
+HPC/AI Service Platform (<a href="https://yatcc-ai.com/" target="_blank">YatCC</a>)<br>
  - ⚙️ YatCC <a href="https://ol.yatcc.arcsysu.cn/" target="_blank">OL Lab</a><br>
  - 🤖 YatCC <a href="https://portal.aihub.arcsysu.cn/" target="_blank">AI Hub</a>
 
 <a href="https://yatcc-ai.com/" target="_blank">
-  <img src="{{ '/images/misc/yatcc.webp' | relative_url }}" style="width: 50%; margin: 30px" />
+  <img src="{{ '/images/misc/yatcc.webp' | relative_url }}" style="width: 25%; margin: 30px" />
 </a>
 
 ## Follow Us
