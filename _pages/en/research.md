@@ -13,8 +13,8 @@ permalink: /research
     <div class="research-shell hero-grid">
       <div class="hero-copy">
         <p class="research-eyebrow">Our Research</p>
-        <h1>Systems Software for<br><span>Modern HPC/AI Infrastructure</span></h1>
-        <p class="hero-lead">We build systems software that help complex HPC and AI applications effectively use increasingly heterogeneous, dynamic, and large-scale computing infrastructure.
+        <h1>Compilation and Systems for<br><span>Scalable HPC/AI</span></h1>
+        <p class="hero-lead">We build compilation and cross-layer systems that help HPC and AI applications adapt to evolving architectures, dynamic resources, and increasing scale.
         </p>
         <div class="hero-links">
           <a class="primary-button" href="#directions">Explore our research</a>
@@ -41,7 +41,7 @@ permalink: /research
             <strong>Platforms</strong>
           </div>
         </div>
-        <p class="framework-note">Transform programs · Orchestrate Tasks · Scale applications</p>
+        <p class="framework-note">Transform programs · Orchestrate Resources · Scale applications</p>
       </div>
     </div>
   </section>
@@ -56,7 +56,7 @@ permalink: /research
       <div>
         <span>02</span>
         <strong>Dynamic workloads</strong>
-        <p>Changing demand, states, and resource constraints</p>
+        <p>Changing demands, states, and resource constraints</p>
       </div>
       <div>
         <span>03</span>
@@ -88,7 +88,7 @@ permalink: /research
           <p class="area-summary">We develop compilation and program-transformation techniques across data organization, intermediate representations, instruction streams, and binary code. Our goal is to help scientific and AI workloads exploit emerging architectural capabilities while remaining efficient and portable across platforms.</p>
           <div class="capability">
             <span>Core capability</span>
-            <strong>Architecture adaptability · Cross-platform portability · Code efficiency</strong>
+            <strong>Architecture adaptability · Code efficiency · Hw/Sw co-design</strong>
           </div>
         </div>
         <div class="area-work">
@@ -137,7 +137,7 @@ permalink: /research
             <span class="area-icon resource-icon" aria-hidden="true"><i></i><i></i><i></i></span>
           </div>
           <p class="area-kicker">Orchestrate resources</p>
-          <h3>Dynamic Resource Management &amp; Runtime Orchestration</h3>
+          <h3>Adaptive Runtime Resource Orchestration</h3>
           <p class="area-question">How can computation resources respond to changing program behavior and workload demand?</p>
           <p class="area-summary">We manage kernels, loading decisions, GPU sharing, and service-level space–time allocation.
           Our runtime mechanisms move resource provision from fixed configuration toward workload-driven, state-aware, and adaptive orchestration.</p>
@@ -192,8 +192,8 @@ permalink: /research
             <span class="area-number">03</span>
             <span class="area-icon nodes-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
           </div>
-          <p class="area-kicker">Organize applications</p>
-          <h3>Application Environments &amp; Scalable Execution</h3>
+          <p class="area-kicker">Scale applications</p>
+          <h3>Portable and Scalable HPC/AI Execution</h3>
           <p class="area-question">How can complete applications deploy easily and execute efficiently at scale?</p>
           <p class="area-summary">We coordinate software environments, computation, communication, parallel pipelines, and global traffic across the application lifecycle. These mechanisms enable complex HPC/AI applications to move from portable deployment to efficient parallel execution and scalable online service.</p>
           <div class="capability">
@@ -291,7 +291,8 @@ permalink: /research
     <div class="platform-copy">
       <p class="research-eyebrow dark">From frontier research to shared capability</p>
       <h2>YatCC: validation, platformization, and impact</h2>
-      <p>YatCC turns our accumulated systems expertise into reusable computing environments and intelligent services. It provides a living platform for validating systems ideas with real users and workloads, while extending their impact into research, education, and engineering practice.</p>
+      <p>YatCC brings our work on compilation, runtime orchestration, and scalable execution into reusable AI-native workspaces and intelligent services. It serves as a living testbed for evaluating systems ideas with real users and workloads, while transforming research outcomes into shared capabilities for scientific research, education, and engineering practice.
+      </p>
       <a class="research-text-link" href="https://yatcc-ai.com" target="_blank" rel="noopener">Visit YatCC <span>↗</span></a>
     </div>
     <div class="research-metrics">
@@ -310,7 +311,7 @@ permalink: /research
     </div>
   </section>
 
-  <section class="evidence-section">
+  <!--<section class="evidence-section">
     <div class="research-shell evidence-grid">
       <div>
         <p class="research-eyebrow dark">Research ecosystem</p>
@@ -335,7 +336,7 @@ permalink: /research
         <p><strong>Application domains</strong>Scientific computing · AI training · Model serving · Intelligent platforms</p>
       </div>
     </div>
-  </section>
+  </section>-->
 
   <section class="research-cta research-shell">
     <div>
