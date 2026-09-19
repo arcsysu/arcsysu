@@ -14,7 +14,7 @@
     - Arch
   highlight: 1
 
-- authors: "<u>Han Huang</u>, Lanshu Huang, <u>Xianjie Chen</u>, <i>Xianwei Zhang</i><sup>&#9993;</sup> and Yutong Lu<sup>&#9993;</sup>"
+- authors: "<u>Han Huang</u>, Lanshu Huang, <u>Xianjie Chen</u>, <i>Xianwei Zhang</i> and Yutong Lu<sup>&#9993;</sup>"
   title:
     name: "HSPref: Efficient Software Prefetching for ARM SME Outer-Products"
     url: tbd
@@ -95,6 +95,20 @@
     - GPU
     - ML
     - Compile
+  highlight: 0
+
+- authors: "<u>Zhongchun Zheng</u>, <u>Kan Wu</u>, <u>Yuhao Gu</u>, Long Cheng, Lu Li, Rodrigo Rocha, Tianyi Liu, Wei Wei, Jianjiang Zeng, Nong Xiao, <i>Xianwei Zhang</i><sup>&#9993;</sup> and Yaoqing Gao<sup>&#9993;</sup>"
+  title:
+    name: "VecTrans: Enhancing Compiler Auto-Vectorization through LLM-Assisted Code Transformations"
+    url: tbd
+  conf: "CCF Transactions on High Performance Computing (<b>THPC</b>), 2026."
+  label: J9
+  desc: <font color="#ff9933">(CCF-C)</font>
+  year: 2026
+  theme:
+    - ML
+    - Compile
+    - Arch
   highlight: 0
 
 - authors: "<u>Wenyuan Liang</u>, <u>Hengzhong Liang</u>, <u>Han Huang</u> and <i>Xianwei Zhang</i><sup>&#9993;</sup>"

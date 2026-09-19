@@ -1,10 +1,18 @@
+- date: "09/2026"
+  kind: People
+  desc: Five new ARXers joined the lab. Welcome aboard!
+
+- date: "08/2026"
+  kind: Talk
+  desc: One invited talk by Yuhao delivered at CAS ICT!
+
 - date: "07/2026"
   kind: Paper
   desc: Two papers (<i>HSPref</i> and <i>coMulator</i>) accepted to MICRO'2026. Congrats to <a href="https://hhthebest.github.io/">Han</a> and <a href="https://yhgu2000.github.io/">Yuhao</a>!
 
 - date: "07/2026"
   kind: Talk
-  desc: One invited talk on AgentSys delivered at Huawei's AI Compilation Workshop!
+  desc: One invited talk by Xianwei on AgentSys delivered at Huawei's AI Compilation Workshop!
 
 - date: "07/2026"
   kind: People
@@ -72,7 +80,7 @@
 
 - date: "08/2025"
   kind: Talk
-  desc: Two invited talks delivered at HPC China'2025!
+  desc: Two invited talks by Xianwei delivered at HPC China'2025!
 
 - date: "07/2025"
   kind: Teach
@@ -100,7 +108,7 @@
 
 - date: "03/2025"
   kind: Talk
-  desc: One invited talk delivered at <a href="https://apan59.sched.com/event/1tG7z/asia-pacific-research-platform-aprp-wg-session-2">APAN'59</a>!
+  desc: One invited talk by Xianwei delivered at <a href="https://apan59.sched.com/event/1tG7z/asia-pacific-research-platform-aprp-wg-session-2">APAN'59</a>!
 
 - date: "02/2025"
   kind: Tool
@@ -116,7 +124,7 @@
 
 - date: "09/2024"
   kind: Talk
-  desc: One invited talk delivered at Huawei Connect 2024!
+  desc: One invited talk by Xianwei delivered at Huawei Connect 2024!
 
 - date: "09/2024"
   kind: People
