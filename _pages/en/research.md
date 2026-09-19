@@ -41,7 +41,7 @@ permalink: /research
             <strong>Platforms</strong>
           </div>
         </div>
-        <p class="framework-note">Transform programs · Orchestrate Resources · Scale applications</p>
+        <p class="framework-note">Transform programs · Orchestrate resources · Scale applications</p>
       </div>
     </div>
   </section>
