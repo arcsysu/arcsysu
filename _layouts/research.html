@@ -1,6 +1,19 @@
 ---
 layout: default
 ---
-<div id="research" class="col-sm-12">
-  {{ content }}
-</div>
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'en' }}">
+  {% include head.html %}
+
+  <body class="research-body">
+    {% if page.lang == 'en' %}
+      {% include header_en.html %}
+    {% elsif page.lang == 'zh-CN' %}
+      {% include header_zh.html %}
+    {% endif %}
+
+    <main class="research-page" id="top">
+      {{ content }}
+    </main>
+  </body>
+</html>

@@ -5,6 +5,9 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
+  {% if page.permalink == '/research' or page.url == '/research' %}
+  <link rel="stylesheet" href="{{ '/css/research.css' | relative_url }}?v=20260919-5">
+  {% endif %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
   
