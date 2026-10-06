@@ -8,6 +8,14 @@
   {% if page.permalink == '/research' or page.url == '/research' %}
   <link rel="stylesheet" href="{{ '/css/research.css' | relative_url }}?v=20260919-5">
   {% endif %}
+  {% if page.layout == 'misc' %}
+  <link rel="stylesheet" href="{{ '/css/misc.css' | relative_url }}">
+  <script src="{{ '/js/misc.js' | relative_url }}" defer></script>
+  {% endif %}
+  {% if page.layout == 'conference_watch' %}
+  <link rel="stylesheet" href="{{ '/css/conference-watch.css' | relative_url }}">
+  <script src="{{ '/js/conference-watch.js' | relative_url }}" defer></script>
+  {% endif %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
   

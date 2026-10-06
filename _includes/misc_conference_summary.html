@@ -1,0 +1,16 @@
+{% assign deadline_now = 'now' | date: '%s' | plus: 0 %}
+{% assign sorted_conferences = site.data.conferences.items | where_exp: 'conference', 'conference.utc != nil' | sort: 'utc' %}
+{% assign deadline_count = 0 %}
+<ul class="misc-conference-summary">
+{% for conference in sorted_conferences %}
+  {% if conference.utc %}
+    {% assign deadline_time = conference.utc | date: '%s' | plus: 0 %}
+    {% if deadline_time > deadline_now and deadline_count < 3 %}
+      {% assign deadline_count = deadline_count | plus: 1 %}
+      <li><div class="misc-conference-line"><a href="{{ '/conferences' | relative_url }}#{{ conference.id | escape }}">{{ conference.name | escape }}</a></div><div class="misc-conference-meta"><span>{{ conference.city | escape }}</span>{% if conference.id == 'mlsys' %}<span class="misc-deadline-warning">{{ t.conference_warning }}</span>{% endif %}</div><dl class="misc-conference-dates"><div><dt>Abstract</dt><dd>{{ conference.abstract | escape }}</dd></div><div><dt>Full</dt><dd><time datetime="{{ conference.utc | escape }}">{{ conference.full | escape }}</time></dd></div><div><dt>Notification</dt><dd>{{ conference.notice | escape }}</dd></div></dl></li>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+</ul>
+{% if deadline_count == 0 %}<p class="misc-empty">{{ t.conference_empty }}</p>{% endif %}
+<p class="misc-conference-footnote">{{ t.conference_snapshot }} {{ site.data.conferences.checked_on }} · 2027</p>

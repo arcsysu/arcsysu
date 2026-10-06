@@ -1,0 +1,15 @@
+{% assign item = include.item %}
+{% assign target = item.url %}
+{% if item.access == 'contact' %}{% assign href = 'mailto:' | append: item.contact_email %}{% elsif target contains '://' %}{% assign href = target %}{% elsif target %}{% assign href = target | relative_url %}{% else %}{% assign href = '' %}{% endif %}
+<li class="misc-searchable">
+  <div class="misc-resource-heading">
+  {% if item.example == true and item.access != 'contact' %}
+    <span class="misc-item-title">{{ item.title[include.language] | escape }}</span>
+  {% else %}
+    <a class="misc-item-title" href="{{ href | escape }}"{% if target contains '://' and item.access != 'contact' %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.title[include.language] | escape }} <span class="misc-arrow" aria-hidden="true">{% if item.access == 'contact' %}✉{% elsif target contains '://' %}↗{% else %}→{% endif %}</span></a>
+  {% endif %}
+  {% if item.access == 'public' %}<span class="misc-access misc-access-public">{{ t.public_access }}</span>{% elsif item.access == 'contact' %}<span class="misc-access misc-access-contact">{{ t.contact_access }}</span>{% endif %}
+  </div>
+  <p>{{ item.description[include.language] | escape }}</p>
+  <div class="misc-meta">{% if item.author %}{% assign author = item.author[include.language] | default: item.author %}<span>{{ author | escape }}</span>{% endif %}{% if item.date %}<time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%Y-%m-%d' }}</time>{% endif %}{% if item.views != nil %}<span class="misc-views">{{ item.views | escape }} {{ t.views }}</span>{% endif %}{% if item.example %}<span class="misc-example-badge">{{ t.example }}</span>{% endif %}{% for tag in item.tags %}<span class="misc-tag">{{ tag | escape }}</span>{% endfor %}{% if item.access == 'contact' %}<a href="{{ href | escape }}">{{ t.contact_action }} ↗</a>{% endif %}</div>
+</li>

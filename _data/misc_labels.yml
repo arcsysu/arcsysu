@@ -1,0 +1,74 @@
+en:
+  title: Resources & Notes
+  intro: Resources and field notes from our work in HPC/AI systems
+  resources: Technical resources
+  resources_desc: Reference material, research code, and tools to build on.
+  conferences: Conference watch
+  conference_desc: Abstract / full deadlines · Beijing time. Notification · official date.
+  posts: Selected posts
+  posts_desc: Conference notes, technical blogs, and practical lessons from our lab members.
+  services: Lab services
+  services_desc: Platforms built and maintained by the lab.
+  search: Search resources and posts
+  no_results: No matching items. Try another keyword.
+  pending: Coming soon
+  pending_conf: The tracker will appear here after its public link and data have been reviewed.
+  open: Open tracker
+  no_posts: Selected conference notes and technical blogs will appear here after review.
+  elsewhere: Find us elsewhere
+  join: Interested in joining the lab?
+  join_link: See our FAQs
+  all: All
+  lang: 中文
+  lang_url: /zh/misc
+  research: Research
+  publications: Publications
+  more: View more
+  less: Show less
+  conference_snapshot: Source snapshot
+  conference_empty: No upcoming confirmed deadlines. See the full list.
+  conference_warning: Time conflict
+  conference_link: Full conference list
+  views: views
+  public_access: Public access
+  contact_access: Contact to request
+  contact_action: Request by email
+  example: Example
+  post_examples: Layout examples — authors, dates, and view counts are illustrative.
+zh:
+  title: 资源与随笔
+  intro: 分享 HPC/AI 系统研究与平台实践中的资料、观察与经验
+  resources: 技术资料
+  resources_desc: 技术参考、研究代码与汇总信息，便于查阅和实践
+  conferences: 会议跟踪
+  conference_desc: 摘要 / 全文截止为北京时间；通知沿用官网日期
+  posts: 博客选辑
+  posts_desc: 成员参会纪要、技术博客与实践复盘，分享值得复用的观察和方法
+  services: Lab 服务
+  services_desc: 实验室建设和维护的计算与教学平台
+  search: 搜索资料、文章或关键词
+  no_results: 没有匹配内容，请尝试其他关键词。
+  pending: 即将上线
+  pending_conf: 正式地址与数据审核完成后，将在这里开放会议跟踪页面。
+  open: 查看会议跟踪
+  no_posts: 成员参会纪要与技术博客经审核后，将在这里展示。
+  elsewhere: 关注我们
+  join: 希望加入实验室？
+  join_link: 查看常见问题
+  all: 全部
+  lang: English
+  lang_url: /misc
+  research: 研究方向
+  publications: 学术成果
+  more: 点击查看更多
+  less: 收起
+  conference_snapshot: 来源核对
+  conference_empty: 暂无已确认的后续截稿日期，请查看完整列表。
+  conference_warning: 时刻待确认
+  conference_link: 完整会议列表
+  views: 次访问
+  public_access: 公开获取
+  contact_access: 联系获取
+  contact_action: 邮件咨询
+  example: 示例
+  post_examples: 以下为排版示例，作者、日期与访问量均为演示数据。
