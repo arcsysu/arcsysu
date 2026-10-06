@@ -1,0 +1,57 @@
+---
+layout: misc_shell
+---
+{% assign language = 'en' %}{% if page.lang == 'zh-CN' %}{% assign language = 'zh' %}{% endif %}
+{% assign t = site.data.misc_labels[language] %}
+{% assign resources = site.data.misc.resources | where: 'reviewed', true %}
+{% assign posts = site.data.misc.posts | where: 'reviewed', true | sort: 'date' | reverse %}
+<main id="miscid" class="col-sm-12" lang="{{ page.lang }}">
+  <header class="misc-heading">
+    <a class="misc-language" href="{{ t.lang_url | relative_url }}">{{ t.lang }}</a>
+    <h1>{{ t.title }}</h1>
+    <p>{{ t.intro }}</p>
+    <div class="misc-research-links"><a href="{{ '/research' | relative_url }}">{{ t.research }} →</a><a href="{{ '/publications' | relative_url }}">{{ t.publications }} →</a></div>
+  </header>
+  <nav class="misc-shortcuts" aria-label="{{ t.title }}">
+    <a href="#misc-resources">{% include misc_icon.html name='resources' %}{{ t.resources }}</a><a href="#misc-conferences">{% include misc_icon.html name='conferences' %}{{ t.conferences }}</a><a href="#misc-posts">{% include misc_icon.html name='posts' %}{{ t.posts }}</a><a href="#misc-services">{% include misc_icon.html name='services' %}{{ t.services }}</a>
+  </nav>
+  <div class="misc-search" hidden>
+    <label class="sr-only" for="misc-search">{{ t.search }}</label>
+    <input id="misc-search" type="search" placeholder="{{ t.search }}" autocomplete="off">
+    <span class="misc-search-hint">{{ t.resources }} · {{ t.posts }}</span>
+  </div>
+  <div class="misc-columns">
+    <section id="misc-resources" class="misc-section">
+      <div class="misc-section-heading"><h2>{% include misc_icon.html name='resources' %}{{ t.resources }}</h2><button type="button" class="misc-more" aria-expanded="false" aria-controls="misc-resources-items" data-more="{{ t.more | escape }}" data-less="{{ t.less | escape }}" disabled>{{ t.more }}</button></div><p class="misc-caption">{{ t.resources_desc }}</p>
+      <ul id="misc-resources-items" class="misc-list">
+      {% for item in resources %}{% include misc_item.html item=item language=language %}{% endfor %}
+      </ul>
+      <p class="misc-no-results" role="status" hidden>{{ t.no_results }}</p>
+    </section>
+    <section id="misc-conferences" class="misc-section">
+      <div class="misc-section-heading"><h2>{% include misc_icon.html name='conferences' %}{{ t.conferences }}</h2><a class="misc-more" href="{{ '/conferences' | relative_url }}">{{ t.more }} →</a></div>
+      <p class="misc-caption">{{ t.conference_desc }}</p>
+      {% include misc_conference_summary.html %}
+      <script type="application/json" id="misc-conference-data">{{ site.data.conferences.items | jsonify }}</script>
+      <div id="misc-conference-settings" hidden data-url="{{ '/conferences' | relative_url }}" data-warning="{{ t.conference_warning | escape }}" data-empty="{{ t.conference_empty | escape }}"></div>
+    </section>
+    <section id="misc-posts" class="misc-section">
+      <div class="misc-section-heading"><h2>{% include misc_icon.html name='posts' %}{{ t.posts }}</h2><button type="button" class="misc-more" aria-expanded="false" aria-controls="misc-posts-items" data-more="{{ t.more | escape }}" data-less="{{ t.less | escape }}" disabled>{{ t.more }}</button></div><p class="misc-caption">{{ t.posts_desc }}</p>
+      {% assign example_posts = posts | where: 'example', true %}
+      {% if example_posts.size > 0 %}<p class="misc-example-note">{{ t.post_examples }}</p>{% endif %}
+      {% if posts.size > 0 %}
+        <ul id="misc-posts-items" class="misc-list">{% for item in posts %}{% include misc_item.html item=item language=language %}{% endfor %}</ul>
+        <p class="misc-no-results" role="status" hidden>{{ t.no_results }}</p>
+      {% else %}<ul id="misc-posts-items" class="misc-list"></ul><p class="misc-empty">{{ t.no_posts }}</p>{% endif %}
+    </section>
+    <section id="misc-services" class="misc-section">
+      <div class="misc-section-heading"><h2>{% include misc_icon.html name='services' %}{{ t.services }}</h2><button type="button" class="misc-more" aria-expanded="false" aria-controls="misc-services-items" data-more="{{ t.more | escape }}" data-less="{{ t.less | escape }}" disabled>{{ t.more }}</button></div><p class="misc-caption">{{ t.services_desc }}</p>
+      <ul id="misc-services-items" class="misc-list">
+        {% for item in site.data.misc.services %}
+        <li><a class="misc-item-title" href="{{ item.url | escape }}" target="_blank" rel="noopener noreferrer">{{ item.title | escape }} <span class="misc-arrow" aria-hidden="true">↗</span></a><p>{{ item.description[language] | escape }}</p></li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+  <aside class="misc-bottom"><div><span>{{ t.elsewhere }}</span>{% for item in site.data.misc.elsewhere %}<a href="{{ item.url | escape }}" target="_blank" rel="noopener noreferrer">{{ item.title | escape }} ↗</a>{% endfor %}</div><p>{{ t.join }} <a href="{{ '/join' | relative_url }}">{{ t.join_link }} →</a></p></aside>
+</main>

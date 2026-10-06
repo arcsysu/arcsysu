@@ -1,0 +1,515 @@
+# Imported from the existing Conference Watch snapshot. Review source changes before publishing.
+source_url: https://arcsysu-observatory.cinwell-chang.chatgpt.site/
+checked_on: '2026-10-03'
+items:
+- id: www
+  name: WWW 2027
+  group:
+  - ai
+  - systems
+  track: Research · 长文
+  abstract: 10-19 19:59
+  full: 10-26 19:59
+  utc: '2026-10-26T11:59:59Z'
+  reply: 2026-12-21—12-31
+  notice: '2027-01-04'
+  city: 都柏林，爱尔兰
+  dates: 2027-05-10—05-14
+  cfp: https://www2027.thewebconf.org/research-track-papers/
+  site: https://www2027.thewebconf.org/
+  pages: 正文 8 页；含参考文献与附录总计最多 12 页
+  zone: AoE（UTC−12），原全文截止 2026-10-25 日终
+  topics: Web 基础设施、Agentic Systems、检索、推荐、安全等；须明确 Web 研究关联
+  note: 摘要为强制注册节点。作者列表在摘要截止时确定。
+  history:
+  - - 2026
+    - 3370
+    - 678
+    - 20.1%
+  - - 2025
+    - 2062
+    - 409
+    - 19.8%
+  - - 2024
+    - 2008
+    - 405
+    - 20.2%
+  historySource: https://csconfstats.xoveexu.com/conferences/www/
+  historyStatus: 第三方汇总 · 待官方口径复核
+  historyNote: 以上为 CS Conf Stats 汇总；主会研究轨道和其他轨道的覆盖口径仍需对照官方报告。不可用于精确难度排名。
+  future:
+  - - ICML 下一轮
+    - ML 方法与训练机制
+    - 下一轮日期未核验
+  - - SC 下一轮
+    - HPC / AI 并行系统与科学应用
+    - 下一轮日期未核验
+  state: open
+  year: 2027
+  related:
+  - mlsys
+  - icml
+  - neurips
+  - aaai
+- id: mlsys
+  name: MLSys 2027
+  group:
+  - ai
+  - systems
+  track: Research
+  abstract: 未单列
+  full: 10-31 03:00
+  utc: '2026-10-30T19:00:00Z'
+  reply: 2027-01-18—01-21
+  notice: '2027-02-28'
+  city: Bellevue，美国
+  dates: 2027-06-21—06-25
+  cfp: https://mlsys.org/Conferences/2027/CallForResearchPapers
+  site: https://mlsys.org/
+  pages: 正文最多 10 页，不含参考文献；附录单独上传
+  zone: 按日期页 12:00 PDT（19:00 UTC）；CFP 列 20:00 UTC
+  topics: 模型训练、推理、Serving、分布式 RL、Agent 系统、编译与运行时
+  note: 官网存在 1 小时时刻冲突。按较早时间准备，最终核对 OpenReview。1月18日开放评审，1月21日回复截止。
+  history:
+  - - 2026
+    - 504
+    - 135
+    - 26.8%
+  - - 2025
+    - null
+    - null
+    - 待核验
+  - - 2024
+    - null
+    - null
+    - 待核验
+  historySource: https://mlsys26.hotcrp.com/
+  historyStatus: 2026 官方投稿系统
+  historyNote: 2026 数字来自官方 HotCRP 公共页面，录用率为 135÷504。页面未细分轨道，历史年份未核验的数据留空。
+  future:
+  - - SC 下一轮
+    - 规模化 ML 系统与 HPC 融合
+    - 下一轮日期未核验
+  - - ASPLOS 下一轮
+    - 体系结构、编译与系统协同
+    - 下一轮日期未核验
+  state: open
+  year: 2027
+  related:
+  - sc
+  - asplos-sep
+  - osdi
+  - icml
+  - neurips
+- id: dac
+  name: DAC 2027
+  group:
+  - systems
+  - arch
+  track: Research manuscript
+  abstract: 11-12 09:00
+  full: 11-19 09:00
+  utc: '2026-11-19T01:00:00Z'
+  reply: 尚未公布
+  notice: '2027-03-08'
+  city: San Jose，美国
+  dates: 2027-07-11—07-14
+  cfp: https://dac.com/2027/program/research-manuscript-submissions
+  site: https://dac.com/2027
+  pages: 正文最多 6 页，另加 1 页仅用于参考文献
+  zone: PST（UTC−8）；原全文截止 2026-11-18 17:00
+  topics: 设计自动化、AI for EDA、架构、系统与安全；匹配具体征稿类别
+  note: 2027-02-22 官网公布录用论文 ID；2027-03-08 正式发送录用或拒稿通知。
+  history:
+  - - 2025
+    - 1863
+    - null
+    - 22.5%
+  - - 2024
+    - null
+    - null
+    - 待核验
+  - - 2023
+    - null
+    - null
+    - 待核验
+  historySource: https://ieee-ceda.org/files/ieeeceda/2025-08/CEDA_BoG_Minutes_June_2025_final.pdf
+  historyStatus: IEEE CEDA 会议纪要
+  historyNote: 2025 纪要报告 2,572 个摘要、1,863 篇论文与 22.5% 录用率，未据近似比例反推录用篇数。部分第三方汇总写 1,862 篇，保留来源差异。
+  future:
+  - - ICCAD 下一轮
+    - EDA、芯片设计与系统自动化
+    - 下一轮日期未核验
+  - - ASPLOS 下一轮
+    - 硬件与系统软件协同
+    - 下一轮日期未核验
+  state: open
+  year: 2027
+  related:
+  - micro
+  - asplos-sep
+  - sc
+- id: osdi
+  name: OSDI 2027
+  group:
+  - systems
+  track: Research
+  abstract: 12-02 06:59
+  full: 12-09 06:59
+  utc: '2026-12-08T22:59:00Z'
+  reply: 尚未公布
+  notice: '2027-03-16'
+  city: Baltimore，美国
+  dates: 2027-07-07—07-09
+  cfp: https://www.usenix.org/conference/osdi27/call-for-papers
+  site: https://www.usenix.org/conference/osdi27
+  pages: 正文最多 12 页，参考文献不限；双栏
+  zone: EST（UTC−5）；原全文截止 2026-12-08 17:59
+  topics: 操作系统、分布式系统、存储、云、ML 系统与可靠性
+  note: 当前为 Preliminary CFP。重投稿需说明如何回应此前评审并改进稿件。
+  history:
+  - - 2025
+    - 339
+    - 53
+    - 15.6%
+  - - 2024
+    - null
+    - null
+    - 待核验
+  - - 2023
+    - null
+    - null
+    - 待核验
+  historySource: https://www.usenix.org/system/files/osdi25_full_proceedings.pdf
+  historyStatus: USENIX 官方论文集前言
+  historyNote: 2025 首轮 48 篇接受，另有 5 篇 Revise-and-Resubmit 后接受，最终 53 篇；录用率为 53÷339。其他年份尚未录入经核验数据。
+  future:
+  - - EuroSys 下一轮
+    - 通用计算机系统、分布式与运行时
+    - 下一轮日期未核验
+  - - SC 下一轮
+    - HPC、规模化执行与 AI 系统
+    - 下一轮日期未核验
+  state: open
+  year: 2027
+  related:
+  - sosp
+  - asplos-sep
+  - sc
+  - mlsys
+- id: icml
+  name: ICML 2027
+  year: 2027
+  group:
+  - ai
+  track: Research
+  abstract: 尚未公布
+  full: 尚未公布
+  utc: null
+  reply: 尚未公布
+  notice: 尚未公布
+  city: 南美洲 · 城市待公布
+  dates: 会议日期待公布
+  cfp: null
+  site: https://icml.cc/Conferences/FutureMeetings
+  pages: 2027 投稿要求待公布
+  zone: 尚未公布，不沿用往届时区
+  topics: 机器学习方法、训练机制、效率、理论与系统交叉
+  note: 官方 Future Meetings 仅确认 2027 在 South America 举办；具体城市、日期及 CFP 待公布。
+  history:
+  - - 2025
+    - null
+    - 3260
+    - 27%
+  historySource: https://media.icml.cc/Conferences/ICML2025/ICML2025_Fact_Sheet.pdf
+  historyStatus: ICML 官方 Fact Sheet
+  historyNote: 2025 主轨道录用 3,260 篇，官方录用率为四舍五入的 27%；Fact Sheet 未列投稿量，不从近似比例反推。
+  future: []
+  state: pending
+  related:
+  - neurips
+  - aaai
+  - mlsys
+  - www
+- id: micro
+  name: MICRO 2027
+  year: 2027
+  group:
+  - arch
+  track: Research
+  abstract: 尚未公布
+  full: 尚未公布
+  utc: null
+  reply: 尚未公布
+  notice: 尚未公布
+  city: 待官方公布
+  dates: 会议日期待公布
+  cfp: null
+  site: https://www.microarch.org/
+  pages: 2027 投稿要求待公布
+  zone: 尚未公布，不沿用往届时区
+  topics: 微体系结构、处理器、存储层次、加速器与体系结构感知编译
+  note: 尚未取得本届完整 CFP；不以历史惯例推定截止日期。
+  history:
+  - - 2025
+    - 597
+    - 124
+    - 20.8%
+  - - 2024
+    - 497
+    - 113
+    - 22.7%
+  - - 2023
+    - 434
+    - 101
+    - 23.3%
+  historySource: https://csconfstats.xoveexu.com/conferences/micro/
+  historyStatus: 第三方汇总 · 待官方口径复核
+  historyNote: 数据来自 CS Conf Stats，尚待官方报告复核。各年份统计口径可能不同，不用于精确难度排名。
+  future: []
+  state: pending
+  related:
+  - asplos-sep
+  - dac
+  - sc
+- id: neurips
+  name: NeurIPS 2027
+  year: 2027
+  group:
+  - ai
+  track: Research
+  abstract: 尚未公布
+  full: 尚未公布
+  utc: null
+  reply: 尚未公布
+  notice: 尚未公布
+  city: 欧洲 · 城市待公布
+  dates: 会议日期待公布
+  cfp: null
+  site: https://neurips.cc/Conferences/FutureMeetings
+  pages: 2027 投稿要求待公布
+  zone: 尚未公布，不沿用往届时区
+  topics: 机器学习、基础模型、训练、效率、评测与计算方法
+  note: 官方 Future Meetings 仅确认 2027 在 Europe 举办；具体城市、日期及 CFP 待公布。
+  history:
+  - - 2025
+    - 21575
+    - 5290
+    - 24.5%
+  historySource: https://media.neurips.cc/Conferences/NeurIPS2025/press/NeurIPS2025-Fact_Sheet.pdf
+  historyStatus: NeurIPS 官方 Fact Sheet
+  historyNote: 2025 Review Stats 列 21,575 投稿与 5,290 录用；比例按两数计算。不同轨道的细分口径应进一步核验。
+  future: []
+  state: pending
+  related:
+  - icml
+  - aaai
+  - mlsys
+  - www
+- id: sc
+  name: SC 2027
+  year: 2027
+  group:
+  - hpc
+  - systems
+  track: Technical Papers
+  abstract: 尚未公布
+  full: 尚未公布
+  utc: null
+  reply: 尚未公布
+  notice: 尚未公布
+  city: 待官方公布
+  dates: 会议日期待公布
+  cfp: null
+  site: https://supercomputing.org/
+  pages: 2027 投稿要求待公布
+  zone: 尚未公布，不沿用往届时区
+  topics: HPC、并行系统、网络与存储、规模化 AI、科学计算
+  note: 尚未取得本届完整 CFP；不以历史惯例推定截止日期。
+  history:
+  - - 2025
+    - 623
+    - 135
+    - 21.7%
+  - - 2024
+    - 470
+    - 99
+    - 21.1%
+  - - 2023
+    - 376
+    - 90
+    - 23.9%
+  historySource: https://csconfstats.xoveexu.com/conferences/sc/
+  historyStatus: 第三方汇总 · 待官方口径复核
+  historyNote: 数据来自 CS Conf Stats，尚待官方报告复核。各年份统计口径可能不同，不用于精确难度排名。
+  future: []
+  state: pending
+  related:
+  - mlsys
+  - osdi
+  - sosp
+  - asplos-sep
+- id: sosp
+  name: SOSP 2027
+  year: 2027
+  group:
+  - systems
+  track: Research
+  abstract: 尚未公布
+  full: 尚未公布
+  utc: null
+  reply: 尚未公布
+  notice: 尚未公布
+  city: Vancouver，加拿大
+  dates: 会议日期待公布
+  cfp: null
+  site: https://www.sigops.org/conferences/
+  pages: 2027 投稿要求待公布
+  zone: 尚未公布，不沿用往届时区
+  topics: 操作系统原理、分布式系统、云、存储与可靠性
+  note: ACM SIGOPS 通讯已列出 Vancouver 为 2027 举办城市；具体日期与本届 CFP 尚未核验。
+  history:
+  - - 2025
+    - 307
+    - 66
+    - 21.5%
+  - - 2024
+    - 245
+    - 43
+    - 17.6%
+  - - 2023
+    - 232
+    - 43
+    - 18.5%
+  historySource: https://csconfstats.xoveexu.com/conferences/sosp/
+  historyStatus: 第三方汇总 · 待官方口径复核
+  historyNote: 数据来自 CS Conf Stats，尚待官方报告复核。各年份统计口径可能不同，不用于精确难度排名。
+  future: []
+  state: pending
+  related:
+  - osdi
+  - asplos-sep
+  - sc
+  - mlsys
+- id: asplos-apr
+  name: ASPLOS 2027
+  year: 2027
+  group:
+  - arch
+  - systems
+  track: April cycle
+  abstract: 未单列
+  full: 04-16 19:59
+  utc: '2026-04-16T11:59:59Z'
+  reply: 2026-07-06—07-09
+  notice: '2026-07-27'
+  city: Heraklion，希腊
+  dates: 2027-04-11—04-15
+  cfp: https://www.asplos-conference.org/asplos2027/cfp/
+  site: https://www.asplos-conference.org/asplos2027/
+  pages: 正文最多 11 页，不含参考文献
+  zone: AoE（UTC−12）；原全文截止 2026-04-15 日终
+  topics: 计算机体系结构、编程语言、操作系统及其交叉
+  note: 两轮截止为 2026-04-15 和 2026-09-09（AoE）。均无单独摘要节点。四月轮回复 07-06 至 07-09、通知 07-27；九月轮回复 12-01 至 12-04、通知 12-21。重投稿须核对
+    CFP 中的轮次限制。
+  history:
+  - - 2026
+    - 1048
+    - 152
+    - 14.5%
+  - - 2025
+    - 912
+    - 177
+    - 19.4%
+  - - 2024
+    - 922
+    - 193
+    - 20.9%
+  historySource: https://csconfstats.xoveexu.com/conferences/asplos/
+  historyStatus: 第三方汇总 · 待官方口径复核
+  historyNote: 数据来自 CS Conf Stats，尚待官方报告复核。各年份统计口径可能不同，不用于精确难度排名。 ASPLOS 多轮投稿及跨届修订可能影响按年度归属。
+  future: []
+  state: closed
+  related:
+  - osdi
+  - sosp
+  - micro
+  - mlsys
+- id: aaai
+  name: AAAI 2027
+  year: 2027
+  group:
+  - ai
+  track: Main Technical Track
+  abstract: 07-22 19:59
+  full: 07-29 19:59
+  utc: '2026-07-29T11:59:59Z'
+  reply: 2026-10-19—10-25
+  notice: '2026-11-30'
+  city: Montréal，加拿大
+  dates: 2027-02-16—02-23
+  cfp: https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/
+  site: https://aaai.org/conference/aaai/aaai-27/
+  pages: 正文最多 7 页；含参考文献总计最多 9 页
+  zone: AoE（UTC−12）；原全文截止 2026-07-28 日终
+  topics: 机器学习、规划、推理、多智能体与人工智能方法
+  note: 主轨道首阶段拒稿通知为 2026-09-24；继续进入第二阶段的稿件可在 10-19 至 10-25 回复。其他轨道可能采用不同日程。
+  history:
+  - - 2025
+    - 12957
+    - 3032
+    - 23.4%
+  historySource: https://aip.riken.jp/news/202412_aaai25/
+  historyStatus: RIKEN AIP 公告 · 待会议官方口径复核
+  historyNote: 2025 数据来自 RIKEN AIP 的录用公告，后续补充会议官方统计与轨道口径。
+  future: []
+  state: closed
+  related:
+  - icml
+  - neurips
+  - www
+  - mlsys
+- id: asplos-sep
+  name: ASPLOS 2027
+  year: 2027
+  group:
+  - arch
+  - systems
+  track: September cycle
+  abstract: 未单列
+  full: 09-10 19:59
+  utc: '2026-09-10T11:59:59Z'
+  reply: 2026-12-01—12-04
+  notice: '2026-12-21'
+  city: Heraklion，希腊
+  dates: 2027-04-11—04-15
+  cfp: https://www.asplos-conference.org/asplos2027/cfp/
+  site: https://www.asplos-conference.org/asplos2027/
+  pages: 正文最多 11 页，不含参考文献
+  zone: AoE（UTC−12）；原全文截止 2026-09-09 日终
+  topics: 计算机体系结构、编程语言、操作系统及其交叉
+  note: 两轮截止为 2026-04-15 和 2026-09-09（AoE）。均无单独摘要节点。四月轮回复 07-06 至 07-09、通知 07-27；九月轮回复 12-01 至 12-04、通知 12-21。重投稿须核对
+    CFP 中的轮次限制。
+  history:
+  - - 2026
+    - 1048
+    - 152
+    - 14.5%
+  - - 2025
+    - 912
+    - 177
+    - 19.4%
+  - - 2024
+    - 922
+    - 193
+    - 20.9%
+  historySource: https://csconfstats.xoveexu.com/conferences/asplos/
+  historyStatus: 第三方汇总 · 待官方口径复核
+  historyNote: 数据来自 CS Conf Stats，尚待官方报告复核。各年份统计口径可能不同，不用于精确难度排名。 ASPLOS 多轮投稿及跨届修订可能影响按年度归属。
+  future: []
+  state: closed
+  related:
+  - osdi
+  - sosp
+  - micro
+  - mlsys

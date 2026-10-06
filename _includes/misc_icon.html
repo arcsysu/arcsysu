@@ -1,0 +1,16 @@
+<svg class="misc-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+{% case include.name %}
+{% when 'resources' %}
+  <rect x="3" y="4" width="18" height="16" rx="2"/>
+  <path d="m7 9 3 3-3 3M13 15h4"/>
+{% when 'conferences' %}
+  <rect x="3" y="5" width="18" height="16" rx="2"/>
+  <path d="M7 3v4M17 3v4M3 10h18M8 14h2M14 14h2M8 17h2"/>
+{% when 'posts' %}
+  <path d="M14 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-9M8 12l9-9 4 4-9 9-5 1 1-5ZM15 5l4 4M7 21h7"/>
+{% when 'services' %}
+  <rect x="3" y="3" width="18" height="7" rx="2"/>
+  <rect x="3" y="14" width="18" height="7" rx="2"/>
+  <path d="M7 6.5h.01M7 17.5h.01M15 6.5h3M15 17.5h3M12 10v4"/>
+{% endcase %}
+</svg>

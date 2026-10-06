@@ -1,0 +1,136 @@
+# Posts and contact-only GPU material below are explicitly labelled examples.
+resources:
+- title:
+    en: YatCC · OL Lab
+    zh: YatCC · OL Lab
+  description:
+    en: Online laboratory for hands-on systems learning.
+    zh: 面向系统实践与教学的在线实验平台。
+  tags:
+  - Teaching
+  - Systems
+  url: https://ol.yatcc.arcsysu.cn/
+  reviewed: true
+  access: public
+- title:
+    en: arcSYSu on GitHub
+    zh: arcSYSu 开源项目
+  description:
+    en: Explore code and project repositories from the lab.
+    zh: 实验室开源代码、研究项目与教学资源。
+  tags:
+  - Code
+  - Systems
+  url: https://github.com/arcsysu
+  reviewed: true
+  access: public
+- title:
+    en: GPU reference material
+    zh: GPU 参数与技术资料
+  description:
+    en: Contact-access example. Available material and scope are to be confirmed.
+    zh: 联系获取样式示例；实际资料与可提供范围需进一步确认。
+  tags:
+  - GPU
+  - Reference
+  url: null
+  reviewed: true
+  access: contact
+  contact_email: zhangxw79@mail.sysu.edu.cn
+  example: true
+conference:
+  reviewed: true
+  url: /conferences
+  series:
+  - WWW
+  - MLSys
+  - DAC
+  - MICRO
+  - SC
+  - ASPLOS
+  - OSDI
+  - SOSP
+  - AAAI
+  - ICML
+  - NeurIPS
+posts:
+- title:
+    en: 'Conference notes: observations on HPC/AI systems'
+    zh: 参会纪要：HPC/AI 系统的新观察
+  description:
+    en: Useful papers, emerging questions, and ideas to follow up.
+    zh: 整理值得跟进的论文、问题与研究线索。
+  author:
+    en: Demo member A
+    zh: 示例成员 A
+  date: '2026-10-05'
+  views: 1,280
+  tags:
+  - Conference notes
+  url: null
+  reviewed: true
+  example: true
+- title:
+    en: Profiling LLM serving beyond throughput
+    zh: 技术博客：如何分析 LLM Serving 的性能瓶颈
+  description:
+    en: A practical look at latency, memory, and GPU utilization.
+    zh: 从延迟、显存与 GPU 利用率出发梳理分析方法。
+  author:
+    en: Demo member B
+    zh: 示例成员 B
+  date: '2026-10-04'
+  views: '936'
+  tags:
+  - Technical blog
+  url: null
+  reviewed: true
+  example: true
+- title:
+    en: Reproducing a systems experiment
+    zh: 实践复盘：把系统实验做成可复现流程
+  description:
+    en: Record environment, configuration, and the lessons from debugging.
+    zh: 记录实验环境、配置与排错经验，便于复现和迁移。
+  author:
+    en: Demo member C
+    zh: 示例成员 C
+  date: '2026-10-03'
+  views: '684'
+  tags:
+  - Reproducibility
+  url: null
+  reviewed: true
+  example: true
+- title:
+    en: Compiler and runtime notes for heterogeneous hardware
+    zh: 技术笔记：异构硬件上的编译与运行时
+  description:
+    en: Connect program representation, execution behavior, and measurement.
+    zh: 连接程序表示、执行行为与性能测量。
+  author:
+    en: Demo member D
+    zh: 示例成员 D
+  date: '2026-10-02'
+  views: '512'
+  tags:
+  - Compiler & Runtime
+  url: null
+  reviewed: true
+  example: true
+services:
+- title: YatCC
+  description:
+    en: HPC / AI service platform
+    zh: HPC / AI 服务平台
+  url: https://yatcc-ai.com/
+- title: AI Hub
+  description:
+    en: Access AI computing services
+    zh: AI 计算服务入口
+  url: https://portal.aihub.arcsysu.cn/
+elsewhere:
+- title: GitHub
+  url: https://github.com/arcsysu
+- title: RedNote / 小红书
+  url: https://www.xiaohongshu.com/user/profile/68b412c2000000001900f4fe

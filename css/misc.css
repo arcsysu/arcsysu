@@ -1,0 +1,86 @@
+/* Scoped styles: inherit the lab's Bootstrap typography, header and footer. */
+#miscid { padding-top: 24px; padding-bottom: 36px; color: #303b34; }
+#miscid [hidden] { display: none !important; }
+#miscid a { color: #00652d; }
+#miscid a:hover { color: #004720; }
+#miscid a:focus-visible, #miscid input:focus-visible { outline: 2px solid #057234; outline-offset: 4px; }
+#miscid .misc-heading { padding-bottom: 22px; }
+#miscid h1 { margin: 0 0 12px; font-size: 34px; font-weight: 600; }
+#miscid .misc-heading p { color: #66716a; font-size: 17px; margin: 0; }
+#miscid .misc-language { float: right; font-size: 14px; margin-top: 8px; }
+#miscid .misc-shortcuts { display: flex; flex-wrap: wrap; gap: 10px 28px; border-bottom: 1px solid #dce4df; padding: 0 0 18px; }
+#miscid .misc-shortcuts a { font-weight: 600; }
+#miscid .misc-search { display: flex; align-items: center; gap: 16px; margin: 24px 0 4px; }
+#miscid input { width: 360px; max-width: 100%; border: 1px solid #d7dfda; border-radius: 4px; padding: 10px 12px; background: #fff; font: inherit; }
+#miscid .misc-search-hint { color: #778279; font-size: 13px; }
+#miscid .misc-columns { display: grid; grid-template-columns: 1fr 1fr; column-gap: 58px; }
+#miscid .misc-section { padding-top: 30px; scroll-margin-top: 95px; min-width: 0; }
+#miscid h2 { font-size: 23px; font-weight: 600; margin: 0 0 9px; }
+#miscid .misc-caption { color: #707b73; font-size: 14px; margin-bottom: 18px; }
+#miscid .misc-list { list-style: none; padding: 0; margin: 0; }
+#miscid .misc-list li { padding: 16px 0; border-bottom: 1px solid #edf0ee; }
+#miscid .misc-list li:first-child { padding-top: 2px; }
+#miscid .misc-item-title { display: block; font-size: 17px; font-weight: 600; overflow-wrap: anywhere; }
+#miscid .misc-arrow { float: right; color: #84968b; font-weight: normal; }
+#miscid .misc-list p { margin: 7px 0; color: #68736b; font-size: 14px; }
+#miscid .misc-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; color: #7b857e; font-size: 12px; }
+#miscid .misc-tag { color: #58715f; background: #f1f5f2; padding: 2px 7px; border-radius: 3px; }
+#miscid .misc-conference-box { border: 1px solid #dce5df; border-left: 3px solid #057234; border-radius: 4px; padding: 20px; background: #fafcfb; }
+#miscid .misc-series { display: flex; flex-wrap: wrap; gap: 8px 15px; font-size: 14px; font-weight: 600; margin: 0 0 20px; }
+#miscid .misc-button { display: inline-block; border: 1px solid #b5cebe; border-radius: 4px; padding: 7px 12px; font-weight: 600; }
+#miscid .misc-status { color: #728077; font-size: 13px; }
+#miscid .misc-pending { margin: 8px 0 0; }
+#miscid .misc-empty, #miscid .misc-no-results { padding: 18px 0; color: #7b857e; font-size: 14px; }
+#miscid .misc-bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; margin-top: 40px; padding-top: 20px; border-top: 1px solid #dce4df; font-size: 14px; color: #707b73; }
+#miscid .misc-bottom div { display: flex; flex-wrap: wrap; gap: 18px; }
+#miscid .misc-bottom p { margin: 0; }
+@media (max-width: 767px) {
+  #miscid { padding-top: 22px; }
+  #miscid h1 { font-size: 28px; }
+  #miscid .misc-columns { grid-template-columns: 1fr; }
+  #miscid .misc-shortcuts { gap: 12px 22px; }
+  #miscid .misc-search-hint { display: none; }
+  #miscid input { width: 100%; }
+  #miscid .misc-heading p { font-size: 15px; }
+}
+
+/* One icon family across section headings and the compact section navigation. */
+#miscid .misc-icon { display: inline-block; flex: 0 0 auto; width: 21px; height: 21px; color: #057234; vertical-align: middle; }
+#miscid h2 { display: flex; align-items: center; gap: 10px; }
+#miscid h2 .misc-icon { width: 23px; height: 23px; }
+#miscid .misc-shortcuts a { display: inline-flex; align-items: center; gap: 7px; }
+#miscid .misc-shortcuts .misc-icon { width: 17px; height: 17px; }
+#miscid .misc-research-links { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 14px; font-size: 14px; }
+
+/* Progressive expansion controls; native buttons support keyboard activation. */
+#miscid .misc-more { display: inline-flex; align-items: center; margin-top: 14px; padding: 7px 12px; background: #fff; border: 1px solid #c9d9ce; border-radius: 4px; color: #00652d; font: inherit; font-size: 13px; cursor: pointer; }
+#miscid .misc-more:hover { background: #f1f6f3; border-color: #93b59f; }
+#miscid .misc-more:focus-visible { outline: 2px solid #057234; outline-offset: 3px; }
+#miscid .misc-conference-box .misc-more { margin: -4px 0 16px; }
+
+/* Keep the section action visible beside its heading, even with short lists. */
+#miscid .misc-section-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 9px; }
+#miscid .misc-section-heading h2 { margin: 0; }
+#miscid .misc-section-heading .misc-more { margin: 0; padding: 5px 10px; white-space: nowrap; flex-shrink: 0; }
+#miscid .misc-more:disabled { color: #87928b; border-color: #e0e6e2; background: #fafbfa; cursor: default; }
+
+#miscid .misc-conference-summary { list-style:none; padding:0; margin:0; }
+#miscid .misc-conference-summary li { padding:13px 0; border-bottom:1px solid #edf0ee; }
+#miscid .misc-conference-summary li:first-child { padding-top:2px; }
+#miscid .misc-conference-line { display:flex; align-items:baseline; justify-content:space-between; gap:12px; font-size:16px; font-weight:600; }
+#miscid .misc-conference-line time { font-size:14px; font-weight:500; white-space:nowrap; font-variant-numeric:tabular-nums; }
+#miscid .misc-conference-meta { display:flex; flex-wrap:wrap; gap:10px; margin-top:5px; font-size:13px; color:#707b73; }
+#miscid .misc-deadline-warning { color:#966e24; }
+#miscid .misc-conference-footnote { margin:12px 0 0; color:#859088; font-size:12px; }
+
+#miscid .misc-conference-dates { display:grid; grid-template-columns:1fr 1fr 1.15fr; gap:8px; margin:10px 0 0; }
+#miscid .misc-conference-dates dt { font-weight:400; font-size:11px; color:#849088; margin-bottom:3px; }
+#miscid .misc-conference-dates dd { margin:0; font-size:13px; font-variant-numeric:tabular-nums; color:#36473c; }
+#miscid .misc-resource-heading { display:flex; align-items:baseline; justify-content:space-between; gap:10px; }
+#miscid .misc-resource-heading .misc-item-title { flex:1; }
+#miscid .misc-access { flex-shrink:0; font-size:11px; padding:2px 7px; border-radius:3px; white-space:nowrap; }
+#miscid .misc-access-public { color:#347049; background:#eef6f0; }
+#miscid .misc-access-contact { color:#876631; background:#faf3e7; }
+#miscid .misc-example-note { color:#879088; font-size:12px; margin:0 0 15px; }
+#miscid .misc-example-badge { font-size:11px; border:1px solid #e1e6e2; border-radius:3px; padding:0 4px; color:#879088; }
+#miscid .misc-views { font-variant-numeric:tabular-nums; }

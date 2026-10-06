@@ -1,0 +1,93 @@
+#conferencewatch{--ink:#18263b;--muted:#69778b;--border:#dde4ec;--teal:#087a70}
+#conferencewatch *{box-sizing:border-box}
+#conferencewatch{margin:0;background:#f5f7fa;color:var(--ink);font:16px/1.6 system-ui,-apple-system,"PingFang SC",sans-serif}
+#conferencewatch a{color:var(--teal);text-decoration:none}
+#conferencewatch a:hover{text-decoration:underline}
+#conferencewatch button,#conferencewatch input,#conferencewatch select{font:inherit}
+#conferencewatch button{cursor:pointer}
+#conferencewatch header{background:white;border-bottom:1px solid var(--border)}
+#conferencewatch .nav,#conferencewatch .cw-main{max-width:1450px;margin:auto;padding:22px 40px}
+#conferencewatch .nav{display:flex;justify-content:space-between;align-items:center}
+#conferencewatch .brand{font-size:24px;font-weight:800;color:var(--ink);letter-spacing:-1px}
+#conferencewatch .brand em{font-style:normal;color:var(--teal)}
+#conferencewatch .brand small{font-size:14px;font-weight:400;letter-spacing:0;color:var(--muted);margin-left:12px}
+#conferencewatch .nav>a:last-child{font-size:14px}
+#conferencewatch .cw-main{padding-top:38px}
+#conferencewatch .intro{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:28px}
+#conferencewatch .eyebrow{font-size:13px;letter-spacing:2px;color:var(--teal);font-weight:700}
+#conferencewatch h1{font-size:34px;line-height:1.2;margin:8px 0 12px;letter-spacing:-1px}
+#conferencewatch p{margin:0}
+#conferencewatch .muted{color:var(--muted)}
+#conferencewatch .small{font-size:14px}
+#conferencewatch .snapshot{text-align:right;font-size:14px;color:var(--muted)}
+#conferencewatch .controls{display:flex;justify-content:space-between;gap:15px;margin-bottom:18px;flex-wrap:wrap}
+#conferencewatch .filters{display:flex;gap:8px;flex-wrap:wrap}
+#conferencewatch .btn{background:white;color:var(--ink);border:1px solid var(--border);border-radius:6px;padding:8px 15px;font-size:14px}
+#conferencewatch .btn.active{background:var(--ink);color:white;border-color:var(--ink)}
+#conferencewatch .search{border:1px solid var(--border);border-radius:6px;background:white;padding:9px 12px;font-size:14px;width:260px}
+#conferencewatch .surface{background:white;border:1px solid var(--border);border-radius:10px;overflow:hidden}
+#conferencewatch .tablewrap{overflow:auto}
+#conferencewatch table{width:100%;border-collapse:collapse;font-size:14px;min-width:1140px}
+#conferencewatch th,#conferencewatch td{text-align:left;padding:20px 15px;border-bottom:1px solid var(--border);vertical-align:top}
+#conferencewatch th{padding:14px 15px;background:#edf2f6;color:var(--muted);font-size:13px;font-weight:600;white-space:nowrap}
+#conferencewatch td:first-child,#conferencewatch th:first-child{padding-left:24px}
+#conferencewatch tbody tr:last-child td{border-bottom:0}
+#conferencewatch tbody tr:hover{background:#fafcfd}
+#conferencewatch .name{font-size:19px;font-weight:750;color:var(--ink);border:0;background:none;padding:0;line-height:1.4;text-align:left}
+#conferencewatch .name:hover{color:var(--teal)}
+#conferencewatch .track{font-size:13px;color:var(--muted);margin-top:5px}
+#conferencewatch .deadline{font-weight:700;white-space:nowrap}
+#conferencewatch .sub{display:block;font-size:13px;color:var(--muted);margin-top:4px}
+#conferencewatch .state-label{display:inline-block;margin-top:8px;padding:2px 7px;border-radius:4px;font-size:12px;background:#edf3f6;color:#607185}
+#conferencewatch .state-label.open{background:#e4f3ed;color:#247254}
+#conferencewatch .state-label.closed{background:#f0f1f3;color:#77818d}
+#conferencewatch .tag{display:inline-block;border-radius:4px;font-size:12px;padding:2px 6px;margin-top:6px;background:#fff0d8;color:#926011}
+#conferencewatch .linkbtn{color:var(--teal);background:none;border:0;padding:0;text-align:left;font-size:14px}
+#conferencewatch .linkbtn:hover{text-decoration:underline}
+#conferencewatch .notes{padding:16px 24px;border-top:1px solid var(--border);font-size:14px;color:var(--muted)}
+#conferencewatch .legend{display:flex;justify-content:space-between;gap:20px;margin-top:18px;font-size:14px;color:var(--muted)}
+#conferencewatch footer{margin-top:70px;border-top:1px solid var(--border);padding:20px 0;display:flex;justify-content:space-between;font-size:14px;color:var(--muted)}
+#conferencewatch dialog{width:min(850px,calc(100% - 32px));max-height:88vh;padding:0;border:0;border-radius:12px;color:var(--ink);box-shadow:0 25px 100px #15243a44}
+#conferencewatch dialog::backdrop{background:#15243a80}
+#conferencewatch .dialoghead{padding:25px 28px 18px;display:flex;justify-content:space-between;gap:20px;align-items:start}
+#conferencewatch h2{margin:0;font-size:25px}
+#conferencewatch .tabs{display:flex;gap:26px;padding:0 28px;border-bottom:1px solid var(--border)}
+#conferencewatch .tab{padding:14px 0;border:0;border-bottom:2px solid transparent;background:none;color:var(--muted);font-size:15px}
+#conferencewatch .tab.active{color:var(--teal);border-bottom-color:var(--teal)}
+#conferencewatch .body{padding:24px 28px 30px}
+#conferencewatch .body table{min-width:550px}
+#conferencewatch .body td,#conferencewatch .body th{padding:12px}
+#conferencewatch .body .tablewrap{border:1px solid var(--border);border-radius:6px;margin:15px 0}
+#conferencewatch .body h3{font-size:17px;margin:22px 0 10px}
+#conferencewatch .callout{padding:13px 16px;border-radius:6px;background:#edf4f6;font-size:14px;color:#41536a;margin:15px 0}
+#conferencewatch .transfer{padding:16px 0;border-bottom:1px solid var(--border)}
+#conferencewatch .transfer strong{font-size:17px}
+#conferencewatch .transfer .badge{float:right;font-size:13px;color:#947023;background:#fff3d9;padding:3px 8px;border-radius:4px}
+#conferencewatch .transfer p{font-size:14px;color:var(--muted);margin:8px 0}
+#conferencewatch .facts{display:grid;grid-template-columns:130px 1fr;gap:12px;font-size:15px}
+#conferencewatch .facts dt{color:var(--muted)}
+#conferencewatch .facts dd{margin:0}
+#conferencewatch .zero{text-align:center;padding:40px}
+#conferencewatch .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+@media (max-width:700px){#conferencewatch .nav,#conferencewatch .cw-main{padding-left:18px;padding-right:18px}
+#conferencewatch .brand small{display:none}
+#conferencewatch .intro{display:block}
+#conferencewatch .snapshot{text-align:left;margin-top:18px}
+#conferencewatch h1{font-size:29px}
+#conferencewatch .search{width:100%}
+#conferencewatch .legend,#conferencewatch footer{flex-direction:column;gap:10px}
+#conferencewatch .dialoghead,#conferencewatch .body{padding-left:20px;padding-right:20px}
+#conferencewatch .tabs{padding:0 20px;gap:20px}
+#conferencewatch .facts{grid-template-columns:95px 1fr}
+#conferencewatch .transfer .badge{float:none;display:inline-block;margin-left:8px}}
+#conferencewatch :focus-visible{outline:2px solid var(--teal);outline-offset:4px}
+#conferencewatch { --ink:#303b34; --muted:#707b73; --border:#dce4df; --teal:#00652d; background:transparent; font-family:inherit; line-height:1.6; padding-bottom:36px; }
+#conferencewatch .cw-main { padding:24px 0 0; max-width:none; }
+#conferencewatch .intro { margin-bottom:24px; }
+#conferencewatch h1 { font-size:32px; font-weight:600; letter-spacing:normal; }
+#conferencewatch .cw-back { font-size:14px; }
+#conferencewatch .surface { border-radius:4px; }
+#conferencewatch th { background:#f1f5f2; }
+#conferencewatch .btn.active { background:#00652d; border-color:#00652d; }
+#conferencewatch tr:target { background:#edf6ef; scroll-margin-top:95px; }
+#conferencewatch dialog { position:fixed; margin:auto; }
