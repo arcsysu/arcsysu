@@ -57,11 +57,12 @@ Our research is supported by prestigious programs, including the National Key R&
 <figure class="fifth">
   <img src="{{ '/images/logopic/logo_nRD.webp' | relative_url }}" style="height: 20px; padding-right:10px">
   <img src="{{ '/images/logopic/logo_nsfc.webp' | relative_url }}" style="height: 35px; padding-right:10px">
-  <img src="{{ '/images/logopic/logo_cast.webp' | relative_url }}" style="height: 30px; padding-right:10px">
+  <img src="{{ '/images/logopic/logo_cast.webp' | relative_url }}" style="height: 30px; padding-right:10px"><br>
   <img src="{{ '/images/logopic/logo_tencent.webp' | relative_url }}" style="height: 15px; padding-right:10px">
   <img src="{{ '/images/logopic/logo_hw.webp' | relative_url }}" style="height: 20px; padding-right:10px">
   <img src="{{ '/images/logopic/logo_ft.webp' | relative_url }}" style="height: 15px; padding-right:10px">
   <img src="{{ '/images/logopic/logo_xm.webp' | relative_url }}" style="height: 25px; padding-right:10px">
+  <img src="{{ '/images/logopic/logo_baidu.webp' | relative_url }}" style="height: 30px; padding-bottom:8px; padding-right:10px">
   <img src="{{ '/images/logopic/logo_ncti.webp' | relative_url }}" style="height: 25px; padding-right:10px">
   <img src="{{ '/images/logopic/logo_hx.webp' | relative_url }}" style="height: 25px">
 </figure>

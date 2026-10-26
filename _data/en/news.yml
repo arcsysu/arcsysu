@@ -1,10 +1,22 @@
+- date: "10/2026"
+  kind: Talk
+  desc: One invited talk by Xianwei delivered at <a href="https://ccf.org.cn/CNCC2026">CNCC 2026</a>!
+
+- date: "10/2026"
+  kind: Talk
+  desc: Three invited talks by Xianwei, Yuhao and Zhongchun delivered at <a href="https://ccf.org.cn/hpcchina2026">CCF HPC 2026</a>!
+
+- date: "10/2026"
+  kind: Fund
+  desc: One grant awarded from Baidu for intelligent kernel tuning! Thanks!
+
 - date: "09/2026"
   kind: People
   desc: Five new ARXers joined the lab. Welcome aboard!
 
 - date: "08/2026"
   kind: Talk
-  desc: One invited talk by Yuhao delivered at CAS ICT!
+  desc: One invited talk by <a href="https://yhgu2000.github.io/">Yuhao</a> delivered at CAS ICT!
 
 - date: "07/2026"
   kind: Paper
@@ -28,7 +40,7 @@
 
 - date: "05/2026"
   kind: Fund
-  desc: One grant awarded for LLM acceleration! Thanks!
+  desc: One grant awarded from Xiaomi for LLM acceleration! Thanks!
 
 - date: "05/2026"
   kind: Paper

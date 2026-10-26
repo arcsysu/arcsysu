@@ -86,7 +86,7 @@
 - authors: "<u>Bingjie Liu</u>, <u>Zhongchun Zheng</u> and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
   title:
     name: "TensorAgent: Multi-Agent Framework for Automated Tensor Core Code Generatio"
-    url: tbd
+    url: 26appt_tensoragent.pdf
   conf: "International Symposium on Advanced Parallel Processing Technology (<b>APPT</b>), Brussels, Belgium, July 2026."
   label: C30
   desc: <font color="#ff9933">(CCF-C)</font>
@@ -114,7 +114,7 @@
 - authors: "<u>Wenyuan Liang</u>, <u>Hengzhong Liang</u>, <u>Han Huang</u> and <i>Xianwei Zhang</i><sup>&#9993;</sup>"
   title:
     name: "Porting LULESH to SYCL: Practical Insights and Performance Analysis"
-    url: tbd
+    url: 26thpc_lulesh.pdf
   conf: "CCF Transactions on High Performance Computing (<b>THPC</b>), 2026."
   label: J8
   desc: <font color="#ff9933">(CCF-C)</font>

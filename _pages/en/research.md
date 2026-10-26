@@ -41,7 +41,7 @@ permalink: /research
             <strong>Platform</strong>
           </div>
         </div>
-        <p class="framework-note">Transform programs · Orchestrate resources · Scale applications</p>
+        <p class="framework-note">Transform programs · Schedule tasks · Scale applications</p>
       </div>
     </div>
   </section>
@@ -83,7 +83,7 @@ permalink: /research
             <span class="area-icon code-icon" aria-hidden="true"><i></i><b></b></span>
           </div>
           <p class="area-kicker">Transform programs</p>
-          <h3>Program Transformation &amp; Architecture Adaptation</h3>
+          <h3>Program Transformation and Adaptation</h3>
           <p class="area-question">How can programs adapt to rapidly evolving computing architectures?</p>
           <p class="area-summary">We develop compilation and program-transformation techniques across data organization, intermediate representations, instruction streams, and binary code. Our goal is to help scientific and AI workloads exploit emerging architectural capabilities with improved portability and execution efficiency.
           </p>
@@ -138,7 +138,7 @@ permalink: /research
             <span class="area-icon resource-icon" aria-hidden="true"><i></i><i></i><i></i></span>
           </div>
           <p class="area-kicker">Orchestrate resources</p>
-          <h3>Adaptive Runtime Resource Orchestration</h3>
+          <h3>Runtime Resource Orchestration</h3>
           <p class="area-question">How can computing resources respond to changing program behavior and workload demand?</p>
           <p class="area-summary">We manage kernels, loading decisions, GPU sharing, and service-level spatiotemporal allocation.
           Our runtime mechanisms move resource provision from fixed configuration toward workload-driven, state-aware, and adaptive orchestration.</p>
@@ -153,7 +153,7 @@ permalink: /research
             <span>Kernel scheduling</span>
             <span>On-demand loading</span>
             <span>GPU sharing</span>
-            <span>Space–time orchestration</span>
+            <span>Flexible orchestration</span>
           </div>
           <div class="paper-grid">
             <div class="research-paper">
@@ -204,8 +204,8 @@ permalink: /research
         </div>
         <div class="area-work">
           <div class="method-row">
-            <span>Environment reconstruction</span>
-            <span>Compute–communication fusion</span>
+            <span>Environment construction</span>
+            <span>Compute–communication scheduling</span>
             <span>Pipeline reconfiguration</span>
             <span>Global flow control</span>
           </div>
@@ -215,14 +215,14 @@ permalink: /research
                 <strong>coMtainer</strong>
                 <span>SC 2025</span>
               </div>
-              <p>Compilation-assisted reconstruction of HPC container images for cross-platform portability</p>
+              <p>Compilation-assisted construction of HPC container images for cross-platform portability</p>
             </div>
             <div class="research-paper">
               <div>
                 <strong>FusedRec</strong>
                 <span>AAAI 2026</span>
               </div>
-              <p>Compute–communication fusion for distributed recommendation training</p>
+              <p>Compute–communication scheduling for distributed recommendation training</p>
             </div>
             <div class="research-paper">
               <div>
