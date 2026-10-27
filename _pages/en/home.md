@@ -12,8 +12,7 @@ permalink: /
 **HPC/<u>A</u>I <u>R</u>esearch led by <u>X</u>ianwei (ARX)!**
 <p>
 <i>arcSYSu</i>, abbreviated as ARX (pronounced /ɑːrks/), is a research group working under the guidance of Associate Professor <a href="https://xianweiz.github.io" target="_blank">Xianwei Zhang</a> in the <a href="https://cse.sysu.edu.cn/" target="_blank">School of Computer Science & Engineering</a> at <a href="https://www.sysu.edu.cn/sysuen/" target="_blank">Sun Yat-sen University</a>.<br>
-We study how HPC and AI applications can make effective use of heterogeneous architectures, dynamic resources, and computing systems at scale. Our work connects computer architecture, compilation, runtime systems, and computing platforms.
-We develop system techniques and bring them into practical environments for research, education, and engineering.
+We build systems that help HPC and AI applications run efficiently across heterogeneous architectures, adapt to changing resources, and scale effectively. Our research spans computer architecture, compilers, runtime systems, and computing platforms. We translate research ideas into practical tools and services for research, education, and engineering.
 </p>
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
@@ -48,11 +47,11 @@ We develop system techniques and bring them into practical environments for rese
 </div>
 
 <i>arcSYSu</i> is proudly part of the Interdisciplinary Research Center (<i><b>xRC</b></i>), jointly directed by Prof. <a href="https://cse.sysu.edu.cn/teacher/LuYutong" target="_blank">Yutong Lu</a> and Prof. <a href="https://cse.sysu.edu.cn/teacher/XiaoNong" target="_blank">Nong Xiao</a>.
-We work closely with other exceptional teams across the center on a broad spectrum of HPC+AI design and application areas.
+We collaborate across the center on HPC/AI systems and their applications..
 
-Our research is supported by prestigious programs, including the National Key R&D Program, the National Natural Science Foundation of China, as well as collaborative partnerships with industry leaders like Tencent®, Huawei®, Xiaomi® and Phytium®.
+Our research is supported by prestigious programs, including the National Key R&D Program, the National Natural Science Foundation of China, and industry collaborations with Tencent®, Huawei®, Xiaomi®, Baidu® and Phytium®.
 
-<b>We are always seeking passionate PhD/MS students, postdoctoral researchers and undergraduates to join us in exploring the frontiers of computing!</b> (For more details, please refer to our &#8599; <a href="{{ '/join' | relative_url }}">FAQs</a>).
+<b>Join us</b>. We are always seeking passionate PhD/MS students, postdoctoral researchers and undergraduates to join us in exploring the frontiers of computing! (For more details, please refer to our &#8599; <a href="{{ '/join' | relative_url }}">FAQs</a>).
 
 <figure class="fifth">
   <img src="{{ '/images/logopic/logo_nRD.webp' | relative_url }}" style="height: 20px; padding-right:10px">
